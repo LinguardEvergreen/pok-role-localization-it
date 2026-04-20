@@ -19,7 +19,7 @@ I nomi originali inglesi vengono **preservati come identificatori interni**: sch
 1. Installa e abilita il modulo [**Babele**](https://foundryvtt.com/packages/babele) nel tuo mondo.
 2. Installa questo modulo tramite il manifest URL:
    ```
-   https://raw.githubusercontent.com/RiccardoMont1/pok-role-localization-it/main/module.json
+   https://raw.githubusercontent.com/LinguardEvergreen/pok-role-localization-it/main/module.json
    ```
    Oppure clona/scarica il repository dentro la cartella `Data/modules/pok-role-localization-it` della tua installazione FoundryVTT.
 3. Abilita il modulo nelle impostazioni del mondo.
