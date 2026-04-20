@@ -1,0 +1,1530 @@
+{
+  "label": "Abilità",
+  "entries": {
+    "Adaptability": {
+      "name": "Adattabilità",
+      "description": "Il Pokémon si adatta facilmente all'ambiente circostante e si muove con disinvoltura in qualsiasi terreno.",
+      "system.effect": "Quando questo Pokémon usa una Mossa Fisica o Speciale del suo stesso tipo, aggiunge 1 dado Extra al pool di Danno di quella Mossa."
+    },
+    "Aerilate": {
+      "name": "Pellearia",
+      "description": "Il Pokémon non tocca mai il suolo; attorno a lui si percepisce una corrente d'aria perpetua.",
+      "system.effect": "Le Mosse di tipo Normale usate dal Pokémon infliggono danno come se fossero di tipo Volante, influendo su STAB, debolezze e resistenze. Aggiunge 1 dado Extra al pool di Danno delle mosse Volanti."
+    },
+    "Aftermath": {
+      "name": "Scoppio",
+      "description": "Quando ferito o innervosito, il Pokémon si prepara a esplodere. Se colpito abbastanza duramente, esploderà a contatto. Tende inoltre a serbare rancore.",
+      "system.effect": "Se questo Pokémon viene messo KO da una Mossa Fisica non a distanza, chi ha sferrato l'attacco subisce 2 Danni."
+    },
+    "Air Lock": {
+      "name": "Riparo Aria",
+      "description": "Il Pokémon si circonda di un vuoto. Pioggia, sabbia e grandine restano sospese intorno a lui e persino il calore viene filtrato.",
+      "system.effect": "Annulla tutti gli effetti del meteo in campo. Se nessun meteo è attivo, non può essere attivato da Mosse o Abilità. Se uno è già attivo, non scompare ma non produce effetti. Abilità Unica."
+    },
+    "Analytic": {
+      "name": "Analisi",
+      "description": "Il Pokémon non si lancia mai all'arrembaggio: si prende sempre un momento per valutare la mossa migliore in ogni situazione.",
+      "system.effect": "Se questo Pokémon ha iniziativa minore del bersaglio, aggiunge 1 dado Extra a tutti i suoi pool di Danno."
+    },
+    "Anger Point": {
+      "name": "Grancollera",
+      "description": "Il Pokémon si infuria facilmente. Basta pochissimo perché inizi a fare i capricci e a ridurre tutto a brandelli.",
+      "system.effect": "Se un avversario infligge un Brutto Colpo a questo Pokémon, la sua Forza aumenta di 3."
+    },
+    "Anger Shell": {
+      "name": "Guscioira",
+      "description": "Il Pokémon si frustra quando le cose vanno storte e, nella sua furia, tende a spaccarsi il proprio guscio.",
+      "system.effect": "Quando i PS di questo Pokémon scendono alla metà o meno, aumenta Forza, Speciale e Destrezza di 1 ma riduce Difesa e Difesa Speciale di 1."
+    },
+    "Anticipation": {
+      "name": "Presagio",
+      "description": "Il Pokémon è sempre all'erta e raramente si rilassa. Se percepisce un pericolo potenziale si agita e inizia a tremare.",
+      "system.effect": "Se un avversario conosce una Mossa che infliggerebbe danno Letale o Superefficace a questo Pokémon, avverte il suo Allenatore."
+    },
+    "Arena Trap": {
+      "name": "Blocco Arena",
+      "description": "Il terreno attorno a questo Pokémon diventa molle e difficile da attraversare. In pericolo, fa sprofondare il terreno creando una sabbia mobile.",
+      "system.effect": "I Pokémon che entrano o sono già sul lato avversario del campo restano bloccati finché questo Pokémon è in campo. I Pokémon immuni alle mosse di tipo Terra non ne sono influenzati."
+    },
+    "Armor Tail": {
+      "name": "Codaguardia",
+      "description": "Il Pokémon usa la coda come armatura. È come se avesse gli occhi anche sulla schiena, sempre in guardia da attacchi a sorpresa.",
+      "system.effect": "Il Pokémon e gli alleati in portata non possono essere bersaglio di Mosse Fisiche o Speciali con tratto Reazione."
+    },
+    "Aroma Veil": {
+      "name": "Aromavelo",
+      "description": "Il Pokémon emana un aroma rassicurante che protegge sé stesso e gli alleati dalle emozioni negative.",
+      "system.effect": "Il Pokémon e i suoi alleati sono immuni alle Mosse che infliggono Attrazione, Confusione e simili effetti mentali."
+    },
+    "As One": {
+      "name": "Sintonia",
+      "description": "La fusione di due anime in un unico corpo conferisce al Pokémon due abilità simultaneamente.",
+      "system.effect": "Combina gli effetti di Agitazione con Nitrito Gelido o Nitrito Tetro, a seconda della forma. Abilità Unica."
+    },
+    "Aura Break": {
+      "name": "Frangiaura",
+      "description": "Il Pokémon emana un'aura che inverte gli effetti delle aure nemiche.",
+      "system.effect": "Finché questo Pokémon è in campo, le abilità Auratetra e Aurafolletto riducono la potenza di un dado invece che aumentarla."
+    },
+    "Bad Dreams": {
+      "name": "Sogniamari",
+      "description": "La sola presenza del Pokémon riempie di incubi il sonno degli avversari.",
+      "system.effect": "Alla fine di ogni round, ogni nemico in Sonno subisce 1 Danno."
+    },
+    "Ball Fetch": {
+      "name": "Raccoglipalle",
+      "description": "Il Pokémon ama riportare le Poké Ball al suo allenatore come farebbe un cane con una pallina.",
+      "system.effect": "Se l'Allenatore lancia una Poké Ball e fallisce la cattura, il Pokémon può recuperarla una volta per battaglia."
+    },
+    "Battery": {
+      "name": "Batteria",
+      "description": "Il Pokémon immagazzina elettricità e la condivide con gli alleati per potenziare le loro mosse.",
+      "system.effect": "Aggiunge 1 dado Extra al pool di Danno delle mosse Speciali degli alleati."
+    },
+    "Battle Armor": {
+      "name": "Lottascudo",
+      "description": "Il Pokémon possiede una corazza che lo protegge dai colpi più insidiosi.",
+      "system.effect": "Il Pokémon non può subire Brutti Colpi."
+    },
+    "Beads of Ruin": {
+      "name": "Perle del Disastro",
+      "description": "Le perle maledette indossate dal Pokémon portano rovina a chi lo circonda.",
+      "system.effect": "Finché il Pokémon è in campo, la Difesa Speciale di tutti gli altri Pokémon è ridotta di 1."
+    },
+    "Beast Boost": {
+      "name": "Bestiaspinta",
+      "description": "Il Pokémon si rafforza ogni volta che mette KO un avversario.",
+      "system.effect": "Quando il Pokémon mette KO un avversario, aumenta di 1 il suo attributo più alto."
+    },
+    "Berserk": {
+      "name": "Furore",
+      "description": "Il dolore scatena l'ira del Pokémon, rafforzandone gli attacchi speciali.",
+      "system.effect": "Quando i PS scendono alla metà o meno in seguito a un attacco, la sua Speciale aumenta di 1."
+    },
+    "Big Pecks": {
+      "name": "Pettinfuori",
+      "description": "Il Pokémon gonfia il petto con orgoglio: nessuno abbassa la sua Difesa.",
+      "system.effect": "L'attributo Difesa di questo Pokémon non può essere ridotto dagli avversari."
+    },
+    "Blaze": {
+      "name": "Falò",
+      "description": "Quando i PS si riducono, la fiamma interiore del Pokémon arde più intensamente.",
+      "system.effect": "Quando i PS del Pokémon scendono alla metà o meno, aggiunge 1 dado Extra ai Danni delle mosse di tipo Fuoco."
+    },
+    "Bulletproof": {
+      "name": "Antiproiettile",
+      "description": "Il Pokémon resiste a proiettili, bombe e ogni mossa a base di sfera.",
+      "system.effect": "Il Pokémon è immune a tutte le mosse basate su proiettili o bombe (Sfera di Fuoco, Bombarda, ecc.)."
+    },
+    "Cheek Pouch": {
+      "name": "Guancegonfie",
+      "description": "Il Pokémon conserva il cibo nelle guance e riesce a mangiarlo rapidamente per recuperare energia.",
+      "system.effect": "Quando il Pokémon consuma una Bacca, recupera ulteriori PS pari a un terzo del suo massimo."
+    },
+    "Chilling Neigh": {
+      "name": "Nitrito Gelido",
+      "description": "Il nitrito agghiacciante del Pokémon incute timore e rafforza la sua potenza fisica.",
+      "system.effect": "Quando mette KO un avversario, aumenta di 1 il proprio attributo di Forza."
+    },
+    "Chlorophyll": {
+      "name": "Clorofilla",
+      "description": "Il sole accelera il metabolismo del Pokémon, rendendolo più veloce.",
+      "system.effect": "Sotto il Sole, l'iniziativa del Pokémon è raddoppiata."
+    },
+    "Clear Body": {
+      "name": "Corpochiaro",
+      "description": "Il corpo cristallino del Pokémon resiste a ogni tentativo di ridurne le capacità.",
+      "system.effect": "Gli avversari non possono ridurre le statistiche del Pokémon."
+    },
+    "Cloud Nine": {
+      "name": "Antimeteo",
+      "description": "Il Pokémon annulla gli effetti del meteo con la sua sola presenza.",
+      "system.effect": "Annulla tutti gli effetti del meteo in campo finché il Pokémon è in campo."
+    },
+    "Color Change": {
+      "name": "Cambiacolore",
+      "description": "Il Pokémon cambia colore e tipo a seconda dei colpi che subisce.",
+      "system.effect": "Dopo essere stato colpito da una mossa, il tipo del Pokémon diventa quello della mossa subita."
+    },
+    "Comatose": {
+      "name": "Dormisogni",
+      "description": "Il Pokémon vive in un perpetuo stato di sonno: i suoi attacchi provengono tutti dai sogni.",
+      "system.effect": "Il Pokémon è sempre considerato in Sonno e immune agli altri stati alterati principali. Può comunque attaccare."
+    },
+    "Commander": {
+      "name": "Agli Ordini",
+      "description": "Il Pokémon si fa inghiottire da un alleato Dondozo e lo guida dall'interno durante la battaglia.",
+      "system.effect": "Se è in campo un Dondozo alleato, il Pokémon entra nella sua bocca e ne guida gli attacchi, raddoppiando gli Attributi del Dondozo."
+    },
+    "Competitive": {
+      "name": "Spirito Competitivo",
+      "description": "Quando le sue capacità vengono ridotte, il Pokémon reagisce aumentando la propria potenza speciale.",
+      "system.effect": "Quando una statistica del Pokémon viene ridotta da un avversario, la sua Speciale aumenta di 2."
+    },
+    "Compound Eyes": {
+      "name": "Insettocchi",
+      "description": "Gli occhi composti del Pokémon ne migliorano drasticamente la mira.",
+      "system.effect": "Aggiunge 1 dado Extra a tutti i tiri di Precisione del Pokémon."
+    },
+    "Contrary": {
+      "name": "Inversione",
+      "description": "I cambiamenti di statistiche del Pokémon sono sempre invertiti rispetto al normale.",
+      "system.effect": "Ogni aumento di statistica diventa una riduzione e viceversa."
+    },
+    "Corrosion": {
+      "name": "Corrosione",
+      "description": "Il veleno del Pokémon è così potente da corrodere persino l'acciaio.",
+      "system.effect": "Il Pokémon può avvelenare qualsiasi bersaglio, anche quelli di tipo Acciaio o Veleno."
+    },
+    "Costar": {
+      "name": "Stessa Scena",
+      "description": "Il Pokémon imita il proprio compagno per restare sempre al passo con lui.",
+      "system.effect": "Quando entra in campo, il Pokémon copia tutti i cambiamenti di statistica del suo alleato."
+    },
+    "Cotton Down": {
+      "name": "Cotonscudo",
+      "description": "Quando colpito, il Pokémon libera piuma di cotone che rallenta chiunque lo circondi.",
+      "system.effect": "Quando il Pokémon subisce danni, l'iniziativa di tutti gli altri Pokémon in campo si riduce di 1."
+    },
+    "Cud Chew": {
+      "name": "Ruminante",
+      "description": "Il Pokémon rumina e riesce a gustare una bacca due volte.",
+      "system.effect": "Una bacca consumata dal Pokémon viene rigustata all'inizio del round successivo, ripetendone gli effetti una volta."
+    },
+    "Curious Medicine": {
+      "name": "Stranofarmaco",
+      "description": "Il Pokémon diffonde una strana medicina dal guscio che annulla i cambiamenti di statistica degli alleati.",
+      "system.effect": "Entrando in campo, rimuove tutti i cambiamenti di statistica degli alleati."
+    },
+    "Cursed Body": {
+      "name": "Corpofunesto",
+      "description": "Il corpo maledetto del Pokémon rende impraticabili le mosse di chi lo colpisce.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa, c'è una possibilità che la mossa venga bloccata per il resto della scena."
+    },
+    "Cute Charm": {
+      "name": "Incantevole",
+      "description": "L'aspetto grazioso del Pokémon confonde e seduce gli avversari a contatto.",
+      "system.effect": "Se un Pokémon colpisce questo con una mossa a contatto, può rimanere Infatuato."
+    },
+    "Damp": {
+      "name": "Umidità",
+      "description": "Il Pokémon rilascia un'umidità che impedisce le esplosioni.",
+      "system.effect": "Le mosse Autodistruzione, Boato e simili non possono essere usate finché il Pokémon è in campo."
+    },
+    "Dancer": {
+      "name": "Sincroballo",
+      "description": "Il Pokémon imita immediatamente qualsiasi mossa di danza usata in battaglia.",
+      "system.effect": "Quando un altro Pokémon usa una mossa classificata come Danza, questo Pokémon la usa a sua volta come reazione."
+    },
+    "Dark Aura": {
+      "name": "Auratetra",
+      "description": "Il Pokémon emana un'aura oscura che potenzia tutte le mosse di tipo Buio in campo.",
+      "system.effect": "Tutte le mosse di tipo Buio usate da qualunque Pokémon in campo ricevono +1 dado Extra al Danno."
+    },
+    "Dauntless Shield": {
+      "name": "Scudo Saldo",
+      "description": "Lo scudo solidissimo del Pokémon ne aumenta la difesa quando entra in battaglia.",
+      "system.effect": "Entrando in campo, la Difesa del Pokémon aumenta di 1."
+    },
+    "Dazzling": {
+      "name": "Corposgargiante",
+      "description": "La bellezza sfacciata del Pokémon stordisce gli avversari impedendo loro di attaccare per primi.",
+      "system.effect": "Le mosse con Priorità più alta usate contro il Pokémon o i suoi alleati falliscono."
+    },
+    "Defeatist": {
+      "name": "Sconfittismo",
+      "description": "Quando si sente stanco, il Pokémon perde ogni motivazione.",
+      "system.effect": "Quando i PS del Pokémon scendono alla metà o meno, Forza e Speciale si riducono di 1 ciascuna."
+    },
+    "Defiant": {
+      "name": "Agonismo",
+      "description": "Il Pokémon reagisce con orgoglio a ogni tentativo di sminuirlo.",
+      "system.effect": "Quando una statistica del Pokémon viene ridotta da un avversario, la sua Forza aumenta di 2."
+    },
+    "Delta Stream": {
+      "name": "Corrente Delta",
+      "description": "Uno strano vortice di venti annulla le debolezze del tipo Volante.",
+      "system.effect": "Attiva un meteo speciale che annulla le debolezze del tipo Volante. Abilità Unica."
+    },
+    "Desolate Land": {
+      "name": "Terra Estrema",
+      "description": "Il Pokémon richiama un sole accecante e distruttivo che annulla le mosse di tipo Acqua.",
+      "system.effect": "Attiva un meteo di sole intensissimo. Le mosse di tipo Acqua sono totalmente annullate. Abilità Unica."
+    },
+    "Disguise": {
+      "name": "Fantasmanto",
+      "description": "Il travestimento di stoffa del Pokémon lo protegge dal primo colpo ricevuto.",
+      "system.effect": "La prima volta che il Pokémon viene colpito, il travestimento assorbe tutti i danni e si rompe. Il Pokémon perde 1/8 dei PS massimi."
+    },
+    "Download": {
+      "name": "Download",
+      "description": "Il Pokémon analizza l'avversario e potenzia lo stile d'attacco più efficace.",
+      "system.effect": "Entrando in campo, se la Difesa dell'avversario è più bassa della Difesa Speciale aumenta la propria Forza di 1, altrimenti la Speciale."
+    },
+    "Dragon Maw": {
+      "name": "Dragomascella",
+      "description": "Le fauci possenti del Pokémon potenziano le sue mosse draconiche.",
+      "system.effect": "Aggiunge 1 dado Extra al pool di Danno delle mosse di tipo Drago."
+    },
+    "Drizzle": {
+      "name": "Piovischio",
+      "description": "Il Pokémon convoca una pioggia leggera appena entra in battaglia.",
+      "system.effect": "Entrando in campo, attiva il meteo Pioggia."
+    },
+    "Drought": {
+      "name": "Siccità",
+      "description": "Il Pokémon irradia un'aura solare appena entra in battaglia.",
+      "system.effect": "Entrando in campo, attiva il meteo Sole."
+    },
+    "Dry Skin": {
+      "name": "Pellearsa",
+      "description": "La pelle del Pokémon assorbe l'acqua ma soffre sotto il sole.",
+      "system.effect": "Assorbe le mosse di tipo Acqua recuperando PS. Sotto la Pioggia recupera PS a fine round. Sotto il Sole subisce danno a fine round. Le mosse di tipo Fuoco infliggono un dado Extra di danno."
+    },
+    "Early Bird": {
+      "name": "Sveglialampo",
+      "description": "Il Pokémon si sveglia rapidamente dal sonno.",
+      "system.effect": "Il Pokémon si risveglia dal Sonno al primo round invece che dopo una durata normale."
+    },
+    "Earth Eater": {
+      "name": "Mangiaterra",
+      "description": "Il Pokémon si nutre di terra e ne trae sostentamento.",
+      "system.effect": "Le mosse di tipo Terra curano il Pokémon invece di ferirlo."
+    },
+    "Effect Spore": {
+      "name": "Spargispora",
+      "description": "Il Pokémon sprigiona spore che possono causare vari stati alterati agli attaccanti a contatto.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, c'è una possibilità di infliggergli Veleno, Paralisi o Sonno."
+    },
+    "Electric Surge": {
+      "name": "Elettromante",
+      "description": "Il Pokémon stimola il terreno riempiendolo di elettricità.",
+      "system.effect": "Entrando in campo, attiva il Campo Elettrico."
+    },
+    "Electromorphosis": {
+      "name": "Elettromutazione",
+      "description": "Il Pokémon immagazzina carica elettrica ogni volta che subisce un colpo.",
+      "system.effect": "Quando il Pokémon subisce una mossa, la sua prossima mossa Elettro riceve 1 dado Extra di Danno."
+    },
+    "Embody Aspect": {
+      "name": "Maschera Impersonata",
+      "description": "Il Pokémon incarna il ricordo di un eroe leggendario a seconda della maschera indossata.",
+      "system.effect": "Entrando in campo, aumenta di 1 una statistica determinata dalla maschera equipaggiata (Azzurro/Focolare/Pietrangolare/Verdazzurro)."
+    },
+    "Emergency Exit": {
+      "name": "Passoindietro",
+      "description": "Quando si trova in difficoltà il Pokémon si ritira in fretta dal campo di battaglia.",
+      "system.effect": "Quando i PS scendono alla metà o meno, il Pokémon si ritira automaticamente se è possibile sostituirlo."
+    },
+    "Fairy Aura": {
+      "name": "Aurafolletto",
+      "description": "Il Pokémon emana un'aura fatata che potenzia tutte le mosse di tipo Folletto in campo.",
+      "system.effect": "Tutte le mosse di tipo Folletto usate da qualunque Pokémon in campo ricevono +1 dado Extra al Danno."
+    },
+    "Filter": {
+      "name": "Filtro",
+      "description": "Il Pokémon filtra i colpi superefficaci, attenuandone il danno.",
+      "system.effect": "Le mosse superefficaci contro il Pokémon subiscono -1 dado Extra al Danno."
+    },
+    "Flame Body": {
+      "name": "Corpodifuoco",
+      "description": "Il corpo incandescente del Pokémon brucia gli attaccanti a contatto.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, c'è una possibilità di infliggergli Scottatura."
+    },
+    "Flare Boost": {
+      "name": "Vigorfuoco",
+      "description": "La scottatura stimola la potenza speciale del Pokémon.",
+      "system.effect": "Se il Pokémon è Scottato, aggiunge 1 dado Extra al Danno delle mosse Speciali."
+    },
+    "Flash Fire": {
+      "name": "Fuocardente",
+      "description": "Il Pokémon assorbe le mosse di tipo Fuoco per rafforzare le proprie.",
+      "system.effect": "È immune alle mosse di tipo Fuoco. Una volta colpito da una, le sue mosse di tipo Fuoco ricevono +1 dado Extra al Danno per il resto della battaglia."
+    },
+    "Flower Gift": {
+      "name": "Regalfiore",
+      "description": "Sotto il sole il Pokémon sboccia e rafforza sé stesso e gli alleati.",
+      "system.effect": "Sotto il Sole, Forza e Difesa Speciale del Pokémon e degli alleati aumentano di 1."
+    },
+    "Flower Veil": {
+      "name": "Fiorvelo",
+      "description": "Un velo di fiori protegge gli alleati di tipo Erba da ogni malevolenza.",
+      "system.effect": "Gli alleati di tipo Erba non possono subire riduzioni di statistiche o stati alterati principali."
+    },
+    "Fluffy": {
+      "name": "Morbidone",
+      "description": "Il pelo soffice del Pokémon ne attutisce i colpi, ma prende fuoco con facilità.",
+      "system.effect": "Le mosse a contatto infliggono metà del danno. Le mosse di tipo Fuoco infliggono danno doppio."
+    },
+    "Forecast": {
+      "name": "Previsioni",
+      "description": "Il Pokémon cambia forma e tipo a seconda del meteo.",
+      "system.effect": "Il tipo del Pokémon cambia in base al meteo attivo (Acqua/Fuoco/Ghiaccio/Normale)."
+    },
+    "Forewarn": {
+      "name": "Premonizione",
+      "description": "Il Pokémon percepisce in anticipo la mossa più potente dell'avversario.",
+      "system.effect": "Entrando in campo, rivela al suo Allenatore la mossa più potente dell'avversario."
+    },
+    "Friend Guard": {
+      "name": "Amicoscudo",
+      "description": "Il Pokémon protegge i propri alleati dai danni più severi.",
+      "system.effect": "Le mosse usate contro gli alleati infliggono 1 dado Extra in meno al Danno."
+    },
+    "Frisk": {
+      "name": "Indagine",
+      "description": "Il Pokémon ispeziona il nemico e ne individua lo strumento.",
+      "system.effect": "Entrando in campo, rivela gli strumenti tenuti dai Pokémon avversari."
+    },
+    "Full Metal Body": {
+      "name": "Metalpossente",
+      "description": "Il corpo metallico del Pokémon è immune a qualsiasi tentativo di alterazione.",
+      "system.effect": "Gli avversari non possono ridurre le statistiche del Pokémon. Non viene ignorata da abilità come Rompiforma."
+    },
+    "Fur Coat": {
+      "name": "Foltopelo",
+      "description": "La folta pelliccia del Pokémon ne raddoppia la difesa fisica.",
+      "system.effect": "La Difesa del Pokémon è raddoppiata contro le mosse Fisiche."
+    },
+    "Gale Wings": {
+      "name": "Aliraffica",
+      "description": "Quando i PS sono al massimo, il Pokémon muove le sue ali con la velocità del vento.",
+      "system.effect": "Se i PS del Pokémon sono al massimo, le sue mosse di tipo Volante ottengono +1 Priorità."
+    },
+    "Galvanize": {
+      "name": "Pellelettro",
+      "description": "Le mosse Normali del Pokémon vengono caricate di elettricità.",
+      "system.effect": "Le Mosse di tipo Normale usate dal Pokémon infliggono danno come se fossero di tipo Elettro. Aggiunge 1 dado Extra al pool di Danno delle mosse Elettro."
+    },
+    "Gluttony": {
+      "name": "Voracità",
+      "description": "Il Pokémon consuma le bacche molto prima del solito.",
+      "system.effect": "Il Pokémon consuma le bacche che normalmente attiverebbero a metà PS quando i PS scendono sotto i 3/4."
+    },
+    "Good As Gold": {
+      "name": "Aureo Corpo",
+      "description": "Il corpo d'oro massiccio del Pokémon è immune alle mosse di stato.",
+      "system.effect": "Il Pokémon è immune a tutte le mosse di stato degli avversari."
+    },
+    "Gooey": {
+      "name": "Viscosità",
+      "description": "Il corpo appiccicoso del Pokémon rallenta chi lo tocca.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, l'iniziativa dell'attaccante si riduce di 1."
+    },
+    "Gorilla Tactics": {
+      "name": "Furia Scimmiesca",
+      "description": "Il Pokémon picchia i pugni al suolo e si concentra su un solo tipo di attacco.",
+      "system.effect": "Aggiunge 1 dado Extra al Danno Fisico ma il Pokémon può usare solo la prima mossa selezionata per il resto della battaglia."
+    },
+    "Grass Pelt": {
+      "name": "Vegetoscudo",
+      "description": "Il manto erboso del Pokémon ne aumenta la difesa sul Campo Erboso.",
+      "system.effect": "Sul Campo Erboso, la Difesa del Pokémon aumenta di 1."
+    },
+    "Grassy Surge": {
+      "name": "Erbamante",
+      "description": "Il Pokémon fa germogliare piante ovunque entri in campo.",
+      "system.effect": "Entrando in campo, attiva il Campo Erboso."
+    },
+    "Grim Neigh": {
+      "name": "Nitrito Tetro",
+      "description": "Il nitrito cupo del Pokémon scaccia gli spiriti e ne rafforza la potenza speciale.",
+      "system.effect": "Quando mette KO un avversario, aumenta di 1 la propria Speciale."
+    },
+    "Guard Dog": {
+      "name": "Cane da Guardia",
+      "description": "Il Pokémon è così tenace che nessuno riesce a spingerlo via.",
+      "system.effect": "Il Pokémon non può essere forzato a uscire dal campo. Se subisce Prepotenza, la Forza aumenta di 1 invece di diminuire."
+    },
+    "Gulp Missile": {
+      "name": "Inghiomissile",
+      "description": "Durante le mosse acquatiche il Pokémon pesca una preda che lancia contro gli avversari quando subisce danni.",
+      "system.effect": "Dopo aver usato Surf o Sub, il Pokémon inghiotte una preda. Se subisce danno, sputa la preda sull'attaccante infliggendo danno e riducendogli la Difesa o causando Paralisi."
+    },
+    "Guts": {
+      "name": "Dentistretti",
+      "description": "Nonostante lo stato alterato, il Pokémon serra i denti e combatte con più vigore.",
+      "system.effect": "Quando il Pokémon è affetto da uno stato alterato, aggiunge 1 dado Extra al Danno Fisico."
+    },
+    "Hadron Engine": {
+      "name": "Motore Adrone",
+      "description": "Al suo ingresso in campo il Pokémon attiva un campo elettrico che alimenta i suoi circuiti speciali.",
+      "system.effect": "Entrando in campo, attiva il Campo Elettrico. Sul Campo Elettrico aggiunge 1 dado Extra al Danno Speciale."
+    },
+    "Harvest": {
+      "name": "Coglibacche",
+      "description": "Il Pokémon è in grado di riprodurre all'istante le bacche consumate.",
+      "system.effect": "Sotto il Sole, il Pokémon può rigenerare una bacca consumata a fine round. Senza Sole, c'è una possibilità che avvenga lo stesso."
+    },
+    "Healer": {
+      "name": "Curacuore",
+      "description": "Il Pokémon si prende cura degli alleati guarendone gli stati alterati.",
+      "system.effect": "A fine round, c'è una possibilità di guarire uno stato alterato di un alleato adiacente."
+    },
+    "Heatproof": {
+      "name": "Antifuoco",
+      "description": "Il Pokémon resiste al calore in tutte le sue forme.",
+      "system.effect": "Le mosse di tipo Fuoco infliggono danno dimezzato. Il danno da Scottatura viene dimezzato."
+    },
+    "Heavy Metal": {
+      "name": "Pesobonus",
+      "description": "Il Pokémon è insolitamente pesante.",
+      "system.effect": "Il peso del Pokémon è raddoppiato ai fini di mosse e abilità legate al peso."
+    },
+    "Honey Gather": {
+      "name": "Mielincetta",
+      "description": "Il Pokémon è bravo a raccogliere miele durante il viaggio.",
+      "system.effect": "Dopo una battaglia c'è una possibilità che il Pokémon ottenga una dose di Miele."
+    },
+    "Hospitality": {
+      "name": "Ospitalità",
+      "description": "Il Pokémon offre un rinfresco agli alleati appena entra in campo.",
+      "system.effect": "Entrando in campo, ripristina ad ogni alleato 1/4 dei PS massimi."
+    },
+    "Huge Power": {
+      "name": "Macroforza",
+      "description": "Il Pokémon possiede una forza fisica straordinaria.",
+      "system.effect": "La Forza del Pokémon è raddoppiata."
+    },
+    "Hunger Switch": {
+      "name": "Cambiafame",
+      "description": "Il Pokémon alterna la sua forma tra Ingorda e Magra a ogni turno.",
+      "system.effect": "Alla fine di ogni round, il Pokémon alterna tra Forma Ingorda e Forma Magra, modificando il proprio aspetto."
+    },
+    "Hustle": {
+      "name": "Tenacia",
+      "description": "Il Pokémon attacca con slancio eccessivo, a scapito della mira.",
+      "system.effect": "Aggiunge 1 dado Extra al Danno Fisico ma riduce la Precisione delle mosse Fisiche di 1."
+    },
+    "Hydration": {
+      "name": "Idratazione",
+      "description": "La pioggia cura gli stati alterati del Pokémon.",
+      "system.effect": "Sotto la Pioggia, a fine round il Pokémon guarisce da tutti gli stati alterati principali."
+    },
+    "Hyper Cutter": {
+      "name": "Ipertaglio",
+      "description": "Le chele del Pokémon sono troppo affilate per essere indebolite.",
+      "system.effect": "La Forza del Pokémon non può essere ridotta dagli avversari."
+    },
+    "Ice Body": {
+      "name": "Corpogelo",
+      "description": "Il corpo ghiacciato del Pokémon si rigenera con la grandine.",
+      "system.effect": "Sotto la Grandine, a fine round il Pokémon recupera 1 PS. Ignora i danni da Grandine."
+    },
+    "Ice Face": {
+      "name": "Gelofaccia",
+      "description": "La testa ghiacciata di Eiscue assorbe il primo attacco fisico che riceve.",
+      "system.effect": "Il primo attacco Fisico subito viene annullato. La testa si rompe e viene ripristinata dalla Grandine."
+    },
+    "Ice Scales": {
+      "name": "Gelosquame",
+      "description": "Le squame ghiacciate proteggono il Pokémon dalle mosse speciali.",
+      "system.effect": "Il Pokémon subisce la metà del danno dalle mosse Speciali."
+    },
+    "Illuminate": {
+      "name": "Risplendi",
+      "description": "Il Pokémon illumina l'area riducendo la possibilità di schivare.",
+      "system.effect": "L'Evasione di tutti gli avversari è ridotta a 0 finché il Pokémon è in campo."
+    },
+    "Illusion": {
+      "name": "Illusione",
+      "description": "Il Pokémon entra in campo mascherato da un altro membro della squadra.",
+      "system.effect": "Entra in campo con l'aspetto dell'ultimo Pokémon della squadra. L'illusione si rompe quando subisce un colpo."
+    },
+    "Immunity": {
+      "name": "Immunità",
+      "description": "Il sistema immunitario del Pokémon blocca ogni tipo di veleno.",
+      "system.effect": "Il Pokémon è immune ad Avvelenamento e Iperveleno."
+    },
+    "Imposter": {
+      "name": "Copione",
+      "description": "Il Pokémon si trasforma all'istante in una copia del nemico.",
+      "system.effect": "Entrando in campo, si trasforma automaticamente nel Pokémon avversario di fronte a sé."
+    },
+    "Infiltrator": {
+      "name": "Infiltrato",
+      "description": "Il Pokémon ignora protezioni e barriere nemiche.",
+      "system.effect": "Le mosse del Pokémon ignorano Schermoluce, Riflesso, Velaurora, Salvaguardia e sostituti."
+    },
+    "Innards Out": {
+      "name": "Sputaviscere",
+      "description": "Quando il Pokémon viene messo KO, vomita le viscere sull'attaccante.",
+      "system.effect": "Quando il Pokémon viene messo KO, infligge danno all'attaccante pari ai PS che aveva prima del colpo fatale."
+    },
+    "Inner Focus": {
+      "name": "Concentrazione",
+      "description": "La grande concentrazione del Pokémon lo rende inamovibile.",
+      "system.effect": "Il Pokémon non può Tentennare e non subisce Prepotenza."
+    },
+    "Insomnia": {
+      "name": "Insonnia",
+      "description": "Il Pokémon soffre d'insonnia e non riesce mai ad addormentarsi.",
+      "system.effect": "Il Pokémon è immune al Sonno."
+    },
+    "Intimidate": {
+      "name": "Prepotenza",
+      "description": "Il Pokémon incute timore agli avversari abbassandone l'attacco.",
+      "system.effect": "Entrando in campo, la Forza di tutti i Pokémon avversari si riduce di 1."
+    },
+    "Intrepid Sword": {
+      "name": "Spada Indomita",
+      "description": "La spada leggendaria del Pokémon ne aumenta l'attacco al suo ingresso.",
+      "system.effect": "Entrando in campo, la Forza del Pokémon aumenta di 1."
+    },
+    "Iron Barbs": {
+      "name": "Spineferrate",
+      "description": "Il Pokémon è ricoperto di spine di ferro che feriscono gli attaccanti a contatto.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, subisce 1 danno."
+    },
+    "Iron Fist": {
+      "name": "Ferropugno",
+      "description": "I pugni del Pokémon sono duri come l'acciaio.",
+      "system.effect": "Aggiunge 1 dado Extra al Danno delle mosse di pugno."
+    },
+    "Justified": {
+      "name": "Giustizia",
+      "description": "Il Pokémon prova un forte senso di giustizia quando viene attaccato ingiustamente.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa di tipo Buio, la sua Forza aumenta di 1."
+    },
+    "Keen Eye": {
+      "name": "Sguardofermo",
+      "description": "Lo sguardo acuto del Pokémon non perde mai il bersaglio.",
+      "system.effect": "La Precisione del Pokémon non può essere ridotta. Ignora l'Evasione degli avversari."
+    },
+    "Klutz": {
+      "name": "Impaccio",
+      "description": "Il Pokémon è così maldestro che non riesce a usare gli strumenti.",
+      "system.effect": "Il Pokémon non può usare gli effetti degli strumenti tenuti."
+    },
+    "Leaf Guard": {
+      "name": "Fogliamanto",
+      "description": "Le foglie proteggono il Pokémon dagli stati alterati sotto il sole.",
+      "system.effect": "Sotto il Sole, il Pokémon è immune a tutti gli stati alterati principali."
+    },
+    "Levitate": {
+      "name": "Levitazione",
+      "description": "Il Pokémon fluttua nell'aria, ignorando il tipo Terra.",
+      "system.effect": "Il Pokémon è immune alle mosse di tipo Terra e agli effetti al suolo."
+    },
+    "Libero": {
+      "name": "Libero",
+      "description": "Il Pokémon cambia tipo adattandosi alla mossa che sta per usare.",
+      "system.effect": "Prima di usare una mossa, il tipo del Pokémon cambia in quello di quella mossa. Una volta per ingresso in campo."
+    },
+    "Light Metal": {
+      "name": "Pesopiuma",
+      "description": "Il Pokémon è insolitamente leggero.",
+      "system.effect": "Il peso del Pokémon è dimezzato ai fini di mosse e abilità legate al peso."
+    },
+    "Lightning Rod": {
+      "name": "Parafulmine",
+      "description": "Il Pokémon attira tutte le mosse elettriche come un parafulmine.",
+      "system.effect": "Attira le mosse Elettro avversarie e le assorbe senza subire danno, aumentando la propria Speciale di 1."
+    },
+    "Limber": {
+      "name": "Scioltezza",
+      "description": "I muscoli elastici del Pokémon lo proteggono dalla paralisi.",
+      "system.effect": "Il Pokémon è immune alla Paralisi."
+    },
+    "Lingering Aroma": {
+      "name": "Aroma Fosso",
+      "description": "L'aroma persistente del Pokémon si trasferisce su chi lo tocca.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, la sua abilità diventa Aroma Fosso."
+    },
+    "Liquid Ooze": {
+      "name": "Melma",
+      "description": "Il corpo del Pokémon è pieno di melma tossica.",
+      "system.effect": "Quando un avversario usa una mossa di assorbimento, subisce danni invece di recuperare PS."
+    },
+    "Liquid Voice": {
+      "name": "Voceacqua",
+      "description": "La voce del Pokémon si trasforma in onde d'acqua.",
+      "system.effect": "Tutte le mosse basate sul suono usate dal Pokémon diventano di tipo Acqua."
+    },
+    "Long Reach": {
+      "name": "Distacco",
+      "description": "Il Pokémon colpisce senza mai toccare fisicamente il bersaglio.",
+      "system.effect": "Le mosse del Pokémon non sono mai considerate a contatto."
+    },
+    "Magic Bounce": {
+      "name": "Magispecchio",
+      "description": "Il Pokémon riflette le mosse di stato avversarie.",
+      "system.effect": "Le mosse di stato usate contro il Pokémon vengono riflesse sull'attaccante."
+    },
+    "Magic Guard": {
+      "name": "Magicscudo",
+      "description": "Il Pokémon subisce danni solo dagli attacchi diretti.",
+      "system.effect": "Il Pokémon è immune a tutti i danni indiretti (meteo, veleno, scottatura, trappole, ecc.)."
+    },
+    "Magician": {
+      "name": "Magotrucco",
+      "description": "Il Pokémon ha un talento naturale per rubare gli strumenti altrui.",
+      "system.effect": "Quando il Pokémon colpisce con una mossa, ruba lo strumento del bersaglio se non ne possiede già uno."
+    },
+    "Magma Armor": {
+      "name": "Magmascudo",
+      "description": "Il corpo incandescente del Pokémon impedisce il congelamento.",
+      "system.effect": "Il Pokémon è immune al Congelamento."
+    },
+    "Magnet Pull": {
+      "name": "Magnetismo",
+      "description": "Il magnetismo del Pokémon intrappola i nemici di tipo Acciaio.",
+      "system.effect": "I Pokémon di tipo Acciaio avversari non possono ritirarsi o essere sostituiti."
+    },
+    "Marvel Scale": {
+      "name": "Pelledura",
+      "description": "Le squame prodigiose del Pokémon si induriscono con gli stati alterati.",
+      "system.effect": "Se il Pokémon ha uno stato alterato, la sua Difesa aumenta di 1."
+    },
+    "Mega Launcher": {
+      "name": "Megalancio",
+      "description": "Le onde e le sfere del Pokémon sono particolarmente potenti.",
+      "system.effect": "Aggiunge 1 dado Extra al Danno delle mosse classificate come Sfera o Pulsar."
+    },
+    "Merciless": {
+      "name": "Spietato",
+      "description": "Il Pokémon non ha pietà dei bersagli avvelenati.",
+      "system.effect": "Le mosse del Pokémon contro bersagli avvelenati sono sempre Brutti Colpi."
+    },
+    "Mimicry": {
+      "name": "Mimesi",
+      "description": "Il tipo del Pokémon cambia a seconda del campo in uso.",
+      "system.effect": "Il tipo del Pokémon cambia in base al campo attivo (Elettrico/Erboso/Nebbioso/Psichico)."
+    },
+    "Mind's Eye": {
+      "name": "Occhio Interiore",
+      "description": "Lo sguardo del Pokémon penetra ogni illusione.",
+      "system.effect": "Il Pokémon può colpire i tipi Spettro con le mosse Normale e Lotta. La Precisione non può essere ridotta. Ignora l'Evasione."
+    },
+    "Minus": {
+      "name": "Meno",
+      "description": "Il Pokémon coopera con alleati di polarità opposta.",
+      "system.effect": "Se un alleato ha Più o Meno, la Speciale del Pokémon aumenta di 1."
+    },
+    "Mirror Armor": {
+      "name": "Speculcorazza",
+      "description": "La corazza riflettente del Pokémon respinge le riduzioni di statistiche.",
+      "system.effect": "Gli effetti che ridurrebbero le statistiche del Pokémon vengono riflessi sull'attaccante."
+    },
+    "Misty Surge": {
+      "name": "Nebbiomante",
+      "description": "Il Pokémon satura il terreno di bruma protettiva.",
+      "system.effect": "Entrando in campo, attiva il Campo Nebbioso."
+    },
+    "Mold Breaker": {
+      "name": "Rompiforma",
+      "description": "Il Pokémon può superare con la forza le abilità difensive nemiche.",
+      "system.effect": "Le mosse del Pokémon ignorano le abilità degli avversari che ne attenuerebbero gli effetti."
+    },
+    "Moody": {
+      "name": "Lunatico",
+      "description": "L'umore del Pokémon cambia di continuo, alternando potenziamenti e riduzioni casuali.",
+      "system.effect": "A fine round, una statistica casuale aumenta di 2 e un'altra si riduce di 1."
+    },
+    "Motor Drive": {
+      "name": "Elettrorapid",
+      "description": "Il Pokémon trasforma l'elettricità in velocità.",
+      "system.effect": "È immune alle mosse Elettro. Quando ne subirebbe una, la sua iniziativa aumenta di 1."
+    },
+    "Moxie": {
+      "name": "Arroganza",
+      "description": "L'orgoglio di battere un avversario gonfia la forza del Pokémon.",
+      "system.effect": "Quando il Pokémon mette KO un avversario, la sua Forza aumenta di 1."
+    },
+    "Multiscale": {
+      "name": "Multisquame",
+      "description": "Le squame del Pokémon attutiscono i colpi quando è in piena forma.",
+      "system.effect": "Quando il Pokémon ha i PS al massimo, subisce metà del danno dagli attacchi."
+    },
+    "Multitype": {
+      "name": "Multitipo",
+      "description": "Il Pokémon cambia tipo in base alla lastra che tiene.",
+      "system.effect": "Il tipo del Pokémon cambia a seconda della lastra o cristallo Z detenuto."
+    },
+    "Mummy": {
+      "name": "Mummia",
+      "description": "Un contatto con il Pokémon trasforma l'avversario in una mummia.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, la sua abilità diventa Mummia."
+    },
+    "Mycelium Might": {
+      "name": "Miceliovigore",
+      "description": "Il Pokémon usa mosse di stato con potere inesorabile, ma più lentamente.",
+      "system.effect": "Le mosse di stato del Pokémon ignorano le abilità nemiche ma vengono sempre usate per ultime nel round."
+    },
+    "Natural Cure": {
+      "name": "Alternacura",
+      "description": "Il Pokémon guarisce dagli stati alterati ritirandosi dal campo.",
+      "system.effect": "Quando il Pokémon lascia il campo, guarisce da tutti gli stati alterati principali."
+    },
+    "Neuroforce": {
+      "name": "Cerebroforza",
+      "description": "Il Pokémon potenzia gli attacchi superefficaci.",
+      "system.effect": "Le mosse superefficaci del Pokémon ricevono 1 dado Extra al Danno."
+    },
+    "Neutralizing Gas": {
+      "name": "Gas Reagente",
+      "description": "Il Pokémon rilascia un gas che annulla le abilità di tutti i Pokémon in campo.",
+      "system.effect": "Finché il Pokémon è in campo, le abilità di tutti gli altri Pokémon vengono annullate."
+    },
+    "No Guard": {
+      "name": "Nullodifesa",
+      "description": "Il Pokémon rinuncia a ogni difesa, garantendo la messa a segno di ogni colpo.",
+      "system.effect": "Tutte le mosse usate da o contro il Pokémon colpiscono automaticamente."
+    },
+    "Normalize": {
+      "name": "Normalità",
+      "description": "Tutte le mosse del Pokémon diventano di tipo Normale.",
+      "system.effect": "Tutte le mosse del Pokémon diventano di tipo Normale e ricevono 1 dado Extra al Danno."
+    },
+    "Oblivious": {
+      "name": "Indifferenza",
+      "description": "Il Pokémon è troppo indifferente per subire attrazioni o provocazioni.",
+      "system.effect": "Il Pokémon è immune ad Attrazione, Provocazione e agli effetti di Prepotenza."
+    },
+    "Opportunist": {
+      "name": "Opportunismo",
+      "description": "Quando un avversario si rafforza, il Pokémon copia ogni potenziamento.",
+      "system.effect": "Quando un avversario aumenta le proprie statistiche, il Pokémon copia gli stessi aumenti."
+    },
+    "Orichalcum Pulse": {
+      "name": "Auricalcopulsar",
+      "description": "Il cuore d'oricalco del Pokémon attiva il sole quando entra in campo.",
+      "system.effect": "Entrando in campo, attiva il Sole. Sotto il Sole aggiunge 1 dado Extra al Danno Fisico."
+    },
+    "Overcoat": {
+      "name": "Mantello",
+      "description": "Un mantello protegge il Pokémon dai pollini e dagli effetti climatici.",
+      "system.effect": "Il Pokémon ignora i danni da meteo e le mosse a base di polveri e spore."
+    },
+    "Overgrow": {
+      "name": "Erbaiuto",
+      "description": "Quando i PS si riducono, il Pokémon potenzia gli attacchi vegetali.",
+      "system.effect": "Quando i PS del Pokémon scendono alla metà o meno, aggiunge 1 dado Extra ai Danni delle mosse di tipo Erba."
+    },
+    "Own Tempo": {
+      "name": "Mente Locale",
+      "description": "Il Pokémon mantiene il proprio ritmo imperturbato.",
+      "system.effect": "Il Pokémon è immune alla Confusione e agli effetti di Prepotenza."
+    },
+    "Parental Bond": {
+      "name": "Amorefiliale",
+      "description": "Madre e cucciolo attaccano insieme per due volte.",
+      "system.effect": "Le mosse che infliggono danno colpiscono due volte, con il secondo colpo a potenza ridotta."
+    },
+    "Pastel Veil": {
+      "name": "Pastelvelo",
+      "description": "Un velo pastello protegge il Pokémon e gli alleati dal veleno.",
+      "system.effect": "Il Pokémon e i suoi alleati sono immuni ad Avvelenamento e Iperveleno."
+    },
+    "Perish Body": {
+      "name": "Corpofatale",
+      "description": "Chi tocca il Pokémon soccombe dopo tre round.",
+      "system.effect": "Quando un avversario colpisce il Pokémon con una mossa a contatto, sia attaccante che Pokémon verranno messi KO dopo 3 round se non lasceranno il campo."
+    },
+    "Pickpocket": {
+      "name": "Arraffalesto",
+      "description": "Il Pokémon ruba gli strumenti agli attaccanti.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa a contatto, ruba lo strumento dell'attaccante."
+    },
+    "Pickup": {
+      "name": "Raccolta",
+      "description": "Il Pokémon raccoglie oggetti che trova per strada.",
+      "system.effect": "Dopo una battaglia c'è una possibilità che il Pokémon trovi uno strumento."
+    },
+    "Pixilate": {
+      "name": "Pellefolletto",
+      "description": "Le mosse Normali del Pokémon vengono ammantate di magia fatata.",
+      "system.effect": "Le mosse di tipo Normale diventano di tipo Folletto. Aggiunge 1 dado Extra al pool di Danno delle mosse Folletto."
+    },
+    "Plus": {
+      "name": "Più",
+      "description": "Il Pokémon coopera con alleati di polarità opposta.",
+      "system.effect": "Se un alleato ha Più o Meno, la Speciale del Pokémon aumenta di 1."
+    },
+    "Poison Heal": {
+      "name": "Velencura",
+      "description": "Il veleno rigenera il Pokémon invece di ferirlo.",
+      "system.effect": "Quando il Pokémon è avvelenato, recupera PS a fine round invece di perderne."
+    },
+    "Poison Point": {
+      "name": "Velenopunto",
+      "description": "Le spine velenose del Pokémon feriscono gli attaccanti a contatto.",
+      "system.effect": "Quando un avversario colpisce il Pokémon con una mossa a contatto, c'è una possibilità che venga Avvelenato."
+    },
+    "Poison Puppeteer": {
+      "name": "Marionetta Tossica",
+      "description": "I bersagli avvelenati dal Pokémon cadono nella confusione.",
+      "system.effect": "Qualsiasi bersaglio avvelenato dal Pokémon diventa anche Confuso."
+    },
+    "Poison Touch": {
+      "name": "Velentocco",
+      "description": "Le mosse a contatto del Pokémon possono avvelenare il bersaglio.",
+      "system.effect": "Quando il Pokémon colpisce con una mossa a contatto, c'è una possibilità di Avvelenare il bersaglio."
+    },
+    "Power Construct": {
+      "name": "Assemblaggio",
+      "description": "Le cellule di Zygarde si uniscono quando è in difficoltà per formare la sua Forma Perfetta.",
+      "system.effect": "Quando i PS di Zygarde (Forma 10%/50%) scendono alla metà o meno, si trasforma nella Forma Perfetta."
+    },
+    "Power Spot": {
+      "name": "Carismatico",
+      "description": "Stare accanto al Pokémon potenzia gli attacchi degli alleati.",
+      "system.effect": "Le mosse degli alleati ricevono 1 dado Extra al Danno."
+    },
+    "Power of Alchemy": {
+      "name": "Poteralchemico",
+      "description": "Il Pokémon assume l'abilità di un alleato svenuto.",
+      "system.effect": "Quando un alleato sviene, il Pokémon copia la sua abilità."
+    },
+    "Prankster": {
+      "name": "Burla",
+      "description": "Le mosse di stato del Pokémon scattano con priorità maggiore.",
+      "system.effect": "Le mosse di stato del Pokémon ottengono +1 Priorità."
+    },
+    "Pressure": {
+      "name": "Pressione",
+      "description": "La presenza del Pokémon mette pressione agli avversari, consumandone le risorse.",
+      "system.effect": "Le mosse degli avversari consumano Volontà supplementare quando vengono usate contro il Pokémon."
+    },
+    "Primordial Sea": {
+      "name": "Mare Primordiale",
+      "description": "Il Pokémon richiama un diluvio primordiale che annulla le mosse di tipo Fuoco.",
+      "system.effect": "Attiva un meteo di pioggia torrenziale. Le mosse di tipo Fuoco sono totalmente annullate. Abilità Unica."
+    },
+    "Prism Armor": {
+      "name": "Prismacorazza",
+      "description": "La corazza prismatica del Pokémon riduce i danni superefficaci.",
+      "system.effect": "Le mosse superefficaci contro il Pokémon subiscono -1 dado Extra al Danno. Non viene ignorata da Rompiforma."
+    },
+    "Propeller Tail": {
+      "name": "Elicocoda",
+      "description": "Il Pokémon ignora qualsiasi tentativo di essere redirizzato.",
+      "system.effect": "Le mosse del Pokémon ignorano effetti di redirezione come Parafulmine o Sciroccoscudo."
+    },
+    "Protean": {
+      "name": "Mutatipo",
+      "description": "Il Pokémon cambia tipo adattandosi alla mossa che sta per usare.",
+      "system.effect": "Prima di usare una mossa, il tipo del Pokémon cambia in quello di quella mossa. Una volta per ingresso in campo."
+    },
+    "Protosynthesis": {
+      "name": "Paleoattivazione",
+      "description": "Il Pokémon si attiva sotto il Sole o con un Energy Booster, potenziando la statistica più alta.",
+      "system.effect": "Sotto il Sole o mentre tiene un Energy Booster, la statistica più alta del Pokémon aumenta di 1."
+    },
+    "Psychic Surge": {
+      "name": "Psicomante",
+      "description": "Il Pokémon impregna il campo di energia psichica.",
+      "system.effect": "Entrando in campo, attiva il Campo Psichico."
+    },
+    "Punk Rock": {
+      "name": "Punk Rock",
+      "description": "Il Pokémon vive di musica forte: ne amplifica il suono e ne attutisce il contraccolpo.",
+      "system.effect": "Le mosse basate sul suono ricevono 1 dado Extra al Danno. Le mosse basate sul suono subite infliggono metà del danno."
+    },
+    "Pure Power": {
+      "name": "Forza Pura",
+      "description": "Il Pokémon canalizza ogni energia vitale nei suoi attacchi fisici.",
+      "system.effect": "La Forza del Pokémon è raddoppiata."
+    },
+    "Purifying Salt": {
+      "name": "Sale Purificante",
+      "description": "Il sale benedetto protegge il Pokémon dagli stati alterati e dagli spiriti.",
+      "system.effect": "Il Pokémon è immune agli stati alterati. Le mosse di tipo Spettro subite infliggono metà del danno."
+    },
+    "Quark Drive": {
+      "name": "Carica Quark",
+      "description": "Sul Campo Elettrico o con un Energy Booster il Pokémon entra in sovraccarico.",
+      "system.effect": "Sul Campo Elettrico o mentre tiene un Energy Booster, la statistica più alta del Pokémon aumenta di 1."
+    },
+    "Queenly Majesty": {
+      "name": "Regalpresenza",
+      "description": "La regalità del Pokémon incute rispetto e blocca gli attacchi prioritari.",
+      "system.effect": "Le mosse con Priorità più alta usate contro il Pokémon o i suoi alleati falliscono."
+    },
+    "Quick Draw": {
+      "name": "Colpolesto",
+      "description": "Il Pokémon estrae l'attacco con velocità fulminea.",
+      "system.effect": "C'è una possibilità che il Pokémon agisca per primo indipendentemente dall'iniziativa."
+    },
+    "Quick Feet": {
+      "name": "Piedisvelti",
+      "description": "Gli stati alterati stimolano le gambe del Pokémon.",
+      "system.effect": "Se il Pokémon ha uno stato alterato, l'iniziativa aumenta di 2 (la Paralisi non la dimezza)."
+    },
+    "RKS System": {
+      "name": "Sistema Alfa",
+      "description": "Il tipo del Pokémon cambia in base alla memoria che utilizza.",
+      "system.effect": "Il tipo del Pokémon cambia in base alla memoria equipaggiata."
+    },
+    "Rain Dish": {
+      "name": "Copripioggia",
+      "description": "Il Pokémon recupera energia quando piove.",
+      "system.effect": "Sotto la Pioggia, a fine round il Pokémon recupera 1 PS."
+    },
+    "Rattled": {
+      "name": "Paura",
+      "description": "Alcuni tipi di mosse incutono timore al Pokémon e lo spingono a muoversi più velocemente.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa Buio, Spettro o Coleottero o subisce Prepotenza, la sua iniziativa aumenta di 1."
+    },
+    "Receiver": {
+      "name": "Ricezione",
+      "description": "Il Pokémon eredita l'abilità dell'alleato svenuto.",
+      "system.effect": "Quando un alleato sviene, il Pokémon copia la sua abilità."
+    },
+    "Reckless": {
+      "name": "Temerarietà",
+      "description": "Il Pokémon potenzia le mosse che infliggono contraccolpo.",
+      "system.effect": "Aggiunge 1 dado Extra al Danno delle mosse con contraccolpo."
+    },
+    "Refrigerate": {
+      "name": "Pellegelo",
+      "description": "Le mosse Normali del Pokémon vengono rivestite di ghiaccio.",
+      "system.effect": "Le mosse di tipo Normale diventano di tipo Ghiaccio. Aggiunge 1 dado Extra al pool di Danno delle mosse Ghiaccio."
+    },
+    "Regenerator": {
+      "name": "Rigenergia",
+      "description": "Il Pokémon recupera PS quando viene richiamato.",
+      "system.effect": "Quando il Pokémon lascia il campo, recupera 1/3 dei suoi PS massimi."
+    },
+    "Ripen": {
+      "name": "Maturazione",
+      "description": "Il Pokémon matura le bacche raddoppiandone gli effetti.",
+      "system.effect": "Gli effetti delle bacche consumate dal Pokémon sono raddoppiati."
+    },
+    "Rivalry": {
+      "name": "Rivalità",
+      "description": "Il Pokémon attacca con più vigore gli avversari dello stesso sesso.",
+      "system.effect": "Le mosse contro avversari dello stesso sesso ricevono +1 dado Extra al Danno. Contro avversari di sesso opposto perdono 1 dado."
+    },
+    "Rock Head": {
+      "name": "Testadura",
+      "description": "Il Pokémon non soffre alcun contraccolpo dalle proprie mosse.",
+      "system.effect": "Il Pokémon non subisce contraccolpo dalle mosse con recoil."
+    },
+    "Rocky Payload": {
+      "name": "Pietrasoma",
+      "description": "Il Pokémon porta con sé rocce che potenziano le proprie mosse Roccia.",
+      "system.effect": "Aggiunge 1 dado Extra al pool di Danno delle mosse di tipo Roccia."
+    },
+    "Rough Skin": {
+      "name": "Pelleruvida",
+      "description": "La pelle ruvida del Pokémon ferisce gli attaccanti a contatto.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, subisce 1 danno."
+    },
+    "Run Away": {
+      "name": "Fuga",
+      "description": "Il Pokémon scappa sempre dai combattimenti selvaggi.",
+      "system.effect": "Il Pokémon fugge sempre da incontri con Pokémon selvatici."
+    },
+    "Sand Force": {
+      "name": "Silforza",
+      "description": "La tempesta di sabbia potenzia le mosse Roccia, Terra e Acciaio del Pokémon.",
+      "system.effect": "Sotto la Tempesta di Sabbia, le mosse Roccia, Terra e Acciaio del Pokémon ricevono +1 dado Extra al Danno. Ignora i danni da sabbia."
+    },
+    "Sand Rush": {
+      "name": "Remasabbia",
+      "description": "La tempesta di sabbia accelera il Pokémon.",
+      "system.effect": "Sotto la Tempesta di Sabbia l'iniziativa del Pokémon è raddoppiata. Ignora i danni da sabbia."
+    },
+    "Sand Spit": {
+      "name": "Sabbiasoffio",
+      "description": "Quando colpito, il Pokémon solleva una tempesta di sabbia.",
+      "system.effect": "Quando il Pokémon subisce un colpo, attiva la Tempesta di Sabbia."
+    },
+    "Sand Stream": {
+      "name": "Sabbiafiume",
+      "description": "Il Pokémon solleva una tempesta di sabbia entrando in campo.",
+      "system.effect": "Entrando in campo, attiva la Tempesta di Sabbia."
+    },
+    "Sand Veil": {
+      "name": "Sabbiavelo",
+      "description": "La tempesta di sabbia aumenta l'evasione del Pokémon.",
+      "system.effect": "Sotto la Tempesta di Sabbia, l'Evasione del Pokémon aumenta di 1. Ignora i danni da sabbia."
+    },
+    "Sap Sipper": {
+      "name": "Mangiaerba",
+      "description": "Il Pokémon si nutre delle mosse di tipo Erba.",
+      "system.effect": "È immune alle mosse di tipo Erba. Quando ne subirebbe una, la sua Forza aumenta di 1."
+    },
+    "Schooling": {
+      "name": "Banco",
+      "description": "I Wishiwashi si riuniscono in un banco potente in battaglia.",
+      "system.effect": "Quando Wishiwashi ha PS sufficienti, assume la Forma Banco con statistiche potenziate."
+    },
+    "Scrappy": {
+      "name": "Nervisaldi",
+      "description": "Il Pokémon affronta qualsiasi avversario senza esitazioni.",
+      "system.effect": "Le mosse Normali e Lotta del Pokémon possono colpire i tipi Spettro. È immune agli effetti di Prepotenza."
+    },
+    "Screen Cleaner": {
+      "name": "Annullascudi",
+      "description": "Il Pokémon spazza via schermi e barriere dal campo.",
+      "system.effect": "Entrando in campo, rimuove Schermoluce, Riflesso e Velaurora da entrambi i lati."
+    },
+    "Seed Sower": {
+      "name": "Seminaggio",
+      "description": "Quando colpito, il Pokémon sparge semi che creano un campo erboso.",
+      "system.effect": "Quando il Pokémon subisce un colpo, attiva il Campo Erboso."
+    },
+    "Serene Grace": {
+      "name": "Leggiadro",
+      "description": "La grazia del Pokémon rende più probabili gli effetti secondari delle sue mosse.",
+      "system.effect": "La probabilità degli effetti secondari delle mosse del Pokémon è raddoppiata."
+    },
+    "Shadow Shield": {
+      "name": "Spettroscudo",
+      "description": "L'aura del Pokémon attenua i colpi quando è in piena forma.",
+      "system.effect": "Quando il Pokémon ha i PS al massimo, subisce metà del danno dagli attacchi. Non viene ignorata da Rompiforma."
+    },
+    "Shadow Tag": {
+      "name": "Pedinombra",
+      "description": "L'ombra del Pokémon blocca quella degli avversari.",
+      "system.effect": "I Pokémon avversari non possono lasciare il campo, salvo che abbiano Pedinombra a loro volta."
+    },
+    "Sharpness": {
+      "name": "Lamaffilata",
+      "description": "Il Pokémon potenzia ogni mossa tagliente.",
+      "system.effect": "Aggiunge 1 dado Extra al Danno delle mosse basate su lame o tagli."
+    },
+    "Shed Skin": {
+      "name": "Muta",
+      "description": "Il Pokémon guarisce dagli stati alterati mutando la pelle.",
+      "system.effect": "A fine round, c'è una possibilità che il Pokémon guarisca da uno stato alterato principale."
+    },
+    "Sheer Force": {
+      "name": "Forzabruta",
+      "description": "Il Pokémon rinuncia agli effetti secondari per aumentare la pura potenza.",
+      "system.effect": "Le mosse con effetti secondari perdono quegli effetti ma ricevono +1 dado Extra al Danno."
+    },
+    "Shell Armor": {
+      "name": "Guscioscudo",
+      "description": "Il duro guscio del Pokémon respinge i Brutti Colpi.",
+      "system.effect": "Il Pokémon non può subire Brutti Colpi."
+    },
+    "Shield Dust": {
+      "name": "Polvoscudo",
+      "description": "La polvere del Pokémon annulla gli effetti secondari nemici.",
+      "system.effect": "Il Pokémon è immune agli effetti secondari delle mosse avversarie."
+    },
+    "Shields Down": {
+      "name": "Guscionasceso",
+      "description": "Minior rompe il guscio quando è ferito, rivelando la forma Nucleo.",
+      "system.effect": "Quando i PS di Minior scendono alla metà o meno, assume la Forma Nucleo con statistiche offensive potenziate."
+    },
+    "Simple": {
+      "name": "Disinvoltura",
+      "description": "Le modifiche alle statistiche del Pokémon sono raddoppiate.",
+      "system.effect": "Gli aumenti e le riduzioni di statistiche del Pokémon sono raddoppiati."
+    },
+    "Skill Link": {
+      "name": "Abillink",
+      "description": "Il Pokémon eccelle nelle mosse a colpi multipli.",
+      "system.effect": "Le mosse a colpi multipli colpiscono sempre il numero massimo di volte."
+    },
+    "Slow Start": {
+      "name": "Lentoinizio",
+      "description": "All'inizio della battaglia il Pokémon fatica a ingranare.",
+      "system.effect": "Nei primi 5 round, Forza e iniziativa del Pokémon sono dimezzate."
+    },
+    "Slush Rush": {
+      "name": "Spalaneve",
+      "description": "La grandine accelera il Pokémon.",
+      "system.effect": "Sotto la Grandine o la Neve, l'iniziativa del Pokémon è raddoppiata."
+    },
+    "Sniper": {
+      "name": "Cecchino",
+      "description": "Il Pokémon potenzia notevolmente i Brutti Colpi.",
+      "system.effect": "I Brutti Colpi del Pokémon infliggono 1 dado Extra di Danno in più del normale."
+    },
+    "Snow Cloak": {
+      "name": "Mantelneve",
+      "description": "La neve aumenta l'evasione del Pokémon.",
+      "system.effect": "Sotto la Grandine o la Neve, l'Evasione del Pokémon aumenta di 1. Ignora i danni da grandine."
+    },
+    "Snow Warning": {
+      "name": "Scendineve",
+      "description": "Il Pokémon fa scendere grandine (o neve) appena entra in campo.",
+      "system.effect": "Entrando in campo, attiva la Grandine (o la Neve)."
+    },
+    "Solar Power": {
+      "name": "Solarpotere",
+      "description": "Il Pokémon brucia sotto il sole per aumentare la propria potenza speciale.",
+      "system.effect": "Sotto il Sole, aggiunge 1 dado Extra al Danno Speciale ma subisce 1 danno a fine round."
+    },
+    "Solid Rock": {
+      "name": "Solidroccia",
+      "description": "Il Pokémon resiste meglio ai colpi superefficaci.",
+      "system.effect": "Le mosse superefficaci contro il Pokémon subiscono -1 dado Extra al Danno."
+    },
+    "Soul Heart": {
+      "name": "Cuoreanima",
+      "description": "Il Pokémon si nutre delle anime dei caduti.",
+      "system.effect": "Ogni volta che un Pokémon in campo viene messo KO, la Speciale del Pokémon aumenta di 1."
+    },
+    "Soundproof": {
+      "name": "Antisuono",
+      "description": "Il Pokémon è insonorizzato.",
+      "system.effect": "Il Pokémon è immune a tutte le mosse basate sul suono."
+    },
+    "Speed Boost": {
+      "name": "Acceleratore",
+      "description": "L'iniziativa del Pokémon aumenta a ogni round.",
+      "system.effect": "A fine round, l'iniziativa del Pokémon aumenta di 1."
+    },
+    "Stakeout": {
+      "name": "Agguato",
+      "description": "Il Pokémon coglie l'avversario di sorpresa quando entra in campo.",
+      "system.effect": "Quando un avversario entra in campo, le mosse del Pokémon contro di lui ricevono +1 dado Extra al Danno fino alla sua uscita."
+    },
+    "Stall": {
+      "name": "Rallentatore",
+      "description": "Il Pokémon agisce sempre per ultimo.",
+      "system.effect": "Il Pokémon agisce sempre per ultimo nel round."
+    },
+    "Stalwart": {
+      "name": "Fermezza",
+      "description": "Il Pokémon ignora i tentativi di redirezione.",
+      "system.effect": "Le mosse del Pokémon ignorano effetti di redirezione come Parafulmine o Sciroccoscudo."
+    },
+    "Stamina": {
+      "name": "Vigore",
+      "description": "Quando colpito, il Pokémon si ostina e rinforza la sua difesa.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa, la sua Difesa aumenta di 1."
+    },
+    "Stance Change": {
+      "name": "Accendilotta",
+      "description": "Aegislash cambia forma a seconda della mossa usata.",
+      "system.effect": "Aegislash passa alla Forma Spada usando una mossa d'attacco e alla Forma Scudo usando Scudo Reale."
+    },
+    "Static": {
+      "name": "Statico",
+      "description": "L'elettricità del Pokémon paralizza gli attaccanti a contatto.",
+      "system.effect": "Quando un avversario colpisce il Pokémon con una mossa a contatto, c'è una possibilità che venga Paralizzato."
+    },
+    "Steadfast": {
+      "name": "Cuorsaldo",
+      "description": "Ogni scossa rafforza la determinazione del Pokémon.",
+      "system.effect": "Quando il Pokémon Tentenna, l'iniziativa aumenta di 1."
+    },
+    "Steam Engine": {
+      "name": "Idrofurore",
+      "description": "Le mosse Acqua e Fuoco alimentano i motori a vapore del Pokémon.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa Acqua o Fuoco, la sua iniziativa aumenta di 6."
+    },
+    "Steelworker": {
+      "name": "Abilacciaio",
+      "description": "Il Pokémon padroneggia le mosse Acciaio.",
+      "system.effect": "Aggiunge 1 dado Extra al pool di Danno delle mosse di tipo Acciaio."
+    },
+    "Steely Spirit": {
+      "name": "Ferreo",
+      "description": "Il Pokémon potenzia le mosse Acciaio di sé stesso e degli alleati.",
+      "system.effect": "Le mosse di tipo Acciaio usate dal Pokémon e dai suoi alleati ricevono +1 dado Extra al Danno."
+    },
+    "Stench": {
+      "name": "Tanfo",
+      "description": "Il puzzo del Pokémon fa tentennare gli avversari.",
+      "system.effect": "Le mosse d'attacco del Pokémon hanno una possibilità di far Tentennare il bersaglio."
+    },
+    "Sticky Hold": {
+      "name": "Antifurto",
+      "description": "Il corpo appiccicoso del Pokémon impedisce che gli rubino lo strumento.",
+      "system.effect": "Lo strumento del Pokémon non può essere rimosso o rubato."
+    },
+    "Storm Drain": {
+      "name": "Acquascolo",
+      "description": "Il Pokémon attira tutte le mosse d'acqua.",
+      "system.effect": "Attira le mosse Acqua avversarie e le assorbe senza subire danno, aumentando la propria Speciale di 1."
+    },
+    "Strong Jaw": {
+      "name": "Ferromascella",
+      "description": "Le potenti mascelle del Pokémon amplificano i morsi.",
+      "system.effect": "Aggiunge 1 dado Extra al Danno delle mosse di morso."
+    },
+    "Sturdy": {
+      "name": "Vigore Ferreo",
+      "description": "Il Pokémon resiste con 1 PS quando sarebbe messo KO da un colpo solo.",
+      "system.effect": "Le mosse ad un colpo KO non hanno effetto. Quando il Pokémon con PS pieni riceverebbe un colpo KO, sopravvive con 1 PS."
+    },
+    "Suction Cups": {
+      "name": "Ventose",
+      "description": "Le ventose ancorano il Pokémon al terreno.",
+      "system.effect": "Il Pokémon non può essere forzato a uscire dal campo."
+    },
+    "Super Luck": {
+      "name": "Supersorte",
+      "description": "Il Pokémon è baciato dalla fortuna: i suoi colpi critici sono più probabili.",
+      "system.effect": "Le mosse del Pokémon sono considerate ad Alta Criticità."
+    },
+    "Supersweet Syrup": {
+      "name": "Sciroppo Dolcissimo",
+      "description": "Lo sciroppo dolcissimo del Pokémon confonde gli avversari.",
+      "system.effect": "Entrando in campo, l'Evasione degli avversari si riduce di 1 (una volta per battaglia)."
+    },
+    "Supreme Overlord": {
+      "name": "Generale Supremo",
+      "description": "Il Pokémon si potenzia in memoria di ogni alleato svenuto.",
+      "system.effect": "Per ogni alleato svenuto nella squadra, aggiunge un dado Extra ai Danni del Pokémon (fino a 5 dadi)."
+    },
+    "Surge Surfer": {
+      "name": "Surfcoda",
+      "description": "Sul Campo Elettrico il Pokémon surfa a gran velocità.",
+      "system.effect": "Sul Campo Elettrico, l'iniziativa del Pokémon è raddoppiata."
+    },
+    "Swarm": {
+      "name": "Sciame",
+      "description": "Quando i PS si riducono, il Pokémon potenzia gli attacchi insettoidi.",
+      "system.effect": "Quando i PS del Pokémon scendono alla metà o meno, aggiunge 1 dado Extra ai Danni delle mosse di tipo Coleottero."
+    },
+    "Sweet Veil": {
+      "name": "Dolcevelo",
+      "description": "Un dolce velo protegge il Pokémon e gli alleati dal sonno.",
+      "system.effect": "Il Pokémon e i suoi alleati sono immuni al Sonno."
+    },
+    "Swift Swim": {
+      "name": "Nuotorapido",
+      "description": "La pioggia rende il Pokémon più veloce.",
+      "system.effect": "Sotto la Pioggia, l'iniziativa del Pokémon è raddoppiata."
+    },
+    "Sword of Ruin": {
+      "name": "Spada del Disastro",
+      "description": "La spada maledetta del Pokémon porta rovina alla difesa degli altri.",
+      "system.effect": "Finché il Pokémon è in campo, la Difesa di tutti gli altri Pokémon si riduce di 1."
+    },
+    "Symbiosis": {
+      "name": "Simbiosi",
+      "description": "Il Pokémon passa lo strumento all'alleato quando questo ne ha bisogno.",
+      "system.effect": "Quando un alleato consuma il proprio strumento, il Pokémon gli passa il proprio."
+    },
+    "Synchronize": {
+      "name": "Sincronismo",
+      "description": "Il Pokémon trasferisce agli avversari lo stato alterato subito.",
+      "system.effect": "Quando il Pokémon subisce Veleno, Scottatura o Paralisi, trasferisce lo stesso stato a chi glielo ha inflitto."
+    },
+    "Tablets of Ruin": {
+      "name": "Tavolette del Disastro",
+      "description": "Le tavolette maledette portate dal Pokémon indeboliscono la potenza fisica altrui.",
+      "system.effect": "Finché il Pokémon è in campo, la Forza di tutti gli altri Pokémon si riduce di 1."
+    },
+    "Tangled Feet": {
+      "name": "Intricopiedi",
+      "description": "La Confusione rende difficile colpire il Pokémon.",
+      "system.effect": "Mentre è Confuso, l'Evasione del Pokémon è raddoppiata."
+    },
+    "Tangling Hair": {
+      "name": "Ricciofitto",
+      "description": "I capelli aggrovigliati del Pokémon rallentano chi lo tocca.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, l'iniziativa dell'attaccante si riduce di 1."
+    },
+    "Technician": {
+      "name": "Tecnico",
+      "description": "Il Pokémon potenzia le mosse di potenza base bassa.",
+      "system.effect": "Le mosse del Pokémon con Potenza base pari o inferiore a 2 ricevono +1 dado Extra al Danno."
+    },
+    "Telepathy": {
+      "name": "Telepatia",
+      "description": "Il Pokémon percepisce in anticipo le mosse degli alleati.",
+      "system.effect": "Il Pokémon è immune alle mosse di danno degli alleati in battaglia di squadra."
+    },
+    "Tera Shell": {
+      "name": "Teraguscio",
+      "description": "Il guscio di Terapagos attenua qualsiasi colpo quando ha i PS al massimo.",
+      "system.effect": "Quando il Pokémon ha i PS al massimo, tutte le mosse che subisce sono considerate non efficaci."
+    },
+    "Tera Shift": {
+      "name": "Teracambio",
+      "description": "Terapagos cambia forma all'ingresso in campo.",
+      "system.effect": "Entrando in campo, Terapagos assume la Forma Terastal."
+    },
+    "Teraform Zero": {
+      "name": "Teraformazione Zero",
+      "description": "La tera-forma Stellare di Terapagos annulla meteo e campi.",
+      "system.effect": "Entrando in campo, annulla ogni meteo e campo attivo."
+    },
+    "Teravolt": {
+      "name": "Teravolt",
+      "description": "Il Pokémon supera le abilità difensive nemiche con scariche di energia.",
+      "system.effect": "Le mosse del Pokémon ignorano le abilità degli avversari che ne attenuerebbero gli effetti."
+    },
+    "Thermal Exchange": {
+      "name": "Scambio Termico",
+      "description": "Il Pokémon converte il calore in forza e non si scotta mai.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa Fuoco, la sua Forza aumenta di 1. È immune alla Scottatura."
+    },
+    "Thick Fat": {
+      "name": "Grassospesso",
+      "description": "Il grasso isolante del Pokémon riduce il danno delle mosse Fuoco e Ghiaccio.",
+      "system.effect": "Le mosse Fuoco e Ghiaccio subite infliggono metà del danno."
+    },
+    "Tinted Lens": {
+      "name": "Lentifumé",
+      "description": "Il Pokémon vede chiaramente attraverso le resistenze avversarie.",
+      "system.effect": "Le mosse poco efficaci del Pokémon infliggono danno pieno invece che ridotto."
+    },
+    "Torrent": {
+      "name": "Acquazzone",
+      "description": "Quando i PS si riducono, il Pokémon potenzia gli attacchi d'acqua.",
+      "system.effect": "Quando i PS del Pokémon scendono alla metà o meno, aggiunge 1 dado Extra ai Danni delle mosse di tipo Acqua."
+    },
+    "Tough Claws": {
+      "name": "Unghiedure",
+      "description": "Gli artigli duri del Pokémon potenziano le mosse a contatto.",
+      "system.effect": "Le mosse a contatto del Pokémon ricevono +1 dado Extra al Danno."
+    },
+    "Toxic Boost": {
+      "name": "Velenimpeto",
+      "description": "Il veleno stimola la potenza fisica del Pokémon.",
+      "system.effect": "Se il Pokémon è Avvelenato, aggiunge 1 dado Extra al Danno Fisico."
+    },
+    "Toxic Chain": {
+      "name": "Catena Tossica",
+      "description": "La catena tossica del Pokémon infetta gravemente i bersagli che colpisce.",
+      "system.effect": "Le mosse che infliggono danno del Pokémon hanno una possibilità di causare Iperveleno."
+    },
+    "Toxic Debris": {
+      "name": "Scorie Tossiche",
+      "description": "Il Pokémon sparge scorie tossiche quando subisce danno fisico.",
+      "system.effect": "Quando il Pokémon subisce una mossa Fisica, genera Punte Velenose sul lato avversario."
+    },
+    "Trace": {
+      "name": "Traccia",
+      "description": "Il Pokémon copia l'abilità dell'avversario.",
+      "system.effect": "Entrando in campo, copia l'abilità del Pokémon avversario."
+    },
+    "Transistor": {
+      "name": "Transistor",
+      "description": "Il Pokémon incanala l'elettricità con efficienza straordinaria.",
+      "system.effect": "Aggiunge 1 dado Extra al pool di Danno delle mosse di tipo Elettro."
+    },
+    "Triage": {
+      "name": "Percura",
+      "description": "Il Pokémon dà priorità alle mosse curative.",
+      "system.effect": "Le mosse curative del Pokémon ottengono +3 Priorità."
+    },
+    "Truant": {
+      "name": "Pigro",
+      "description": "Il Pokémon si riposa un round ogni due.",
+      "system.effect": "Dopo aver usato una mossa, il Pokémon deve saltare il round successivo."
+    },
+    "Turboblaze": {
+      "name": "Pirotorbido",
+      "description": "Il Pokémon supera le abilità difensive nemiche avvolto in fiamme.",
+      "system.effect": "Le mosse del Pokémon ignorano le abilità degli avversari che ne attenuerebbero gli effetti."
+    },
+    "Unaware": {
+      "name": "Ignaro",
+      "description": "Il Pokémon ignora le statistiche modificate degli avversari.",
+      "system.effect": "Il Pokémon ignora i cambiamenti di statistica dei Pokémon che colpisce o che lo colpiscono."
+    },
+    "Unburden": {
+      "name": "Agiltecnica",
+      "description": "Quando il Pokémon perde il suo strumento, diventa più veloce.",
+      "system.effect": "Quando il Pokémon consuma o perde lo strumento, la sua iniziativa raddoppia."
+    },
+    "Unnerve": {
+      "name": "Agitazione",
+      "description": "La presenza del Pokémon impedisce agli avversari di mangiare le bacche.",
+      "system.effect": "Gli avversari non possono consumare bacche finché il Pokémon è in campo."
+    },
+    "Unseen Fist": {
+      "name": "Pugnoprodigio",
+      "description": "I pugni del Pokémon attraversano ogni barriera protettiva.",
+      "system.effect": "Le mosse a contatto del Pokémon ignorano le protezioni avversarie (Protezione, Individua, ecc.)."
+    },
+    "Vessel of Ruin": {
+      "name": "Vaso del Disastro",
+      "description": "Il vaso maledetto portato dal Pokémon indebolisce la potenza speciale altrui.",
+      "system.effect": "Finché il Pokémon è in campo, la Speciale di tutti gli altri Pokémon si riduce di 1."
+    },
+    "Victory Star": {
+      "name": "Vittorstella",
+      "description": "Il Pokémon porta fortuna a sé stesso e agli alleati, migliorandone la precisione.",
+      "system.effect": "Il Pokémon e gli alleati ricevono +1 dado Extra ai tiri di Precisione."
+    },
+    "Vital Spirit": {
+      "name": "Spiritovivo",
+      "description": "Il Pokémon è troppo vivace per addormentarsi.",
+      "system.effect": "Il Pokémon è immune al Sonno."
+    },
+    "Volt Absorb": {
+      "name": "Assorbivolt",
+      "description": "Il Pokémon assorbe l'elettricità e la trasforma in PS.",
+      "system.effect": "È immune alle mosse di tipo Elettro. Quando ne subirebbe una, recupera 1/4 dei PS massimi."
+    },
+    "Wandering Spirit": {
+      "name": "Spirito Errante",
+      "description": "Lo spirito del Pokémon si scambia con quello di chi lo colpisce.",
+      "system.effect": "Quando un avversario colpisce questo Pokémon con una mossa a contatto, le abilità dei due si scambiano."
+    },
+    "Water Absorb": {
+      "name": "Assorbacqua",
+      "description": "Il Pokémon assorbe l'acqua per rigenerare energia.",
+      "system.effect": "È immune alle mosse di tipo Acqua. Quando ne subirebbe una, recupera 1/4 dei PS massimi."
+    },
+    "Water Bubble": {
+      "name": "Acquabolla",
+      "description": "Una bolla d'acqua protegge il Pokémon dal fuoco e ne potenzia le mosse acquatiche.",
+      "system.effect": "Le mosse Fuoco subite infliggono metà del danno. Aggiunge 1 dado Extra al pool di Danno delle mosse Acqua. Immune alla Scottatura."
+    },
+    "Water Compaction": {
+      "name": "Sabbiadura",
+      "description": "L'acqua indurisce il corpo sabbioso del Pokémon.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa Acqua, la sua Difesa aumenta di 2."
+    },
+    "Water Veil": {
+      "name": "Idrovelo",
+      "description": "Un velo d'acqua protegge il Pokémon dalle scottature.",
+      "system.effect": "Il Pokémon è immune alla Scottatura."
+    },
+    "Weak Armor": {
+      "name": "Debolarmatura",
+      "description": "I colpi fisici frantumano l'armatura del Pokémon, ma lo rendono più veloce.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa Fisica, la Difesa si riduce di 1 e l'iniziativa aumenta di 2."
+    },
+    "Well-Baked Body": {
+      "name": "Corpo al Forno",
+      "description": "Il corpo del Pokémon è abituato al calore e si rinforza sotto il fuoco.",
+      "system.effect": "Le mosse di tipo Fuoco non hanno effetto. Quando ne subirebbe una, la Difesa aumenta di 2."
+    },
+    "White Smoke": {
+      "name": "Fumochiaro",
+      "description": "Il fumo bianco del Pokémon respinge i tentativi di sminuirlo.",
+      "system.effect": "Gli avversari non possono ridurre le statistiche del Pokémon."
+    },
+    "Wimp Out": {
+      "name": "Fifa Blu",
+      "description": "Quando si trova in difficoltà il Pokémon scappa a gambe levate.",
+      "system.effect": "Quando i PS scendono alla metà o meno, il Pokémon si ritira automaticamente se è possibile sostituirlo."
+    },
+    "Wind Power": {
+      "name": "Eolipotenza",
+      "description": "Il vento carica di elettricità il Pokémon.",
+      "system.effect": "Quando il Pokémon viene colpito da una mossa ventosa, la sua prossima mossa Elettro riceve 1 dado Extra di Danno."
+    },
+    "Wind Rider": {
+      "name": "Cavalcavento",
+      "description": "Il Pokémon trasforma il vento in forza.",
+      "system.effect": "È immune alle mosse ventose. Quando ne subirebbe una o se Ventoincoda viene attivato, la sua Forza aumenta di 1."
+    },
+    "Wonder Guard": {
+      "name": "Magidifesa",
+      "description": "Solo i colpi superefficaci possono ferire il Pokémon.",
+      "system.effect": "Il Pokémon subisce danno solo dalle mosse superefficaci."
+    },
+    "Wonder Skin": {
+      "name": "Splendicute",
+      "description": "La pelle miracolosa del Pokémon resiste alle mosse di stato.",
+      "system.effect": "La Precisione delle mosse di stato usate contro il Pokémon è dimezzata."
+    },
+    "Zen Mode": {
+      "name": "Stato Zen",
+      "description": "Darmanitan cambia forma quando i PS si riducono.",
+      "system.effect": "Quando i PS di Darmanitan scendono alla metà o meno, assume la Forma Zen."
+    },
+    "Zero to Hero": {
+      "name": "Eroico Zero",
+      "description": "Palafin si trasforma nella Forma Eroica quando rientra in campo.",
+      "system.effect": "Quando Palafin rientra in campo dopo essere uscito, assume la Forma Eroica con statistiche potenziate."
+    }
+  }
+}

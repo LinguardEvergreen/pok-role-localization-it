@@ -1,0 +1,45 @@
+{
+  "label": "Strumenti Evolutivi",
+  "entries": {
+    "Fire Stone": {
+      "name": "Pietrafocaia",
+      "description": "Questa pietra contiene una fiamma al suo interno ed è calda al tatto. Di solito la si trova alla base dei vulcani."
+    },
+    "Thunder Stone": {
+      "name": "Pietratuono",
+      "description": "Brilla nell'oscurità e può alimentare piccoli apparecchi elettronici. Si forma dopo l'impatto di un fulmine."
+    },
+    "Water Stone": {
+      "name": "Pietraidrica",
+      "description": "Racchiude acqua dolce scintillante al suo interno. Si trova sul fondo del mare e in alcuni laghi."
+    },
+    "Leaf Stone": {
+      "name": "Pietrafoglia",
+      "description": "Si dice che la foglia incastonata al suo interno provenga da un albero della vita. Relativamente comune in foreste e giungle."
+    },
+    "Moon Stone": {
+      "name": "Pietralunare",
+      "description": "Sembra una roccia qualsiasi finché la luna non la illumina, conferendole un bagliore etereo. Comune nelle caverne."
+    },
+    "Sun Stone": {
+      "name": "Pietrasolare",
+      "description": "Una pietra rossa che diventa particolarmente brillante sotto i raggi del sole. Si trova in deserti e pianure."
+    },
+    "Shiny Stone": {
+      "name": "Pietrabrillo",
+      "description": "La sua superficie lucidata permette di vedere una sfera di luce al suo interno. Rara da trovare, considerata un portafortuna."
+    },
+    "Dusk Stone": {
+      "name": "Neropietra",
+      "description": "Questa pietra sembra risucchiare la luce e la felicità da una stanza come un piccolo buco nero. Molto rara."
+    },
+    "Dawn Stone": {
+      "name": "Pietralbore",
+      "description": "Questa pietra azzurrina brilla di luce accecante per un minuto all'alba. Molto rara da trovare."
+    },
+    "Ice Stone": {
+      "name": "Pietragelo",
+      "description": "Sembra un pezzo di ghiaccio che non si scioglie, freddissimo al tatto. Si trova solo nelle regioni artiche."
+    }
+  }
+}

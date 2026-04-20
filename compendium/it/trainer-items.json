@@ -1,0 +1,137 @@
+{
+  "label": "Equipaggiamento Allenatore",
+  "entries": {
+    "Big Camping Tent": {
+      "name": "Tenda da Campo Grande",
+      "description": "Una tenda spaziosa per un gruppo che vuole passare una notte accogliente. Realizzata con materiali repellenti contro i Pokémon selvatici."
+    },
+    "Small Camping Tent": {
+      "name": "Tenda da Campo Piccola",
+      "description": "Uno spazio confortevole per una o due persone. Realizzata con materiali repellenti contro i Pokémon selvatici."
+    },
+    "Sleeping Bag": {
+      "name": "Sacco a Pelo",
+      "description": "Non è particolarmente comodo. Puoi dormire al caldo e all'asciutto, ma dopo qualche notte la schiena potrebbe farti male."
+    },
+    "Camping Stove & Cookware": {
+      "name": "Fornello e Utensili da Campo",
+      "description": "Scordati di cacciare e mangiare radici come un selvaggio. Con questo set di lusso avrai sempre un pasto da gourmet."
+    },
+    "Compass": {
+      "name": "Bussola",
+      "description": "Un'utile bussola per orientarti nella direzione giusta. Attenzione: tenere lontano dai magneti."
+    },
+    "Regional Map": {
+      "name": "Mappa Regionale",
+      "description": "Una mappa con i percorsi, le città e i Centri Pokémon segnati della regione in cui ti trovi."
+    },
+    "Mountain Bike": {
+      "name": "Mountain Bike",
+      "description": "Viaggerai al doppio della velocità con questa fantastica bici da tutto terreno. Ora a un prezzo pazzesco!"
+    },
+    "Inflatable Boat": {
+      "name": "Canotto Gonfiabile",
+      "description": "Una piccola imbarcazione per due persone. I tuoi Pokémon possono trainarla sull'acqua oppure puoi usare i remi."
+    },
+    "Fishing Rod": {
+      "name": "Canna da Pesca",
+      "description": "Una canna da pesca per catturare Pokémon che vivono sott'acqua. Assicurati di usare l'esca giusta, altrimenti non abboccheranno."
+    },
+    "Saddle": {
+      "name": "Sella",
+      "description": "Un sedile sicuro da fissare su un Pokémon abbastanza grande da trasportarti. Cavalcare un Pokémon è una vera emozione!"
+    },
+    "Sled": {
+      "name": "Slitta",
+      "description": "Attacca un grosso Pokémon o diversi piccoli per farti trainare su neve, sabbia o qualsiasi superficie liscia!"
+    },
+    "Hang Glider": {
+      "name": "Deltaplano",
+      "description": "Sfrutta le correnti ascensionali per prendere il volo. Un modo spettacolare per spostarsi tra le zone elevate."
+    },
+    "Pokedex": {
+      "name": "Pokédex",
+      "description": "Un'enciclopedia digitale con le informazioni base sui Pokémon regionali. Puoi aggiungere le tue ricerche personali."
+    },
+    "Pokedex Upgrade": {
+      "name": "Aggiornamento Pokédex",
+      "description": "Aggiorna il tuo Pokédex con le informazioni sui Pokémon di una nuova regione."
+    },
+    "Meal Rations": {
+      "name": "Razioni Alimentari",
+      "description": "Niente di che, ma non serve viaggiare a stomaco vuoto. Una razione basta per un giorno."
+    },
+    "PokeDoll": {
+      "name": "Pokébambola",
+      "description": "Un'esca a grandezza naturale usata per fuggire dai Pokémon selvatici. C'è chi le colleziona."
+    },
+    "Pokémon Repel": {
+      "name": "Repellente per Pokémon",
+      "description": "La maggior parte dei Pokémon non si avvicinerà per circa otto ore. L'odore ora è lavabile in lavatrice."
+    },
+    "Pepper Spray Can": {
+      "name": "Spray al Peperoncino",
+      "description": "Spaventa i Pokémon piccoli, ma potrebbe far infuriare quelli grossi. Utilizzabile 5 volte."
+    },
+    "Honey": {
+      "name": "Miele",
+      "description": "Si prendono più Pokémon col miele che con l'aceto. I Pokémon selvatici accorreranno in massa seguendone l'odore, oppure potrai gustartelo come dolcetto!"
+    },
+    "Pokeball": {
+      "name": "Poké Ball",
+      "description": "Potenza di sigillo pari a 4 dadi. Una Ball di base usata per catturare Pokémon e trasportare oggetti pesanti."
+    },
+    "Greatball": {
+      "name": "Mega Ball",
+      "description": "Potenza di sigillo pari a 6 dadi. Una barriera più robusta protegge il sigillo rendendo più semplice catturare i Pokémon."
+    },
+    "Ultraball": {
+      "name": "Ultra Ball",
+      "description": "Potenza di sigillo pari a 8 dadi. Il miglior sigillo sul mercato per garantire la cattura dei Pokémon più forti."
+    },
+    "Masterball": {
+      "name": "Master Ball",
+      "description": "Si vocifera da tempo di una potente Poké Ball dal sigillo più forte in assoluto in via di sviluppo. Ma nessuno l'ha mai vista in azione davvero."
+    },
+    "Old Pokeball": {
+      "name": "Poké Ball Antica",
+      "description": "Rara. Un vecchio modello di Poké Ball, oggi pezzo da collezione."
+    },
+    "Dusk Ball": {
+      "name": "Ombra Ball",
+      "description": "Non comune. Il sigillo di questa Ball si rafforza con il buio. Aumenta la potenza di sigillo di 4 se sei in una caverna e/o di 5 se è notte."
+    },
+    "Fast Ball": {
+      "name": "Velox Ball",
+      "description": "Non comune. La potenza di sigillo è pari al punteggio di Destrezza del Pokémon che stai cercando di catturare. Fino a 9 dadi."
+    },
+    "Heavy Ball": {
+      "name": "Peso Ball",
+      "description": "Non comune. Aumenta la potenza di sigillo di 1 per ogni 25 kg del Pokémon che stai cercando di catturare. Si possono aggiungere fino a 5 dadi in questo modo."
+    },
+    "Luxury Ball": {
+      "name": "Chic Ball",
+      "description": "Molto rara. Qualunque Pokémon catturato con questa Ball vedrà aumentare il proprio punteggio di Felicità di 1."
+    },
+    "Quick Ball": {
+      "name": "Rapid Ball",
+      "description": "Non comune. Il sigillo di questa Ball funziona a tempo: parte con un massimo di 9 dadi nel primo Round di battaglia e la potenza di sigillo diminuisce di 2 a ogni Round successivo."
+    },
+    "Sub Ball": {
+      "name": "Sub Ball",
+      "description": "Non comune. Ha normalmente la potenza di sigillo di una Poké Ball (4 dadi), ma contro i Pokémon di tipo Acqua ha la potenza di sigillo di una Mega Ball (6 dadi)."
+    },
+    "Heal Ball": {
+      "name": "Amul Ball",
+      "description": "Non comune. Ha la potenza di sigillo di una Poké Ball (4 dadi) ma cura completamente il Pokémon una volta catturato."
+    },
+    "Revive": {
+      "name": "Revitalizzante",
+      "description": "Una piccola scheggia di energia che riporta in coscienza un Umano o Pokémon svenuto e stabilizza tutte le sue ferite. Ripristina la coscienza e 1 PS."
+    },
+    "Max Revive": {
+      "name": "Revitalizzante Max",
+      "description": "Una scheggia più grande con effetti potenziati. Si trova grezza nelle profondità delle caverne. Molto rara. Non disponibile nei negozi. Ripristina la coscienza e i PS al massimo."
+    }
+  }
+}

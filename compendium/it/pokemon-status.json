@@ -1,0 +1,59 @@
+{
+  "label": "Stati Pokémon",
+  "entries": {
+    "Burn 1": {
+      "name": "Scottatura 1",
+      "description": "Manuale base p.58.",
+      "system.effect": "A fine round: 1 danno. I Pokémon di tipo Fuoco sono immuni.",
+      "system.recovery": "Antiscottatura / Cura Totale / effetti equivalenti"
+    },
+    "Burn 2": {
+      "name": "Scottatura 2",
+      "description": "Manuale base p.58.",
+      "system.effect": "A fine round: 2 danni letali. I Pokémon di tipo Fuoco sono immuni.",
+      "system.recovery": "Antiscottatura / Cura Totale / effetti equivalenti"
+    },
+    "Burn 3": {
+      "name": "Scottatura 3",
+      "description": "Manuale base p.58.",
+      "system.effect": "A fine round: 3 danni letali. I Pokémon di tipo Fuoco sono immuni.",
+      "system.recovery": "Antiscottatura / Cura Totale / effetti equivalenti"
+    },
+    "Frozen Solid": {
+      "name": "Congelamento",
+      "description": "Manuale base p.58.",
+      "system.effect": "Il bersaglio non può agire finché non si scongela per effetto o situazione.",
+      "system.recovery": "Antigelo / effetti di scongelamento specifici"
+    },
+    "Paralysis": {
+      "name": "Paralisi",
+      "description": "Manuale base p.58.",
+      "system.effect": "Crampi muscolari e prestazioni ridotte fino alla guarigione.",
+      "system.recovery": "Antiparalisi / Cura Totale / effetti equivalenti"
+    },
+    "Poison / Poison+": {
+      "name": "Veleno / Veleno+",
+      "description": "Manuale base p.58.",
+      "system.effect": "I bersagli avvelenati subiscono danni ricorrenti in base alla gravità.",
+      "system.recovery": "Antidoto / Cura Totale / effetti equivalenti"
+    },
+    "Sleep": {
+      "name": "Sonno",
+      "description": "Manuale base p.59.",
+      "system.effect": "I bersagli addormentati non possono agire finché non si svegliano per regola o effetto.",
+      "system.recovery": "Sveglia / Baccarancio / effetti equivalenti"
+    },
+    "Confused": {
+      "name": "Confusione",
+      "description": "Manuale base p.59.",
+      "system.effect": "Rimuove 1 successo dai tiri d'azione; le azioni fallite possono causare danno a sé stessi.",
+      "system.recovery": "Baccaplacida / Baccalamo / effetti equivalenti"
+    },
+    "Flinched": {
+      "name": "Tentennamento",
+      "description": "Manuale base p.59.",
+      "system.effect": "Il bersaglio esita e perde la sua azione immediata.",
+      "system.recovery": "Termina alla successiva opportunità d'azione."
+    }
+  }
+}

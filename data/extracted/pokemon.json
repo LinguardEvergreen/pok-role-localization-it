@@ -1,0 +1,9578 @@
+[
+  {
+    "name": "Bulbasaur",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lycanroc (Dusk Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bellossom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Beedrill (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Greninja (Battle Bond Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lilligant",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Medicham (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tinkaton",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Munkidori",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cinccino",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Klefki",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fletchling",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mew",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gogoat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Natu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Stunky",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wooloo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dartrix",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Armarouge",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Goomy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Greninja",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slugma",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dugtrio",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Toedscruel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Samurott",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dragapult",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nymble",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Raticate (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ledian",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grookey",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Alomomola",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dusclops",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Glameow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mankey",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cradily",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ivysaur",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cubone",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kangaskhan",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gimmighoul (Roaming Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Seismitoad",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Beautifly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Houndour",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drakloak",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Terapagos (Stellar Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mudsdale",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Heracross (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fearow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Trumbeak",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Durant",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kecleon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Koffing",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dewott",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Yanma",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spectrier",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magcargo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swadloon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spheal",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tangela",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Venipede",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Minior",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ogerpon (Teal Mask Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sirfetch'd",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pidgey",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tyrunt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mudkip",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Overqwil",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Delibird",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Golbat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Enamorus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dragonair",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Braviary (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sharpedo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Poochyena",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rufflet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slowbro",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ribombee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sandslash",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bisharp",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pawmot",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mimikyu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Farfetch'd (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Reuniclus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Corsola",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bewear",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ferroseed",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slurpuff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Toxapex",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Musharna",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chikorita",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Weepinbell",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Beldum",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rotom (Heat Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Brionne",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chespin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lampent",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nuzleaf",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Giratina (Origin Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Minun",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sobble",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Whirlipede",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mime Jr",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hitmontop",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mawile (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tsareena",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vivillon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kingler",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Farfetch'd",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ampharos",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Leafeon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sinistcha (Masterpiece Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Electabuzz",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Doduo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Miltank",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Diancie",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zygarde 10%",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Houndoom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mismagius",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kyurem",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tangrowth",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Barbaracle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Excadrill",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flutter Mane",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Urshifu (Single Strike Style Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ursaring",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zacian",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Jigglypuff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Charizard",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Marowak (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Klawf",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Anorith",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chewtle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Larvesta",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Granbull",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shinx",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cramorant",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mandibuzz",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Calyrex",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Heracross",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pansear",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Carnivine",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Glimmora",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Whimsicott",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aipom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rotom (Mow Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oinkologne (Female Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tapu Fini",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Accelgor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sableye",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Misdreavus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Brute Bonnet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Stufful",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gligar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Prinplup",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chingling",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magneton",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tyrogue",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Axew",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swanna",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Toxicroak",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aerodactyl",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Palafin (Zero Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grumpig",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lombre",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Naganadel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Crobat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Indeedee (Male Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flamigo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Jellicent",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Duosion",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Crustle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wiglett",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dracozolt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Poliwhirl",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mareanie",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kirlia",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Groudon (Primal Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Unown",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nosepass",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Exeggutor (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dialga (Origin Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pidgeot (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Thundurus (Therian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Corviknight",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rapidash",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nincada",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Indeedee (Female Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dusknoir",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tinkatink",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Huntail",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vulpix (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rellor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Foongus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rowlet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rhyhorn",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Golett",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Helioptile",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Glimmet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cubchoo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Quilava",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Eevee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Purrloin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Phione",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Deino",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Yamask (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lugia",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tarountula",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Psyduck",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Electrode",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Incineroar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drowzee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Heatran",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Boltund",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Giratina",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Whismur",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Snorlax",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Watchog",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vaporeon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pidove",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Silcoon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Orthworm",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grubbin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bellibolt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Donphan",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Linoone (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Goodra (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Minccino",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Numel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scream Tail",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Blipbug",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Landorus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Orbeetle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pidgeotto",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dialga",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pelipper",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tapu Koko",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Panpour",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drampa",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Machop",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wynaut",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ponyta (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lapras",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vulpix",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Volcarona",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Entei",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sawk",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lechonk",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Golurk",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tynamo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lumineon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Emboar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Basculegion (Male Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Breloom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meditite",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Glastrier",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Alakazam",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Basculin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kricketune",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tandemaus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Growlithe (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flaaffy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Talonflame",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Baltoy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Masquerain",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ditto",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Smoochum",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oricorio (Sensu Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shelgon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gossifleur",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arrokuda",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kakuna",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dragonite",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drilbur",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aggron (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zeraora",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sandygast",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lileep",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sandshrew (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Torchic",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Volbeat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Corphish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kadabra",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Crown",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Raichu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Forretress",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Crawdaunt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spoink",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sprigatito",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scrafty",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gengar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grapploct",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Trevenant",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Voltorb (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Garganacl",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scizor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cherubi",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sceptile",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Jirachi",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Togepi",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Frigibax",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Seedot",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flapple",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Yanmega",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Necrozma (Ultra Burst Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Corsola (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Smoliv",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Koraidon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Carkol",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rotom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Raticate",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tapu Bulu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Clamperl",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Clobbopus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gulpin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Timburr",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slaking",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mr. Mime (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hattrem",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cinderace",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Braixen",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arboliva",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Jangmo-o",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Venonat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Patrat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Typhlosion",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sigilyph",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Muk (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Delphox",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mienshao",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Garbodor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cosmoem",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ninetales (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hakamo-o",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Budew",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Frosmoth",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gallade (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oricorio (Baile Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Charizard (Mega Y Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rillaboom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arceus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meowth",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tadbulb",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lilligant (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Suicune",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Volcanion",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meganium",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lucario (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zoroark",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slakoth",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zarude",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cacnea",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wugtrio",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shroomish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Corvisquire",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Treads",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Diggersby",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Seaking",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Persian (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Alcremie",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hawlucha",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Poliwag",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kabuto",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Taillow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lucario",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meowscarada",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grotle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sylveon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Clawitzer",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zoroark (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arctibax",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Torkoal",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dunsparce",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Barraskewda",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Carracosta",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Bundle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bayleef",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bruxish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nickit",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gallade",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Larvitar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Thwackey",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ursaluna",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ho-oh",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skorupi",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gothita",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fezandipiti",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Trubbish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magnemite",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dragalge",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Calyrex (Shadow Rider Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Metagross",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gabite",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Salandit",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skrelp",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ambipom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Primarina",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dratini",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Regirock",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Eldegoss",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sliggoo (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lycanroc (Midday Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Altaria",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lickitung",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scizor (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Finneon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lunala",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bastiodon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sandshrew",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ariados",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mantyke",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Charmeleon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Espeon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cofagrigus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scovillain",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Escavalier",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chandelure",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zigzagoon (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kabutops",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sliggoo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Abomasnow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Beartic",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Combusken",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Blissey",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gloom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Deoxys (Defense Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kangaskhan (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Blastoise",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ceruledge",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bombirdier",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nidorino",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chesnaught",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dodrio",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Buzzwole",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pineco",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Armaldo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Leaves",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Duraludon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aggron",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Krabby",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Yamask",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Elekid",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Decidueye",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bonsly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Greavard",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Clefairy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Audino",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Calyrex (Ice Rider Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Luxray",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Murkrow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tapu Lele",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Octillery",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Turtwig",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Azurill",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lurantis",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zorua (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Glalie (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shaymin (Sky Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Blacephalon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Raichu (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Heatmor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lotad",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Persian",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Okidogi",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pawmi",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magby",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swalot",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lunatone",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Steelix",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Linoone",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Celesteela",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Weezing",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zigzagoon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Salamence (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Elgyem",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grimmsnarl",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mamoswine",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gastly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Roggenrola",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Carvanha",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slowking (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Jumpluff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spinarak",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Boulder",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Terapagos (Normal Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gorebyss",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Caterpie",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zapdos",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Porygon2",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Azelf",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Raging Bolt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Togedemaru",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Beedrill",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zangoose",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pyroar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Floragato",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Roaring Moon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Treecko",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Growlithe",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mightyena",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Venusaur",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zapdos (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Jolteon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Staraptor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aron",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Crocalor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pansage",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Feebas",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Staravia",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Palafin (Hero Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Charmander",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dreepy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shroodle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grimer",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spinda",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gliscor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Porygon-Z",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Alakazam (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ducklett",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Veluza",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rattata (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Probopass",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Impidimp",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nacli",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Toucannon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Basculegion (Female Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Umbreon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Floatzel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Metang",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Milotic",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Marshadow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pachirisu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cramorant (Gorging Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Morpeko",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Haunter",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Salazzle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Luxio",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fraxure",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Phantump",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zebstrika",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spiritomb",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kartana",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chinchou",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rolycoly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Avalugg",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tepig",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slowpoke (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Parasect",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Typhlosion (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Toxtricity (Amped Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Snubbull",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cranidos",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magmortar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Yamper",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Primeape",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Archeops",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grovyle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ogerpon (Cornerstone Mask Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cottonee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Toedscool",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kyurem (Black Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Absol",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Charizard (Mega X Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Serperior",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Heliolisk",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mewtwo (Mega X Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shieldon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Turtonator",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Silicobra",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wormadam (Ground Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Piloswine",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fuecoco",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arbok",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kleavor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Squawkabilly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bouffalant",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Latias",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Amoonguss",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Manectric (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gyarados",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vespiquen",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nihilego",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Centiskorch",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lanturn",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Brambleghast",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Onix",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sunkern",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Morelull",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tauros (Paldean Form) (Aqua Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magnezone",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oricorio (Pa'u Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Blitzle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Decidueye (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chimchar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Capsakid",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ledyba",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cobalion",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rotom (Wash Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Poltchageist (Counterfeit Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Goodra",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scorbunny",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Toxtricity (Low Key Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mothim",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cleffa",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ampharos (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kingdra",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Buneary",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Goldeen",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dewgong",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Whiscash",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drizzile",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hoopa (Unbound Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gyarados (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Diglett (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aromatisse",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Egg",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Eternatus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Carbink",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Regice",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shellder",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hatterene",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Abra",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lokix",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Claydol",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Steenee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Darumaka",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Hands",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shellos",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Stunfisk (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aerodactyl (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mewtwo (Mega Y Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pichu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Great Tusk",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Snover",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Poipole",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Honchkrow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skiddo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cloyster",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Butterfree",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scraggy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pyukumuku",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Salamence",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Smeargle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Seadra",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skarmory",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zorua",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slowpoke",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rattata",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cramorant (Gulping Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pignite",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cursola",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Stoutland",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sneasler",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Enamorus (Therian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Articuno (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pikachu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Buizel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Camerupt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slowking",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rookidee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Graveler (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scolipede",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Landorus (Therian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flygon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gurdurr",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Blastoise (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chien-Pao",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Charjabug",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Barboach",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Herdier",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gumshoos",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wattrel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Golisopod",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hoopa",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Beheeyem",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Walking Wake",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hoppip",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Klang",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kilowattrel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magearna",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Qwilfish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Minior Core",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Horsea",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rotom (Fan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Quaxwell",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tatsugiri (Curly Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swoobat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Seel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Xerneas",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Liepard",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Loudred",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Plusle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Passimian",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Noivern",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Porygon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Makuhita",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lairon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pinsir",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Houndoom (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oinkologne (Male Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Furret",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hydrapple",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Throh",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Deoxys",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Machamp",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Phanpy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arcanine (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dustox",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lopunny",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Simisage",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tyranitar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Unfezant",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Diglett",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cutiefly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hippopotas",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dedenne",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swellow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Thorns",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Omanyte",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rotom (Frost Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Type: Null",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Audino (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Munchlax",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dachsbun",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slither Wing",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Necrozma (Dusk Mane Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Boldore",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Blaziken",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bagon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mawile",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wooper",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Infernape",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zamazenta",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Snivy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sizzlipede",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grimer (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Palpitoad",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tentacruel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bramblin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skeledirge",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shiinotic",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aurorus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Abomasnow (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Charcadet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gastrodon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sudowoodo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flabébé",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spritzee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Happiny",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Victreebel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rampardos",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Latias (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Seviper",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arctovish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oshawott",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meowth (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vanillish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Espathra",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mr. Mime",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Noibat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cyclizar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Starmie",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Banette (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sawsbuck",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Silvally",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Conkeldurr",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dubwool",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Metagross (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Girafarig",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pumpkaboo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nidoran F",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sandslash (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tatsugiri (Stretchy Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Malamar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bounsweet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Necrozma (Dawn Wings Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Weavile",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Darumaka (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Guzzlord",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zweilous",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Maschiff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Keldeo (Resolute Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mesprit",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wyrdeer",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Thundurus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wailmer",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Exeggutor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dewpider",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Roserade",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wishiwashi (Swarm Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Monferno",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Weezing (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arcanine",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cresselia",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spidops",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gourgeist",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tentacool",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Yungoos",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Marill",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Venusaur (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Yveltal",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Houndstone",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Thievul",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Blaziken (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magikarp",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Crabrawler",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drifblim",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nidorina",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Azumarill",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swirlix",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Xatu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Latios",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Litten",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fidough",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meowth (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tranquill",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Deoxys (Attack Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Eiscue (No Ice Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Squirtle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Froakie",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Greedent",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Diancie (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Castform",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Maractus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Electivire",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pheromosa",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rabsca",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zubat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Coalossal",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Eelektrik",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cetitan",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Stantler",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Inteleon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skiploom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vigoroth",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oranguru",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rockruff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hypno",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mewtwo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hippowdon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Remoraid",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Omastar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hitmonlee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chi-Yu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Regidrago",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Karrablast",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Simipour",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sharpedo (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sneasel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sandy Shocks",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Burmy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drapion",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Noctowl",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Latios (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Raikou",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Arctozolt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Haxorus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Espurr",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meowstic",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gigalith",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Urshifu (Rapid Strike Style Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sewaddle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Moltres (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Leavanny",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Naclstack",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wormadam (Steel Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Melmetal",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Eiscue",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Delcatty",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Inkay",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rayquaza",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Trapinch",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Keldeo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Teddiursa",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Starly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ogerpon (Hearthflame Mask Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mabosstiff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sableye (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wooper (Paldean Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pancham",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slowbro (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Poliwrath",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vullaby",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cosmog",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ogerpon (Wellspring Mask Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flareon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rhyperior",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Absol (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Solosis",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cacturne",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wailord",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dottler",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zacian (Crown Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Stunfisk",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Walrein",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Honedge",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sneasel (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ludicolo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pawmo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zekrom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kyurem (White Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Komala",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ninetales",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gothorita",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Crabominable",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tauros (Paldean Form) (Blaze Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mienfoo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Valiant",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Virizion",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Darmanitan",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swablu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Darmanitan (Zen Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Uxie",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Applin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Necrozma",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gardevoir",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tyranitar (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Simisear",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Munna",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Metapod",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Jynx",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Surskit",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ekans",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cryogonal",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Exeggcute",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rotom (Dex Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Quaquaval",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tauros",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tornadus (Therian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wishiwashi",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Joltik",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Groudon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chansey",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Regieleki",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bibarel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Servine",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Garchomp (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Clauncher",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Garchomp",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ralts",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Klink",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sandaconda",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Krookodile",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gible",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Floette",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sealeo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Venomoth",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tyrantrum",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pincurchin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Morgrem",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Muk",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rayquaza (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Quaxly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Exploud",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shaymin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sinistea",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cascoon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meltan",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wormadam (Grass Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Deerling",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gardevoir (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shuppet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dipplin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wo-Chien",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oddish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Togekiss",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tatsugiri (Droopy Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lickilicky",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Litwick",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Manaphy",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fennekin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flittle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mudbray",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Samurott (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dondozo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Eternatus (Eternamax Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bunnelby",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Araquanid",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Palossand",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Galvantula",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Farigiraf",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Quilladin",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spearow",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Registeel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fletchinder",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Qwilfish (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Staryu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cetoddle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swampert (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Snom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Riolu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Stakataka",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vibrava",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aegislash (Blade Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Victini",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bronzor",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bergmite",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sinistcha (Unremarkable Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Electrode (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tympole",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Paras",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Druddigon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Archen",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Froslass",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Togetic",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Emolga",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Varoom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kubfu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skitty",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Voltorb",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Eelektross",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dracovish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Genesect",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Golem",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kommo-o",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Deoxys (Speed Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dhelmise",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pidgeot",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Medicham",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nidoking",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Polteageist",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drifloon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gengar (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Clefable",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Perrserker",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Totodile",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bellsprout",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Xurkitree",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Grafaiai",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tornadus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vanillite",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Finizen",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pecharunt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Braviary",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nidoqueen",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Terrakion",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Aegislash",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swinub",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Darmanitan (Galarian Zen Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Croagunk",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Oricorio (Pom-Pom Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pikipek",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cherrim",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Glaceon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Banette",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Quagsire",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Reshiram",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rhydon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Illumise",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Avalugg (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meloetta",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Raboot",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sandile",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Marowak",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gholdengo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Nidoran M",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Runerigus",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bronzong",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Swampert",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Baxcalibur",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Litleo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hydreigon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Golduck",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tinkatuff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Relicanth",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Annihilape",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Empoleon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Amaura",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Luvdisc",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Drednaw",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ponyta",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Glalie",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pangoro",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hariyama",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Toxel",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pinsir (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Marshtomp",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Rapidash (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Camerupt (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Torterra",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Croconaw",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Feraligatr",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Geodude",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kricketot",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Krokorok",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shiftry",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Steelix (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Comfey",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wobbuffet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Woobat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pupitar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Altaria (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shedinja",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wigglytuff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hitmonchan",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Frogadier",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chimecho",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ting-Lu",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Poltchageist (Artisan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Archaludon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Palkia",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vileplume",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kingambit",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cufant",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Spewpa",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sunflora",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Doublade",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zygarde 50%",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Purugly",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zamazenta (Crown Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Roselia",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Regigigas",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Milcery",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shelmet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Furfrou",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Falinks",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Florges",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Palkia (Origin Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tirtouga",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gimmighoul (Chest Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Popplio",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Darmanitan (Galarian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Solgaleo",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mr. Rime",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skuntank",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kyogre",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ferrothorn",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zygarde Cell",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Moth",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Magmar",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Electrike",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Articuno",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Zygarde 100%",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hatenna",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scyther",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Binacle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Scatterbug",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lopunny (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Graveler",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Torracat",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Solrock",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Geodude (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Moltres",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wartortle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wimpod",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vanilluxe",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Kyogre (Primal Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Pawniard",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dudunsparce",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mareep",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Basculin (Hisuian Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Revavroom",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Politoed",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Slowbro (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Klinklang",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Ninjask",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Igglybuff",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Miraidon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Copperajah",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Shuckle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Golem (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Hoothoot",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Stonjourner",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Weedle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wurmple",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Iron Jugulis",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Tropius",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lillipup",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Frillish",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Gothitelle",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Clodsire",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Lycanroc (Midnight Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dolliv",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Vikavolt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Combee",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Terapagos (Terastal Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Celebi",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Duskull",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Petilil",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Bidoof",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Manectric",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Mantine",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Skwovet",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Meloetta (Pirouette Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Machoke",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Cyndaquil",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Chatot",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Obstagoon",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dugtrio (Alolan Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Piplup",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sceptile (Mega Form)",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sentret",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Appletun",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Maushold",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Snorunt",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Fomantis",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Dwebble",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Wingull",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Darkrai",
+    "type": "pokemon",
+    "description": "",
+    "effect": "",
+    "passiveEffect": "",
+    "category": ""
+  }
+]

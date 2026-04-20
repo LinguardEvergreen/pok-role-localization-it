@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Potion",
+    "type": "gear",
+    "description": "A pocket sized spray potion to relieve the pain and heal bruises.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "healing"
+  },
+  {
+    "name": "Super Potion",
+    "type": "gear",
+    "description": "A regular can of concentrated formula spray. This potion can close open wounds and even heal a cracked bone.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "healing"
+  },
+  {
+    "name": "Hyper Potion",
+    "type": "gear",
+    "description": "Best value pack. It can be rationed for smaller injuries on the team, or used all at once on a serious wound.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "healing"
+  },
+  {
+    "name": "Max Potion",
+    "type": "gear",
+    "description": "A single-use capsule of formula. The Pokemon won't be able to restore health further until the next day.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "healing"
+  },
+  {
+    "name": "Full Restore",
+    "type": "gear",
+    "description": "A single-use capsule of deluxe formula. The Pokemon won't be able to restore health further until the next day. Restore Full HP & Heal Status.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "healing"
+  },
+  {
+    "name": "Antidote",
+    "type": "gear",
+    "description": "A shot that quickly eliminates toxins, reduces fever, and relieves the pain. Heal Poison & Badly Poison.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Awakening",
+    "type": "gear",
+    "description": "Sprays a water-based solution to awake a drowsy pokemon. Heal Sleep.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Burn Heal",
+    "type": "gear",
+    "description": "A powder that extinguishes the fire and aids with the healing of the burnt area. Heal all Burn degrees.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Ice Heal",
+    "type": "gear",
+    "description": "A heat-inducing device that recovers the normal temperature of the Pokemon and heals frost biting. Heal Frozen Solid.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Paralyze Heal",
+    "type": "gear",
+    "description": "This ointment relaxes the muscles and stops the cramping. Heal Paralysis.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Full Heal",
+    "type": "gear",
+    "description": "A superior spray formula that can heal any and all Status Ailments in a second. Heal all Status Ailments.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Remedy",
+    "type": "gear",
+    "description": "This powder leaves a horrid aftertaste. Pokemon will only eat it if they are injured, and even so, they'll resent you for days.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Oran Berry",
+    "type": "gear",
+    "description": "A delicious citric berry that numbs pain away.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "healing"
+  },
+  {
+    "name": "Sitrus Berry",
+    "type": "gear",
+    "description": "A bigger berry from the Oran family but scarcer in the wild. It can also heal up to 1 Lethal Damage.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "healing"
+  },
+  {
+    "name": "Pecha Berry",
+    "type": "gear",
+    "description": "This berry's sweet pulp will absorb simple poison out of the bloodstream. Heal Poison.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Cheri Berry",
+    "type": "gear",
+    "description": "Its spicy flavor reinvigorates the muscles and stops the cramping. Heal Paralysis.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Chesto Berry",
+    "type": "gear",
+    "description": "It is difficult to eat, so tough and dry that it will heal the drowsiness. Heal Sleep.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Rawst Berry",
+    "type": "gear",
+    "description": "Its liquid pulp is ideal to stop fire from spreading and numbs the pain on the area. It is quite bitter, though. Heal 1st & 2nd Degree Burn.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Aspear Berry",
+    "type": "gear",
+    "description": "This sour berry shakes the body and rises its temperature, thawing any ice surrounding it. Heal Frozen Solid.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Persim Berry",
+    "type": "gear",
+    "description": "A multi-flavored berry to snap out of confusion. Heal Confusion.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Lum Berry",
+    "type": "gear",
+    "description": "This berry is said to cure everything; however it's very rare to find. Heal all Status Ailments.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Energy Root",
+    "type": "gear",
+    "description": "A nasty-tasting root with healing properties. It can be eaten whole or turned into up to 4 batches of Remedy. (Requires Medicine Skill check)",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "healing"
+  },
+  {
+    "name": "Heal Powder",
+    "type": "gear",
+    "description": "A mix of the most foul-tasting herbs you can find can make this cure-all powder. Heal all Status Ailments.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "status"
+  },
+  {
+    "name": "Revival Herb",
+    "type": "gear",
+    "description": "It may be its magical properties or just its awful flavor, but this herb will get you back into consciousness numbing all the pain away. Very rare to find. Restore conciousness & Full HP.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "revive"
+  },
+  {
+    "name": "Berry Juice",
+    "type": "gear",
+    "description": "This mixed drink of various berries is also quite refreshing. Some Pokemon produce it naturally. Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  },
+  {
+    "name": "Fresh Water",
+    "type": "gear",
+    "description": "Pure H2O and just the right amount of sodium. Remember to drink 8 glasses daily! Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  },
+  {
+    "name": "Soda Pop",
+    "type": "gear",
+    "description": "This sugary drink gives you a quick shot of energy. Enjoy the fizz on a hot day. Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  },
+  {
+    "name": "Lemonade",
+    "type": "gear",
+    "description": "The citric boost and added vitamins make this a favorite after exercise. Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  },
+  {
+    "name": "Moomoo Milk",
+    "type": "gear",
+    "description": "Right out of the Miltank! Fresh and organic. Excellent to grow healthy! Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  },
+  {
+    "name": "Max Honey",
+    "type": "gear",
+    "description": "An exquisite honey made by a Vespiquen. It's unbelievably healthy and said to grant true happiness. But the only way to obtain it is to defeat the whole swarm in battle. Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  },
+  {
+    "name": "Ice Cream",
+    "type": "gear",
+    "description": "A delicious vanilla cone that looks just like a Vanillish. Perfect for a sunny day at the park. Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  },
+  {
+    "name": "Chocolate",
+    "type": "gear",
+    "description": "A sweet treat to gain the affection of someone special. It melts in your mouth with each bite. Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  },
+  {
+    "name": "Baked Goods",
+    "type": "gear",
+    "description": "Malasadas, Lava Cookies, Lumiose Galette, Jubilife Muffins, Pewter Crunchies, and More! Right out of the oven! Cannot be used in Battle.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "drink"
+  }
+]

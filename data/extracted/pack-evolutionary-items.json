@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Fire Stone",
+    "type": "gear",
+    "description": "This Stone has a flame inside, it's hot to the touch. Usually found at the base of volcanoes.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Thunder Stone",
+    "type": "gear",
+    "description": "It glows in the dark and can be used to power small electronics. They are created after thunder strikes.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Water Stone",
+    "type": "gear",
+    "description": "Sparkly fresh water is trapped inside. This stone can be found at the bottom of the sea and some lakes.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Leaf Stone",
+    "type": "gear",
+    "description": "It is said that the leaf encrusted into it came from a tree of life. Relatively common in forests and jungles.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Moon Stone",
+    "type": "gear",
+    "description": "Looks like a common rock until the moon shines upon it, giving it a aether glow. Commonly found in caves.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Sun Stone",
+    "type": "gear",
+    "description": "A red stone, that becomes extra bright when the sun shines on it. Can be found at deserts and plains.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Shiny Stone",
+    "type": "gear",
+    "description": "Its polished surface allows you to see a ball of light inside. Rare to find, considered a good luck charm.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Dusk Stone",
+    "type": "gear",
+    "description": "This stone seems to suck the light and happiness off a room like a small dark hole. Very rare to find.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Dawn Stone",
+    "type": "gear",
+    "description": "This cerulean stone shines with blinding light for a minute during sunrise. Very rare to find.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  },
+  {
+    "name": "Ice Stone",
+    "type": "gear",
+    "description": "Looks like a piece of ice that won't melt, very cold to the touch. Only found near artic regions.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "evolution"
+  }
+]

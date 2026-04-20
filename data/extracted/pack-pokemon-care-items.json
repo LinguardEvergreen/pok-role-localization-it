@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Dry Food",
+    "type": "gear",
+    "description": "Dry kibble for your Pokemon. Nothing special. Enough for one day.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "other"
+  },
+  {
+    "name": "Gourmet Food",
+    "type": "gear",
+    "description": "Made with Premium ingredients. If you feed this on a regular basis the Pokemon's happiness will increase faster.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "other"
+  },
+  {
+    "name": "High-Performance Food",
+    "type": "gear",
+    "description": "High-protein kibble, made for athletes! Add 2 dice to the next Training Roll of the Pokemon.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "other"
+  },
+  {
+    "name": "Protein",
+    "type": "gear",
+    "description": "A tasty milkshake that aids in the growth of bigger and stronger muscles.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "Iron",
+    "type": "gear",
+    "description": "An iron capsule that reduces feebleness and gives you a healthy glow.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "Calcium",
+    "type": "gear",
+    "description": "Add this effervescent pills in a drink to help grow stronger bones.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "Zinc",
+    "type": "gear",
+    "description": "Zinc capsules aid on brain development.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "Carbos",
+    "type": "gear",
+    "description": "A healthy syrup that fills you with energy!",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "HP Up",
+    "type": "gear",
+    "description": "A compendium of vitamins and minerals to help your Pokemon grow as big and healthy as it can be.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "PP Up",
+    "type": "gear",
+    "description": "It is rumored they are just sugar pills. Who really knows?",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "Rare Candy",
+    "type": "gear",
+    "description": "You should never accept candy from strangers. ...but maybe just this once.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "Power Increasers",
+    "type": "gear",
+    "description": "Weighted gear, that Reduce Dexterity by 1 but grant an Increase of 2 on another Attribute/Trait of your choice.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "vitamin"
+  },
+  {
+    "name": "Grooming Kit",
+    "type": "gear",
+    "description": "No more matted hair, unruly leaves, flaky scales, rough rocks, unpolished steel ...you get the idea.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "grooming"
+  },
+  {
+    "name": "Pokemon Costume",
+    "type": "gear",
+    "description": "Fashionable clothes. Your companions will look amazing in these costumes and they will love it too!",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "grooming"
+  },
+  {
+    "name": "Piece of Accessory",
+    "type": "gear",
+    "description": "Ribbons, hats, collars and everything you need to make your companion look super special.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "grooming"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Sunny Weather",
+    "type": "weather",
+    "description": "Corebook p.56.",
+    "effect": "Frozen cannot be inflicted while sunny weather is active.",
+    "passiveEffect": "",
+    "category": "climate"
+  },
+  {
+    "name": "Rain Weather",
+    "type": "weather",
+    "description": "Corebook p.56.",
+    "effect": "Rain boosts water output and dampens fire moves.",
+    "passiveEffect": "",
+    "category": "climate"
+  },
+  {
+    "name": "Sandstorm Weather",
+    "type": "weather",
+    "description": "Corebook p.56.",
+    "effect": "Rock Pokemon gain +1 Special Defense.",
+    "passiveEffect": "",
+    "category": "hazard"
+  },
+  {
+    "name": "Hail Weather",
+    "type": "weather",
+    "description": "Corebook p.57.",
+    "effect": "Ice Pokemon gain +1 Defense.",
+    "passiveEffect": "",
+    "category": "hazard"
+  },
+  {
+    "name": "Fog / Darkness",
+    "type": "weather",
+    "description": "Corebook p.57.",
+    "effect": "All Pokemon receive extra Reduced Accuracy on moves.",
+    "passiveEffect": "",
+    "category": "climate"
+  },
+  {
+    "name": "Muddy",
+    "type": "weather",
+    "description": "Corebook p.57.",
+    "effect": "Mobility is reduced and Pokemon cannot get out of range.",
+    "passiveEffect": "",
+    "category": "terrain"
+  },
+  {
+    "name": "On Fire!",
+    "type": "weather",
+    "description": "Corebook p.57.",
+    "effect": "Environmental hazard that inflicts recurring damage each round.",
+    "passiveEffect": "",
+    "category": "hazard"
+  }
+]

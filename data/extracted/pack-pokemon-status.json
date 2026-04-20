@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Burn 1",
+    "type": "status",
+    "description": "Corebook p.58.",
+    "effect": "End of round: 1 damage. Fire-type Pokemon are immune.",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Burn 2",
+    "type": "status",
+    "description": "Corebook p.58.",
+    "effect": "End of round: 2 lethal damage. Fire-type Pokemon are immune.",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Burn 3",
+    "type": "status",
+    "description": "Corebook p.58.",
+    "effect": "End of round: 3 lethal damage. Fire-type Pokemon are immune.",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Frozen Solid",
+    "type": "status",
+    "description": "Corebook p.58.",
+    "effect": "The target cannot act until thawed by effects or scene conditions.",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Paralysis",
+    "type": "status",
+    "description": "Corebook p.58.",
+    "effect": "Muscle cramps and reduced performance until cured.",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Poison / Poison+",
+    "type": "status",
+    "description": "Corebook p.58.",
+    "effect": "Poisoned targets take recurring damage according to severity.",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Sleep",
+    "type": "status",
+    "description": "Corebook p.59.",
+    "effect": "Sleeping targets cannot act until they wake up by rule/effect.",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Confused",
+    "type": "status",
+    "description": "Corebook p.59.",
+    "effect": "Removes 1 success from action rolls; failed actions can self-damage.",
+    "passiveEffect": "",
+    "category": ""
+  },
+  {
+    "name": "Flinched",
+    "type": "status",
+    "description": "Corebook p.59.",
+    "effect": "The target hesitates and loses immediate action flow.",
+    "passiveEffect": "",
+    "category": ""
+  }
+]

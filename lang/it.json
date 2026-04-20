@@ -1,0 +1,8 @@
+{
+  "POKROLE_IT": {
+    "ModuleTitle": "Poké Role System - Italiano",
+    "Notifications": {
+      "MissingBabele": "Il modulo Babele non è attivo. Installa e abilita Babele per applicare le traduzioni italiane dei compendi."
+    }
+  }
+}

@@ -1,0 +1,1138 @@
+[
+  {
+    "name": "Black Belt",
+    "type": "gear",
+    "description": "The symbol of an outstanding martial artist. Add 1 Extra die to the Damage pool of Fight-Type Moves.",
+    "effect": "",
+    "passiveEffect": "The symbol of an outstanding martial artist. Add 1 Extra die to the Damage pool of Fight-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Black Glasses",
+    "type": "gear",
+    "description": "No self-respecting ruffian can go without these. Add 1 Extra die to the Damage pool of Dark-Type Moves.",
+    "effect": "",
+    "passiveEffect": "No self-respecting ruffian can go without these. Add 1 Extra die to the Damage pool of Dark-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Charcoal",
+    "type": "gear",
+    "description": "Special charcoal to keep a flame strong. Add 1 Extra die to the Damage pool of Fire-Type Moves.",
+    "effect": "",
+    "passiveEffect": "Special charcoal to keep a flame strong. Add 1 Extra die to the Damage pool of Fire-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Dragon Fang",
+    "type": "gear",
+    "description": "The fang of a fierce dragon fuels your inner rage. Add 1 Extra die to the Damage pool of Dragon-Type Moves.",
+    "effect": "",
+    "passiveEffect": "The fang of a fierce dragon fuels your inner rage. Add 1 Extra die to the Damage pool of Dragon-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Fairy Wings",
+    "type": "gear",
+    "description": "Frolic like a fae through an enchanted forest. Add 1 Extra die to the Damage pool of Fairy-Type Moves.",
+    "effect": "",
+    "passiveEffect": "Frolic like a fae through an enchanted forest. Add 1 Extra die to the Damage pool of Fairy-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Hard Stone",
+    "type": "gear",
+    "description": "Good ol' rock! Nothing beats that! Add 1 Extra die to the Damage pool of Rock-Type Moves.",
+    "effect": "",
+    "passiveEffect": "Good ol' rock! Nothing beats that! Add 1 Extra die to the Damage pool of Rock-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Magnet",
+    "type": "gear",
+    "description": "These magnets... how do they work? Add 1 Extra die to the Damage pool of Electric-Type Moves.",
+    "effect": "",
+    "passiveEffect": "These magnets... how do they work? Add 1 Extra die to the Damage pool of Electric-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Metal Coat",
+    "type": "gear",
+    "description": "Leave any surface coated in a shiny chrome. Add 1 Extra die to the Damage pool of Steel-Type Moves.",
+    "effect": "",
+    "passiveEffect": "Leave any surface coated in a shiny chrome. Add 1 Extra die to the Damage pool of Steel-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Miracle Seed",
+    "type": "gear",
+    "description": "A seed that is said to flourish into a tree of life. Add 1 Extra die to the Damage pool of Grass-Type Moves.",
+    "effect": "",
+    "passiveEffect": "A seed that is said to flourish into a tree of life. Add 1 Extra die to the Damage pool of Grass-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Mystic Water",
+    "type": "gear",
+    "description": "Water that emits a mysterious glow. Add 1 Extra die to the Damage pool of Water-Type Moves.",
+    "effect": "",
+    "passiveEffect": "Water that emits a mysterious glow. Add 1 Extra die to the Damage pool of Water-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Never-Melt Ice",
+    "type": "gear",
+    "description": "This magical piece of ice never melts. Add 1 Extra die to the Damage pool of Ice-Type Moves.",
+    "effect": "",
+    "passiveEffect": "This magical piece of ice never melts. Add 1 Extra die to the Damage pool of Ice-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Poison Barb",
+    "type": "gear",
+    "description": "A toxin-infused barb to ensure complete saturation. Add 1 Extra die to the Damage pool of Poison-Type Moves.",
+    "effect": "",
+    "passiveEffect": "A toxin-infused barb to ensure complete saturation. Add 1 Extra die to the Damage pool of Poison-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Sharp Beak",
+    "type": "gear",
+    "description": "A sharp metal cover to reinforce beaks. Add 1 Extra die to the Damage pool of Flying-Type Moves.",
+    "effect": "",
+    "passiveEffect": "A sharp metal cover to reinforce beaks. Add 1 Extra die to the Damage pool of Flying-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Silk Scarf",
+    "type": "gear",
+    "description": "A basic scarf, simple, but fashionable. Add 1 Extra die to the Damage pool of Normal-Type Moves.",
+    "effect": "",
+    "passiveEffect": "A basic scarf, simple, but fashionable. Add 1 Extra die to the Damage pool of Normal-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Silver Powder",
+    "type": "gear",
+    "description": "An itchy powder that induces allergies. Add 1 Extra die to the Damage pool of Bug-Type Moves.",
+    "effect": "",
+    "passiveEffect": "An itchy powder that induces allergies. Add 1 Extra die to the Damage pool of Bug-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Soft Sand",
+    "type": "gear",
+    "description": "Finely grounded sand, soft to the touch. Add 1 Extra die to the Damage pool of Ground-Type Moves.",
+    "effect": "",
+    "passiveEffect": "Finely grounded sand, soft to the touch. Add 1 Extra die to the Damage pool of Ground-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Spell Tag",
+    "type": "gear",
+    "description": "An old piece of paper used to seal evil spirits. Add 1 Extra die to the Damage pool of Ghost-Type Moves.",
+    "effect": "",
+    "passiveEffect": "An old piece of paper used to seal evil spirits. Add 1 Extra die to the Damage pool of Ghost-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Twisted Spoon",
+    "type": "gear",
+    "description": "A spoon used to practice one's mind prowess. Add 1 Extra die to the Damage pool of Psychic-Type Moves.",
+    "effect": "",
+    "passiveEffect": "A spoon used to practice one's mind prowess. Add 1 Extra die to the Damage pool of Psychic-Type Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Light Ball",
+    "type": "gear",
+    "description": "A bright ball that harnesses electricity. Pikachu loves it and they get their Strength and Special Attributes increased by 1.",
+    "effect": "",
+    "passiveEffect": "A bright ball that harnesses electricity. Pikachu loves it and they get their Strength and Special Attributes increased by 1.",
+    "category": "held"
+  },
+  {
+    "name": "Lucky Punch",
+    "type": "gear",
+    "description": "Boxing gloves. Chansey loves them and gets the High Critical Effect to all Physical Moves and Strength increased by 2.",
+    "effect": "",
+    "passiveEffect": "Boxing gloves. Chansey loves them and gets the High Critical Effect to all Physical Moves and Strength increased by 2.",
+    "category": "held"
+  },
+  {
+    "name": "Thick Club",
+    "type": "gear",
+    "description": "A strong club made with dried bone. Cubone & Marowak love it and get their Strength Increased by 2.",
+    "effect": "",
+    "passiveEffect": "A strong club made with dried bone. Cubone & Marowak love it and get their Strength Increased by 2.",
+    "category": "held"
+  },
+  {
+    "name": "Air Balloon",
+    "type": "gear",
+    "description": "A helium balloon that grants immunity to Ground. Careful as it is very fragile and will pop upon the user receiving damage.",
+    "effect": "",
+    "passiveEffect": "A helium balloon that grants immunity to Ground. Careful as it is very fragile and will pop upon the user receiving damage.",
+    "category": "held"
+  },
+  {
+    "name": "Amulet Coin",
+    "type": "gear",
+    "description": "Doubles prize money from battles",
+    "effect": "",
+    "passiveEffect": "Doubles prize money from battles",
+    "category": "held"
+  },
+  {
+    "name": "Bright Powder",
+    "type": "gear",
+    "description": "A glittler powder that hurs the foe\u0019s eyes. Add an Extra \u001cLow Accuracy 1\u001d on the Moves targeting this Pok�mon.",
+    "effect": "",
+    "passiveEffect": "A glittler powder that hurs the foe\u0019s eyes. Add an Extra \u001cLow Accuracy 1\u001d on the Moves targeting this Pok�mon.",
+    "category": "held"
+  },
+  {
+    "name": "Choice Band",
+    "type": "gear",
+    "description": "Hit hard! Choose a Physical Move, increase its Power by 3. All other Moves get their Power reduced by 3.",
+    "effect": "",
+    "passiveEffect": "Hit hard! Choose a Physical Move, increase its Power by 3. All other Moves get their Power reduced by 3.",
+    "category": "held"
+  },
+  {
+    "name": "Choice Scarf",
+    "type": "gear",
+    "description": "Hit fast! Increase initiative by 3. Choose a Move, it gets the effect Reaction 5. All other Moves get their Power reduced by 3",
+    "effect": "",
+    "passiveEffect": "Hit fast! Increase initiative by 3. Choose a Move, it gets the effect Reaction 5. All other Moves get their Power reduced by 3",
+    "category": "held"
+  },
+  {
+    "name": "Choice Specs",
+    "type": "gear",
+    "description": "Hit fabulously! Choose a Special Move, increase its Power by 3. All other Moves get their Power reduced by 3.",
+    "effect": "",
+    "passiveEffect": "Hit fabulously! Choose a Special Move, increase its Power by 3. All other Moves get their Power reduced by 3.",
+    "category": "held"
+  },
+  {
+    "name": "Clear Amulet",
+    "type": "gear",
+    "description": "An amulet of protection against evil. Attributes and traits of the user can't be lowered by other Pokémon.",
+    "effect": "",
+    "passiveEffect": "An amulet of protection against evil. Attributes and traits of the user can't be lowered by other Pokémon.",
+    "category": "held"
+  },
+  {
+    "name": "Destiny Knot",
+    "type": "gear",
+    "description": "The red string of fate may never break. If this Pokémon falls in love the foe will fall in love with them in return.",
+    "effect": "",
+    "passiveEffect": "The red string of fate may never break. If this Pokémon falls in love the foe will fall in love with them in return.",
+    "category": "held"
+  },
+  {
+    "name": "Eject Button",
+    "type": "gear",
+    "description": "A tempting big red button. Do not push. After receiving damage, activate the Switcher effect for the user. Effect activates only once per Round.",
+    "effect": "",
+    "passiveEffect": "A tempting big red button. Do not push. After receiving damage, activate the Switcher effect for the user. Effect activates only once per Round.",
+    "category": "held"
+  },
+  {
+    "name": "Eviolite",
+    "type": "gear",
+    "description": "A mineral that reacts to raw potential. Increase by 1 the Defense and Sp. Defense of a 1st or 2nd stage Pokémon.",
+    "effect": "",
+    "passiveEffect": "A mineral that reacts to raw potential. Increase by 1 the Defense and Sp. Defense of a 1st or 2nd stage Pokémon.",
+    "category": "held"
+  },
+  {
+    "name": "Expert Belt",
+    "type": "gear",
+    "description": "The symbol of a true martial artist. Super-Effective Moves used by this Pokémon deal 1 extra damage.",
+    "effect": "",
+    "passiveEffect": "The symbol of a true martial artist. Super-Effective Moves used by this Pokémon deal 1 extra damage.",
+    "category": "held"
+  },
+  {
+    "name": "Flame Orb",
+    "type": "gear",
+    "description": "A magical orb that casts a small fire. Warning: keep away from children & pets. User gets a 1st degree burn when they come out.",
+    "effect": "",
+    "passiveEffect": "A magical orb that casts a small fire. Warning: keep away from children & pets. User gets a 1st degree burn when they come out.",
+    "category": "held"
+  },
+  {
+    "name": "Focus Sash",
+    "type": "gear",
+    "description": "Remain concious until the end. The first time the user would faint due to damage from a move, remain at 1 HP instead.",
+    "effect": "",
+    "passiveEffect": "Remain concious until the end. The first time the user would faint due to damage from a move, remain at 1 HP instead.",
+    "category": "held"
+  },
+  {
+    "name": "Heavy-Duty Boots",
+    "type": "gear",
+    "description": "These metal-plated boots will protect your feet even from a bear trap. The user is immune to Entry Hazards.",
+    "effect": "",
+    "passiveEffect": "These metal-plated boots will protect your feet even from a bear trap. The user is immune to Entry Hazards.",
+    "category": "held"
+  },
+  {
+    "name": "Iron Ball",
+    "type": "gear",
+    "description": "A heavy ball chain that drags you down. Reduce the user\u0019s Dexterity by 1, and remove immunity to Ground-Type",
+    "effect": "",
+    "passiveEffect": "A heavy ball chain that drags you down. Reduce the user\u0019s Dexterity by 1, and remove immunity to Ground-Type",
+    "category": "held"
+  },
+  {
+    "name": "King's Rock",
+    "type": "gear",
+    "description": "A crown-shaped rock. May trigger Evolution on certain Pokémon. Add 1 Chance dice to Flinch on all Special Moves.",
+    "effect": "",
+    "passiveEffect": "A crown-shaped rock. May trigger Evolution on certain Pokémon. Add 1 Chance dice to Flinch on all Special Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Leek",
+    "type": "gear",
+    "description": "A common leek. It is loved by Farfetch'd and gives the High Critical Effect to all their Physical and Special Moves.",
+    "effect": "",
+    "passiveEffect": "A common leek. It is loved by Farfetch'd and gives the High Critical Effect to all their Physical and Special Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Leftovers",
+    "type": "gear",
+    "description": "Don\u0019t waste food. Heal 1 Damage at the end of the Round. Consumed after healing 3 Damage.",
+    "effect": "",
+    "passiveEffect": "Don\u0019t waste food. Heal 1 Damage at the end of the Round. Consumed after healing 3 Damage.",
+    "category": "held"
+  },
+  {
+    "name": "Life Orb",
+    "type": "gear",
+    "description": "A cursed item that promises power. Add the Recoil effect and 2 Extra dice to the damage pool of Physical and Special Moves.",
+    "effect": "",
+    "passiveEffect": "A cursed item that promises power. Add the Recoil effect and 2 Extra dice to the damage pool of Physical and Special Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Loaded Dice",
+    "type": "gear",
+    "description": "Sometimes you have to coax lady luck. Moves with Chance Dice effects get 2 Extra Chance dice on each effect",
+    "effect": "",
+    "passiveEffect": "Sometimes you have to coax lady luck. Moves with Chance Dice effects get 2 Extra Chance dice on each effect",
+    "category": "held"
+  },
+  {
+    "name": "Metronome",
+    "type": "gear",
+    "description": "Follow the rhythm to attack in succession. Add 1 Extra die to the damage pool of Double, Triple, and Successive Actions.",
+    "effect": "",
+    "passiveEffect": "Follow the rhythm to attack in succession. Add 1 Extra die to the damage pool of Double, Triple, and Successive Actions.",
+    "category": "held"
+  },
+  {
+    "name": "Power Herb",
+    "type": "gear",
+    "description": "This Herb infuses a red energy. Remove the need to charge from a Charge Move. Single use",
+    "effect": "",
+    "passiveEffect": "This Herb infuses a red energy. Remove the need to charge from a Charge Move. Single use",
+    "category": "held"
+  },
+  {
+    "name": "Power Increasers",
+    "type": "gear",
+    "description": "Weighted gear, that Reduce Dexterity by 1 but grant an Increase of 2 on another Attribute/Trait of your choice.",
+    "effect": "",
+    "passiveEffect": "Weighted gear, that Reduce Dexterity by 1 but grant an Increase of 2 on another Attribute/Trait of your choice.",
+    "category": "held"
+  },
+  {
+    "name": "Protective Pads",
+    "type": "gear",
+    "description": "With this pads on you won't come into direct contact with the foe during close-range combat. Moves and Abilities that activate due to a Non-Ranged Physical Move do not trigger for the user.",
+    "effect": "",
+    "passiveEffect": "With this pads on you won't come into direct contact with the foe during close-range combat. Moves and Abilities that activate due to a Non-Ranged Physical Move do not trigger for the user.",
+    "category": "held"
+  },
+  {
+    "name": "Quick Claw",
+    "type": "gear",
+    "description": "These light and sharp claws make you excited to test them out in combat. Increase user's Initiative roll by 2.",
+    "effect": "",
+    "passiveEffect": "These light and sharp claws make you excited to test them out in combat. Increase user's Initiative roll by 2.",
+    "category": "held"
+  },
+  {
+    "name": "Razor Claw",
+    "type": "gear",
+    "description": "Deadly claws that trigger Evolution on certain Pokémon. All Physical and Special Moves get the High Critical Effect.",
+    "effect": "",
+    "passiveEffect": "Deadly claws that trigger Evolution on certain Pokémon. All Physical and Special Moves get the High Critical Effect.",
+    "category": "held"
+  },
+  {
+    "name": "Razor Fang",
+    "type": "gear",
+    "description": "Sharp fangs that trigger Evolution on certain Pokémon. Add 1 Chance dice to Flinch on all Physical Moves.",
+    "effect": "",
+    "passiveEffect": "Sharp fangs that trigger Evolution on certain Pokémon. Add 1 Chance dice to Flinch on all Physical Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Red Card",
+    "type": "gear",
+    "description": "Send an offending Pokémon to the bench! After receiving damage, activate the Switcher effect for the foe. Effect activates only once per Round.",
+    "effect": "",
+    "passiveEffect": "Send an offending Pokémon to the bench! After receiving damage, activate the Switcher effect for the foe. Effect activates only once per Round.",
+    "category": "held"
+  },
+  {
+    "name": "Ring Target",
+    "type": "gear",
+    "description": "There is no escaping harm when you have a target on your back. Remove all immunities of the user.",
+    "effect": "",
+    "passiveEffect": "There is no escaping harm when you have a target on your back. Remove all immunities of the user.",
+    "category": "held"
+  },
+  {
+    "name": "Rocky Helmet",
+    "type": "gear",
+    "description": "The best defense is a good offense Deal 1 damage to a foe hitting the user with a Non-Ranged Physical Move.",
+    "effect": "",
+    "passiveEffect": "The best defense is a good offense Deal 1 damage to a foe hitting the user with a Non-Ranged Physical Move.",
+    "category": "held"
+  },
+  {
+    "name": "Safety Goggles",
+    "type": "gear",
+    "description": "No more pesky allergies. The user is immune to the Added Effects of Moves with the words \"Spore\", \"Powder\" & \"Pollen\".",
+    "effect": "",
+    "passiveEffect": "No more pesky allergies. The user is immune to the Added Effects of Moves with the words \"Spore\", \"Powder\" & \"Pollen\".",
+    "category": "held"
+  },
+  {
+    "name": "Sticky Barb",
+    "type": "gear",
+    "description": "Deal 1 Damage to the user at the end of the Round. If hit with a Non-Ranged Physical Move, transfer the sticky Barb.",
+    "effect": "",
+    "passiveEffect": "Deal 1 Damage to the user at the end of the Round. If hit with a Non-Ranged Physical Move, transfer the sticky Barb.",
+    "category": "held"
+  },
+  {
+    "name": "Throat Spray",
+    "type": "gear",
+    "description": "This spray relaxes vocal cords. Increase Special by 1 after using a Sound-Based Move.",
+    "effect": "",
+    "passiveEffect": "This spray relaxes vocal cords. Increase Special by 1 after using a Sound-Based Move.",
+    "category": "held"
+  },
+  {
+    "name": "Toxic Orb",
+    "type": "gear",
+    "description": "A magical orb that oozes venom. Warning: keep away from children & pets. User gets poisoned. when they come out.",
+    "effect": "",
+    "passiveEffect": "A magical orb that oozes venom. Warning: keep away from children & pets. User gets poisoned. when they come out.",
+    "category": "held"
+  },
+  {
+    "name": "Umbrella",
+    "type": "gear",
+    "description": "Rain or shine, you should be prepared. The user ignores the effects of Sunny, Rain and Hail weather.",
+    "effect": "",
+    "passiveEffect": "Rain or shine, you should be prepared. The user ignores the effects of Sunny, Rain and Hail weather.",
+    "category": "held"
+  },
+  {
+    "name": "Weakness Policy",
+    "type": "gear",
+    "description": "A policy of compensation for damages. Increase user's Strength and Special by 1 after being hit with a Super-Effective Move.",
+    "effect": "",
+    "passiveEffect": "A policy of compensation for damages. Increase user's Strength and Special by 1 after being hit with a Super-Effective Move.",
+    "category": "held"
+  },
+  {
+    "name": "White Herb",
+    "type": "gear",
+    "description": "This Herb infuses a glowing energy. Restore any lowered Attribute/Trait. Single use.",
+    "effect": "",
+    "passiveEffect": "This Herb infuses a glowing energy. Restore any lowered Attribute/Trait. Single use.",
+    "category": "held"
+  },
+  {
+    "name": "Wide Lens",
+    "type": "gear",
+    "description": "These lenses enhace vision so it's easier to see your targets. The user adds 2 Dice to the Accuracy Roll of their Moves.",
+    "effect": "",
+    "passiveEffect": "These lenses enhace vision so it's easier to see your targets. The user adds 2 Dice to the Accuracy Roll of their Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Zoom Lens",
+    "type": "gear",
+    "description": "No more suffering from short-sight. Reduce Low Accuracy on Moves up to 2 points. (i.e. Low Accuracy 5 becomes 3)",
+    "effect": "",
+    "passiveEffect": "No more suffering from short-sight. Reduce Low Accuracy on Moves up to 2 points. (i.e. Low Accuracy 5 becomes 3)",
+    "category": "held"
+  },
+  {
+    "name": "Abomasite",
+    "type": "gear",
+    "description": "Makes Abomasnow Mega-evolve into Mega-Abomasnow",
+    "effect": "",
+    "passiveEffect": "Makes Abomasnow Mega-evolve into Mega-Abomasnow",
+    "category": "held"
+  },
+  {
+    "name": "Absolite",
+    "type": "gear",
+    "description": "Makes Absol Mega-evolve into Mega-Absol",
+    "effect": "",
+    "passiveEffect": "Makes Absol Mega-evolve into Mega-Absol",
+    "category": "held"
+  },
+  {
+    "name": "Aerodactylite",
+    "type": "gear",
+    "description": "Makes Aerodactyl Mega-evolve into Mega-Aerodactyl",
+    "effect": "",
+    "passiveEffect": "Makes Aerodactyl Mega-evolve into Mega-Aerodactyl",
+    "category": "held"
+  },
+  {
+    "name": "Aggronite",
+    "type": "gear",
+    "description": "Makes Aggron Mega-evolve into Mega-Aggron",
+    "effect": "",
+    "passiveEffect": "Makes Aggron Mega-evolve into Mega-Aggron",
+    "category": "held"
+  },
+  {
+    "name": "Alakazite",
+    "type": "gear",
+    "description": "Makes Alakazam Mega-evolve into Mega-Alakazam",
+    "effect": "",
+    "passiveEffect": "Makes Alakazam Mega-evolve into Mega-Alakazam",
+    "category": "held"
+  },
+  {
+    "name": "Altarianite",
+    "type": "gear",
+    "description": "Makes Altaria Mega-evolve into Mega-Altaria",
+    "effect": "",
+    "passiveEffect": "Makes Altaria Mega-evolve into Mega-Altaria",
+    "category": "held"
+  },
+  {
+    "name": "Ampharosite",
+    "type": "gear",
+    "description": "Makes Ampharos Mega-evolve into Mega-Ampharos",
+    "effect": "",
+    "passiveEffect": "Makes Ampharos Mega-evolve into Mega-Ampharos",
+    "category": "held"
+  },
+  {
+    "name": "Audinite",
+    "type": "gear",
+    "description": "Makes Audino Mega-evolve into Mega-Audino",
+    "effect": "",
+    "passiveEffect": "Makes Audino Mega-evolve into Mega-Audino",
+    "category": "held"
+  },
+  {
+    "name": "Banettite",
+    "type": "gear",
+    "description": "Makes Banette Mega-evolve into Mega-Banette",
+    "effect": "",
+    "passiveEffect": "Makes Banette Mega-evolve into Mega-Banette",
+    "category": "held"
+  },
+  {
+    "name": "Beedrillite",
+    "type": "gear",
+    "description": "Makes Beedrill Mega-evolve into Mega-Beedrill",
+    "effect": "",
+    "passiveEffect": "Makes Beedrill Mega-evolve into Mega-Beedrill",
+    "category": "held"
+  },
+  {
+    "name": "Blastoisinite",
+    "type": "gear",
+    "description": "Makes Blastoise Mega-evolve into Mega-Blastoise",
+    "effect": "",
+    "passiveEffect": "Makes Blastoise Mega-evolve into Mega-Blastoise",
+    "category": "held"
+  },
+  {
+    "name": "Blazikenite",
+    "type": "gear",
+    "description": "Makes Blaziken Mega-evolve into Mega-Blaziken",
+    "effect": "",
+    "passiveEffect": "Makes Blaziken Mega-evolve into Mega-Blaziken",
+    "category": "held"
+  },
+  {
+    "name": "Cameruptite",
+    "type": "gear",
+    "description": "Makes Camerupt Mega-evolve into Mega-Camerupt",
+    "effect": "",
+    "passiveEffect": "Makes Camerupt Mega-evolve into Mega-Camerupt",
+    "category": "held"
+  },
+  {
+    "name": "Charizardite X",
+    "type": "gear",
+    "description": "Makes Charizard Mega-Evolve into Mega-Charizard X",
+    "effect": "",
+    "passiveEffect": "Makes Charizard Mega-Evolve into Mega-Charizard X",
+    "category": "held"
+  },
+  {
+    "name": "Charizardite Y",
+    "type": "gear",
+    "description": "Makes Charizard Mega-Evolve into Mega-Charizard Y",
+    "effect": "",
+    "passiveEffect": "Makes Charizard Mega-Evolve into Mega-Charizard Y",
+    "category": "held"
+  },
+  {
+    "name": "Diancite",
+    "type": "gear",
+    "description": "Makes Diancie Mega-evolve into Mega-Diancie",
+    "effect": "",
+    "passiveEffect": "Makes Diancie Mega-evolve into Mega-Diancie",
+    "category": "held"
+  },
+  {
+    "name": "Galladite",
+    "type": "gear",
+    "description": "Makes Gallade Mega-evolve into Mega-Gallade",
+    "effect": "",
+    "passiveEffect": "Makes Gallade Mega-evolve into Mega-Gallade",
+    "category": "held"
+  },
+  {
+    "name": "Garchompite",
+    "type": "gear",
+    "description": "Makes Garchomp Mega-evolve into Mega-Garchomp",
+    "effect": "",
+    "passiveEffect": "Makes Garchomp Mega-evolve into Mega-Garchomp",
+    "category": "held"
+  },
+  {
+    "name": "Gardevoirite",
+    "type": "gear",
+    "description": "Makes Gardevoir Mega-evolve into Mega-Gardevoir",
+    "effect": "",
+    "passiveEffect": "Makes Gardevoir Mega-evolve into Mega-Gardevoir",
+    "category": "held"
+  },
+  {
+    "name": "Gengarite",
+    "type": "gear",
+    "description": "Makes Gengar Mega-evolve into Mega-Gengar",
+    "effect": "",
+    "passiveEffect": "Makes Gengar Mega-evolve into Mega-Gengar",
+    "category": "held"
+  },
+  {
+    "name": "Glalitite",
+    "type": "gear",
+    "description": "Makes Glalie Mega-evolve into Mega-Glalie",
+    "effect": "",
+    "passiveEffect": "Makes Glalie Mega-evolve into Mega-Glalie",
+    "category": "held"
+  },
+  {
+    "name": "Gyaradosite",
+    "type": "gear",
+    "description": "Makes Gyarados Mega-evolve into Mega-Gyarados",
+    "effect": "",
+    "passiveEffect": "Makes Gyarados Mega-evolve into Mega-Gyarados",
+    "category": "held"
+  },
+  {
+    "name": "Heracronite",
+    "type": "gear",
+    "description": "Makes Heracross Mega-evolve into Mega-Heracross",
+    "effect": "",
+    "passiveEffect": "Makes Heracross Mega-evolve into Mega-Heracross",
+    "category": "held"
+  },
+  {
+    "name": "Houndoominite",
+    "type": "gear",
+    "description": "Makes Houndoom Mega-evolve into Mega-Houndoom",
+    "effect": "",
+    "passiveEffect": "Makes Houndoom Mega-evolve into Mega-Houndoom",
+    "category": "held"
+  },
+  {
+    "name": "Kangaskhanite",
+    "type": "gear",
+    "description": "Makes Kangaskhan Mega-evolve into Mega-Kangaskhan",
+    "effect": "",
+    "passiveEffect": "Makes Kangaskhan Mega-evolve into Mega-Kangaskhan",
+    "category": "held"
+  },
+  {
+    "name": "Latiasite",
+    "type": "gear",
+    "description": "Makes Latias Mega-evolve into Mega-Latias",
+    "effect": "",
+    "passiveEffect": "Makes Latias Mega-evolve into Mega-Latias",
+    "category": "held"
+  },
+  {
+    "name": "Latiosite",
+    "type": "gear",
+    "description": "Makes Latios Mega-evolve into Mega-Latios",
+    "effect": "",
+    "passiveEffect": "Makes Latios Mega-evolve into Mega-Latios",
+    "category": "held"
+  },
+  {
+    "name": "Lopunnite",
+    "type": "gear",
+    "description": "Makes Lopunny Mega-evolve into Mega-Lopunny",
+    "effect": "",
+    "passiveEffect": "Makes Lopunny Mega-evolve into Mega-Lopunny",
+    "category": "held"
+  },
+  {
+    "name": "Lucarionite",
+    "type": "gear",
+    "description": "Makes Lucario Mega-evolve into Mega-Lucario",
+    "effect": "",
+    "passiveEffect": "Makes Lucario Mega-evolve into Mega-Lucario",
+    "category": "held"
+  },
+  {
+    "name": "Manectite",
+    "type": "gear",
+    "description": "Makes Manectric Mega-evolve into Mega-Manectric",
+    "effect": "",
+    "passiveEffect": "Makes Manectric Mega-evolve into Mega-Manectric",
+    "category": "held"
+  },
+  {
+    "name": "Mawilite",
+    "type": "gear",
+    "description": "Makes Mawile Mega-evolve into Mega-Mawile",
+    "effect": "",
+    "passiveEffect": "Makes Mawile Mega-evolve into Mega-Mawile",
+    "category": "held"
+  },
+  {
+    "name": "Medichamite",
+    "type": "gear",
+    "description": "Makes Medicham Mega-evolve into Mega-Medicham",
+    "effect": "",
+    "passiveEffect": "Makes Medicham Mega-evolve into Mega-Medicham",
+    "category": "held"
+  },
+  {
+    "name": "Metagrossite",
+    "type": "gear",
+    "description": "Makes Metagross Mega-evolve into Mega-Metagross",
+    "effect": "",
+    "passiveEffect": "Makes Metagross Mega-evolve into Mega-Metagross",
+    "category": "held"
+  },
+  {
+    "name": "Mewtwonite X",
+    "type": "gear",
+    "description": "Makes Mewtwo Mega-Evolve into Mega-Mewtwo X",
+    "effect": "",
+    "passiveEffect": "Makes Mewtwo Mega-Evolve into Mega-Mewtwo X",
+    "category": "held"
+  },
+  {
+    "name": "Mewtwonite Y",
+    "type": "gear",
+    "description": "Makes Mewtwo Mega-Evolve into Mega-Mewtwo Y",
+    "effect": "",
+    "passiveEffect": "Makes Mewtwo Mega-Evolve into Mega-Mewtwo Y",
+    "category": "held"
+  },
+  {
+    "name": "Pidgeotite",
+    "type": "gear",
+    "description": "Makes Pidgeot Mega-evolve into Mega-Pidgeot",
+    "effect": "",
+    "passiveEffect": "Makes Pidgeot Mega-evolve into Mega-Pidgeot",
+    "category": "held"
+  },
+  {
+    "name": "Pinsirite",
+    "type": "gear",
+    "description": "Makes Pinsir Mega-evolve into Mega-Pinsir",
+    "effect": "",
+    "passiveEffect": "Makes Pinsir Mega-evolve into Mega-Pinsir",
+    "category": "held"
+  },
+  {
+    "name": "Sablenite",
+    "type": "gear",
+    "description": "Makes Sableye Mega-evolve into Mega-Sableye",
+    "effect": "",
+    "passiveEffect": "Makes Sableye Mega-evolve into Mega-Sableye",
+    "category": "held"
+  },
+  {
+    "name": "Salamencite",
+    "type": "gear",
+    "description": "Makes Salamence Mega-evolve into Mega-Salamence",
+    "effect": "",
+    "passiveEffect": "Makes Salamence Mega-evolve into Mega-Salamence",
+    "category": "held"
+  },
+  {
+    "name": "Sceptilite",
+    "type": "gear",
+    "description": "Makes Sceptile Mega-evolve into Mega-Sceptile",
+    "effect": "",
+    "passiveEffect": "Makes Sceptile Mega-evolve into Mega-Sceptile",
+    "category": "held"
+  },
+  {
+    "name": "Scizorite",
+    "type": "gear",
+    "description": "Makes Scizor Mega-evolve into Mega-Scizor",
+    "effect": "",
+    "passiveEffect": "Makes Scizor Mega-evolve into Mega-Scizor",
+    "category": "held"
+  },
+  {
+    "name": "Sharpedonite",
+    "type": "gear",
+    "description": "Makes Sharpedo Mega-evolve into Mega-Sharpedo",
+    "effect": "",
+    "passiveEffect": "Makes Sharpedo Mega-evolve into Mega-Sharpedo",
+    "category": "held"
+  },
+  {
+    "name": "Slowbronite",
+    "type": "gear",
+    "description": "Makes Slowbro Mega-evolve into Mega-Slowbro",
+    "effect": "",
+    "passiveEffect": "Makes Slowbro Mega-evolve into Mega-Slowbro",
+    "category": "held"
+  },
+  {
+    "name": "Steelixite",
+    "type": "gear",
+    "description": "Makes Steelix Mega-evolve into Mega-Steelix",
+    "effect": "",
+    "passiveEffect": "Makes Steelix Mega-evolve into Mega-Steelix",
+    "category": "held"
+  },
+  {
+    "name": "Swampertite",
+    "type": "gear",
+    "description": "Makes Swampert Mega-evolve into Mega-Swampert",
+    "effect": "",
+    "passiveEffect": "Makes Swampert Mega-evolve into Mega-Swampert",
+    "category": "held"
+  },
+  {
+    "name": "Tyranitarite",
+    "type": "gear",
+    "description": "Makes Tyranitar Mega-evolve into Mega-Tyranitar",
+    "effect": "",
+    "passiveEffect": "Makes Tyranitar Mega-evolve into Mega-Tyranitar",
+    "category": "held"
+  },
+  {
+    "name": "Venusaurite",
+    "type": "gear",
+    "description": "Makes Venusaur Mega-evolve into Mega-Venusaur",
+    "effect": "",
+    "passiveEffect": "Makes Venusaur Mega-evolve into Mega-Venusaur",
+    "category": "held"
+  },
+  {
+    "name": "Aloraichium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Alolan Raichu's Thunderbolt to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Alolan Raichu's Thunderbolt to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Buginium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Bug-type moves to Bug-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Bug-type moves to Bug-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Darkinium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Dark-type moves to Dark-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Dark-type moves to Dark-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Decidium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Decidueye's Spirit Shackle to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Decidueye's Spirit Shackle to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Dragonium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Dragon-type moves to Dragon-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Dragon-type moves to Dragon-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Eevium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Eevee's Last Resort to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Eevee's Last Resort to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Electrium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Electric-type moves to Electric-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Electric-type moves to Electric-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Fairium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Fairy-type moves to Fairy-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Fairy-type moves to Fairy-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Fightinium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Fighting-type moves to Fighting-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Fighting-type moves to Fighting-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Firium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Fire-type moves to Fire-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Fire-type moves to Fire-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Flyinium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Flying-type moves to Flying-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Flying-type moves to Flying-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Ghostium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Ghost-type moves to Ghost-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Ghost-type moves to Ghost-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Grassium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Grass-type moves to Grass-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Grass-type moves to Grass-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Groundium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Ground-type moves to Ground-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Ground-type moves to Ground-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Icium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Ice-type moves to Ice-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Ice-type moves to Ice-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Incinium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Incineroar's Darkest Lariat to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Incineroar's Darkest Lariat to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Kommonium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Kommo-o's Clanging Scales to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Kommo-o's Clanging Scales to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Lunalium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Lunala's Moongeist Beam to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Lunala's Moongeist Beam to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Lycanium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Lycanroc's Stone Edge to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Lycanroc's Stone Edge to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Marshadium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Marshadow's Spectral Thief to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Marshadow's Spectral Thief to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Mewnium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Mew's Psychic to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Mew's Psychic to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Mimikium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Mimikyu's Play Rough to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Mimikyu's Play Rough to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Normalium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Normal-type moves to Normal-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Normal-type moves to Normal-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Pikanium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Pikachu's Volt Tackle to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Pikachu's Volt Tackle to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Pikashunium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Pikachu's Thunderbolt to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Pikachu's Thunderbolt to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Poisonium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Poison-type moves to Poison-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Poison-type moves to Poison-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Primarium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Primarina's Sparkling Aria to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Primarina's Sparkling Aria to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Psychium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Psychic-type moves to Psychic-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Psychic-type moves to Psychic-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Rockium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Rock-type moves to Rock-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Rock-type moves to Rock-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Snorlium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Snorlax's Giga Impact to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Snorlax's Giga Impact to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Solganium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Solgaleo's Sunsteel Strike to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Solgaleo's Sunsteel Strike to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Steelium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Steel-type moves to Steel-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Steel-type moves to Steel-type Z-Moves.",
+    "category": "held"
+  },
+  {
+    "name": "Tapunium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades the tapu's Nature's Madness to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades the tapu's Nature's Madness to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Ultranecrozium Z",
+    "type": "gear",
+    "description": "This is a crystallized form of Z-Power. It upgrades Necrozma's Photon Geyser to a Z-Move.",
+    "effect": "",
+    "passiveEffect": "This is a crystallized form of Z-Power. It upgrades Necrozma's Photon Geyser to a Z-Move.",
+    "category": "held"
+  },
+  {
+    "name": "Waterium Z",
+    "type": "gear",
+    "description": "It converts Z-Power into crystals that upgrade Water-type moves to Water-type Z-Moves.",
+    "effect": "",
+    "passiveEffect": "It converts Z-Power into crystals that upgrade Water-type moves to Water-type Z-Moves.",
+    "category": "held"
+  }
+]

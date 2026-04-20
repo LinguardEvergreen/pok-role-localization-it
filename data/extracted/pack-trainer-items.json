@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Big Camping Tent",
+    "type": "gear",
+    "description": "A spacious tent for a group to spend a cozy night. Made with repellent materials against wild Pokemon.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Small Camping Tent",
+    "type": "gear",
+    "description": "A comfortable space for one or two people. Made with repellent materials against wild Pokemon.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Sleeping Bag",
+    "type": "gear",
+    "description": "Not too comfortable. You'll be able to sleep warm and dry but after a few nights your back may hurt.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Camping Stove & Cookware",
+    "type": "gear",
+    "description": "Forget about hunting and eating roots like a savage. With this luxury set you'll always have a gourmet meal.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Compass",
+    "type": "gear",
+    "description": "A useful compass to point you in the right direction. Warning: Keep away from magnets.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Regional Map",
+    "type": "gear",
+    "description": "A map with the marked routes, cities and Pokemon Centers of the region you are in.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Mountain Bike",
+    "type": "gear",
+    "description": "You will travel twice as fast with this awesome all-terrain bike. Now at an insane price!",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Inflatable Boat",
+    "type": "gear",
+    "description": "A small boat for two persons. Your Pokemon can pull you through the water or you can use the oars.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Fishing Rod",
+    "type": "gear",
+    "description": "A fishing rod to catch Pokemon living underwater. Make sure to get the right bait or they won't bite.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Saddle",
+    "type": "gear",
+    "description": "A secure seat to strap on a Pokemon large enough to carry you. Riding a Pokemon sure is exciting!",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Sled",
+    "type": "gear",
+    "description": "Strap one large Pokemon or several small ones to pull you through snow, sand or any smooth surface!",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Hang Glider",
+    "type": "gear",
+    "description": "You will catch more Pokemon with honey than with vinegar. Wild Pokemon will come in hordes tracking it's scent, or you can enjoy it as a sweet treat!",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "travel"
+  },
+  {
+    "name": "Pokedex",
+    "type": "gear",
+    "description": "A digital encyclopedia with basic information about regional Pokemon. You may add your own research.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "key"
+  },
+  {
+    "name": "Pokedex Upgrade",
+    "type": "gear",
+    "description": "Upgrade your Pokedex with the information of the Pokemon on a new region.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "key"
+  },
+  {
+    "name": "Meal Rations",
+    "type": "gear",
+    "description": "Nothing fancy but there's no need to travel on an empty stomach. One ration is enough for one day.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "other"
+  },
+  {
+    "name": "PokeDoll",
+    "type": "gear",
+    "description": "Life-size decoy used to escape wild Pokemon. Some people like to collect them.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "other"
+  },
+  {
+    "name": "Pokémon Repel",
+    "type": "gear",
+    "description": "Most Pokemon won't come near you for about eight hours. The smell is now machine-washable.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "other"
+  },
+  {
+    "name": "Pepper Spray Can",
+    "type": "gear",
+    "description": "Scares away small Pokemon, but it may enrage the bigger ones. Good for 5 uses.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "other"
+  },
+  {
+    "name": "Honey",
+    "type": "gear",
+    "description": "You will catch more Pokemon with honey than with vinegar. Wild Pokemon will come in hordes tracking it's scent, or you can enjoy it as a sweet treat!",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "other"
+  },
+  {
+    "name": "Pokeball",
+    "type": "gear",
+    "description": "Seal potency of 4 dice. A basic ball used for catching Pokemon and carrying heavy items.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Greatball",
+    "type": "gear",
+    "description": "Seal potency of 6 dice. A sturdier barrier protects the seal so you have an easier time catching Pokemon.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Ultraball",
+    "type": "gear",
+    "description": "Seal potency of 8 dice. The best seal in the market to ensure the catch of stronger Pokemon.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Masterball",
+    "type": "gear",
+    "description": "It's been long rumored that a mighty pokeball with the strongest seal in existance is in development. But no one has truly seen it in action.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Old Pokeball",
+    "type": "gear",
+    "description": "Rare. An old model of Pokeball, now a collector's item.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Dusk Ball",
+    "type": "gear",
+    "description": "Uncommon. The seal on this ball gets stronger the darker it gets. Increase seal potency by 4 if you are in a cave and/or by 5 if it's night time.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Fast Ball",
+    "type": "gear",
+    "description": "Uncommon. This seal potency is equal to the Dexterity Score of the Pokemon you are trying to catch. Up to 9 dice.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Heavy Ball",
+    "type": "gear",
+    "description": "Uncommon. Increase seal potency by 1 for every 50 lbs/25kg, on the Pokemon you are trying to catch. Up to 5 dice may be added this way.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Luxury Ball",
+    "type": "gear",
+    "description": "Very Rare. Any Pokemon caught with this ball will have their Happiness Score increased by 1.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Quick Ball",
+    "type": "gear",
+    "description": "Uncommon. The seal on this ball works on a timer. Starting with a max potency of 9 dice on the first Round of battle and reducing the seal potency by 2 each Round that passes.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Sub Ball",
+    "type": "gear",
+    "description": "Uncommon. Normally has the seal potency of a Pokeball (4 dice), but against Water-type Pokemon it has the seal potency of a Greatball (6 dice).",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Heal Ball",
+    "type": "gear",
+    "description": "Uncommon. Has the seal potency of a Pokeball (4 dice) but fully heals the Pokemon once captured.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "pokeball"
+  },
+  {
+    "name": "Revive",
+    "type": "gear",
+    "description": "A small energy shard that brings a fainted Human or Pokemon back into conciousness and stabilizes all their wounds. Restore conciousness & 1 HP.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "revive"
+  },
+  {
+    "name": "Max Revive",
+    "type": "gear",
+    "description": "A bigger rock shard with enhaced effects. Found raw in deep caves. Very rare to find. Not available in stores. Restore conciousness & Full HP.",
+    "effect": "",
+    "passiveEffect": "",
+    "category": "revive"
+  }
+]

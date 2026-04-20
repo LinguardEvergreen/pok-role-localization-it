@@ -1,0 +1,65 @@
+{
+  "label": "Cura dei Pokémon",
+  "entries": {
+    "Dry Food": {
+      "name": "Crocchette",
+      "description": "Crocchette secche per il tuo Pokémon. Niente di speciale. Sufficienti per un giorno."
+    },
+    "Gourmet Food": {
+      "name": "Cibo Gourmet",
+      "description": "Preparato con ingredienti premium. Nutrendo regolarmente il Pokémon con questo cibo la sua Felicità aumenterà più in fretta."
+    },
+    "High-Performance Food": {
+      "name": "Cibo ad Alte Prestazioni",
+      "description": "Crocchette iperproteiche, pensate per gli atleti! Aggiungi 2 dadi al prossimo tiro di Allenamento del Pokémon."
+    },
+    "Protein": {
+      "name": "Proteina",
+      "description": "Un gustoso frappé che favorisce lo sviluppo di muscoli più grossi e potenti."
+    },
+    "Iron": {
+      "name": "Ferro",
+      "description": "Una capsula di ferro che riduce la debolezza e ti dona un aspetto sano."
+    },
+    "Calcium": {
+      "name": "Calcio",
+      "description": "Aggiungi queste compresse effervescenti a una bibita per favorire la crescita di ossa più robuste."
+    },
+    "Zinc": {
+      "name": "Zinco",
+      "description": "Capsule di zinco che aiutano lo sviluppo cerebrale."
+    },
+    "Carbos": {
+      "name": "Carburante",
+      "description": "Uno sciroppo salutare che ti riempie d'energia!"
+    },
+    "HP Up": {
+      "name": "PS-Su",
+      "description": "Un insieme di vitamine e minerali per aiutare il tuo Pokémon a crescere grande e sano."
+    },
+    "PP Up": {
+      "name": "PP-Su",
+      "description": "Si dice siano solo pillole di zucchero. Chi può saperlo davvero?"
+    },
+    "Rare Candy": {
+      "name": "Caramella Rara",
+      "description": "Non dovresti mai accettare caramelle dagli sconosciuti... ma forse solo per questa volta."
+    },
+    "Power Increasers": {
+      "name": "Intensificatori di Potenza",
+      "description": "Equipaggiamento appesantito che riduce di 1 la Destrezza ma garantisce un aumento di 2 a un altro Attributo/Tratto a tua scelta."
+    },
+    "Grooming Kit": {
+      "name": "Kit per Toelettatura",
+      "description": "Niente più pelo arruffato, foglie ribelli, squame che si sfaldano, rocce ruvide, acciaio opaco... hai capito l'idea."
+    },
+    "Pokemon Costume": {
+      "name": "Costume per Pokémon",
+      "description": "Abiti alla moda. I tuoi compagni saranno splendidi con questi costumi e ne andranno fieri!"
+    },
+    "Piece of Accessory": {
+      "name": "Accessorio",
+      "description": "Fiocchi, cappellini, collari e tutto ciò che serve per rendere il tuo compagno super speciale."
+    }
+  }
+}
