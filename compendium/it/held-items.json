@@ -303,331 +303,413 @@
     },
     "Abomasite": {
       "name": "Abomasnowite",
-      "description": "Megapietra che permette ad Abomasnow di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette ad Abomasnow di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Abomasnow in MegaAbomasnow."
     },
     "Absolite": {
       "name": "Absolite",
-      "description": "Megapietra che permette ad Absol di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette ad Absol di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Absol in MegaAbsol."
     },
     "Aerodactylite": {
       "name": "Aerodactylite",
-      "description": "Megapietra che permette ad Aerodactyl di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette ad Aerodactyl di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Aerodactyl in MegaAerodactyl."
     },
     "Aggronite": {
       "name": "Aggronite",
-      "description": "Megapietra che permette ad Aggron di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette ad Aggron di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Aggron in MegaAggron."
     },
     "Alakazite": {
       "name": "Alakazamite",
-      "description": "Megapietra che permette ad Alakazam di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette ad Alakazam di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Alakazam in MegaAlakazam."
     },
     "Altarianite": {
       "name": "Altarite",
-      "description": "Megapietra che permette ad Altaria di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette ad Altaria di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Altaria in MegaAltaria."
     },
     "Ampharosite": {
       "name": "Ampharosite",
-      "description": "Megapietra che permette ad Ampharos di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette ad Ampharos di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Ampharos in MegaAmpharos."
     },
     "Audinite": {
       "name": "Audinite",
-      "description": "Megapietra che permette ad Audino di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette ad Audino di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Audino in MegaAudino."
     },
     "Banettite": {
       "name": "Banettite",
-      "description": "Megapietra che permette a Banette di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Banette di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Banette in MegaBanette."
     },
     "Beedrillite": {
       "name": "Beedrillite",
-      "description": "Megapietra che permette a Beedrill di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Beedrill di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Beedrill in MegaBeedrill."
     },
     "Blastoisinite": {
       "name": "Blastoisite",
-      "description": "Megapietra che permette a Blastoise di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Blastoise di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Blastoise in MegaBlastoise."
     },
     "Blazikenite": {
       "name": "Blazikenite",
-      "description": "Megapietra che permette a Blaziken di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Blaziken di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Blaziken in MegaBlaziken."
     },
     "Cameruptite": {
       "name": "Cameruptite",
-      "description": "Megapietra che permette a Camerupt di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Camerupt di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Camerupt in MegaCamerupt."
     },
     "Charizardite X": {
       "name": "Charizardite X",
-      "description": "Megapietra che permette a Charizard di megaevolvere nella forma X durante la battaglia."
+      "description": "Megapietra che permette a Charizard di megaevolvere nella forma X durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Charizard in MegaCharizard X."
     },
     "Charizardite Y": {
       "name": "Charizardite Y",
-      "description": "Megapietra che permette a Charizard di megaevolvere nella forma Y durante la battaglia."
+      "description": "Megapietra che permette a Charizard di megaevolvere nella forma Y durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Charizard in MegaCharizard Y."
     },
     "Diancite": {
       "name": "Diancite",
-      "description": "Megapietra che permette a Diancie di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Diancie di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Diancie in MegaDiancie."
     },
     "Galladite": {
       "name": "Galladite",
-      "description": "Megapietra che permette a Gallade di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Gallade di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Gallade in MegaGallade."
     },
     "Garchompite": {
       "name": "Garchompite",
-      "description": "Megapietra che permette a Garchomp di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Garchomp di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Garchomp in MegaGarchomp."
     },
     "Gardevoirite": {
       "name": "Gardevoirite",
-      "description": "Megapietra che permette a Gardevoir di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Gardevoir di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Gardevoir in MegaGardevoir."
     },
     "Gengarite": {
       "name": "Gengarite",
-      "description": "Megapietra che permette a Gengar di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Gengar di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Gengar in MegaGengar."
     },
     "Glalitite": {
       "name": "Glalite",
-      "description": "Megapietra che permette a Glalie di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Glalie di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Glalie in MegaGlalie."
     },
     "Gyaradosite": {
       "name": "Gyaradosite",
-      "description": "Megapietra che permette a Gyarados di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Gyarados di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Gyarados in MegaGyarados."
     },
     "Heracronite": {
       "name": "Heracrossite",
-      "description": "Megapietra che permette a Heracross di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Heracross di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Heracross in MegaHeracross."
     },
     "Houndoominite": {
       "name": "Houndoomite",
-      "description": "Megapietra che permette a Houndoom di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Houndoom di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Houndoom in MegaHoundoom."
     },
     "Kangaskhanite": {
       "name": "Kangaskhanite",
-      "description": "Megapietra che permette a Kangaskhan di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Kangaskhan di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Kangaskhan in MegaKangaskhan."
     },
     "Latiasite": {
       "name": "Latiasite",
-      "description": "Megapietra che permette a Latias di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Latias di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Latias in MegaLatias."
     },
     "Latiosite": {
       "name": "Latiosite",
-      "description": "Megapietra che permette a Latios di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Latios di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Latios in MegaLatios."
     },
     "Lopunnite": {
       "name": "Lopunnite",
-      "description": "Megapietra che permette a Lopunny di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Lopunny di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Lopunny in MegaLopunny."
     },
     "Lucarionite": {
       "name": "Lucarite",
-      "description": "Megapietra che permette a Lucario di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Lucario di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Lucario in MegaLucario."
     },
     "Manectite": {
       "name": "Manectricite",
-      "description": "Megapietra che permette a Manectric di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Manectric di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Manectric in MegaManectric."
     },
     "Mawilite": {
       "name": "Mawilite",
-      "description": "Megapietra che permette a Mawile di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Mawile di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Mawile in MegaMawile."
     },
     "Medichamite": {
       "name": "Medichamite",
-      "description": "Megapietra che permette a Medicham di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Medicham di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Medicham in MegaMedicham."
     },
     "Metagrossite": {
       "name": "Metagrossite",
-      "description": "Megapietra che permette a Metagross di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Metagross di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Metagross in MegaMetagross."
     },
     "Mewtwonite X": {
       "name": "Mewtwoite X",
-      "description": "Megapietra che permette a Mewtwo di megaevolvere nella forma X durante la battaglia."
+      "description": "Megapietra che permette a Mewtwo di megaevolvere nella forma X durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Mewtwo in MegaMewtwo X."
     },
     "Mewtwonite Y": {
       "name": "Mewtwoite Y",
-      "description": "Megapietra che permette a Mewtwo di megaevolvere nella forma Y durante la battaglia."
+      "description": "Megapietra che permette a Mewtwo di megaevolvere nella forma Y durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Mewtwo in MegaMewtwo Y."
     },
     "Pidgeotite": {
       "name": "Pidgeotite",
-      "description": "Megapietra che permette a Pidgeot di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Pidgeot di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Pidgeot in MegaPidgeot."
     },
     "Pinsirite": {
       "name": "Pinsirite",
-      "description": "Megapietra che permette a Pinsir di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Pinsir di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Pinsir in MegaPinsir."
     },
     "Sablenite": {
       "name": "Sableyite",
-      "description": "Megapietra che permette a Sableye di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Sableye di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Sableye in MegaSableye."
     },
     "Salamencite": {
       "name": "Salamencite",
-      "description": "Megapietra che permette a Salamence di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Salamence di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Salamence in MegaSalamence."
     },
     "Sceptilite": {
       "name": "Sceptilite",
-      "description": "Megapietra che permette a Sceptile di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Sceptile di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Sceptile in MegaSceptile."
     },
     "Scizorite": {
       "name": "Scizorite",
-      "description": "Megapietra che permette a Scizor di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Scizor di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Scizor in MegaScizor."
     },
     "Sharpedonite": {
       "name": "Sharpedite",
-      "description": "Megapietra che permette a Sharpedo di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Sharpedo di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Sharpedo in MegaSharpedo."
     },
     "Slowbronite": {
       "name": "Slowbroite",
-      "description": "Megapietra che permette a Slowbro di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Slowbro di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Slowbro in MegaSlowbro."
     },
     "Steelixite": {
       "name": "Steelixite",
-      "description": "Megapietra che permette a Steelix di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Steelix di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Steelix in MegaSteelix."
     },
     "Swampertite": {
       "name": "Swampertite",
-      "description": "Megapietra che permette a Swampert di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Swampert di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Swampert in MegaSwampert."
     },
     "Tyranitarite": {
       "name": "Tyranitarite",
-      "description": "Megapietra che permette a Tyranitar di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Tyranitar di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Tyranitar in MegaTyranitar."
     },
     "Venusaurite": {
       "name": "Venusaurite",
-      "description": "Megapietra che permette a Venusaur di megaevolvere durante la battaglia."
+      "description": "Megapietra che permette a Venusaur di megaevolvere durante la battaglia.",
+      "system.held.passiveEffect": "Fa Megaevolvere Venusaur in MegaVenusaur."
     },
     "Aloraichium Z": {
       "name": "Aloraicium Z",
-      "description": "Cristallo Z esclusivo di Raichu di Alola. Trasforma una sua mossa Elettro in Fulmitempesta."
+      "description": "Cristallo Z esclusivo di Raichu di Alola. Trasforma una sua mossa Elettro in Fulmitempesta.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Fulmine di Raichu di Alola in una Mossa Z."
     },
     "Buginium Z": {
       "name": "Insectium Z",
-      "description": "Cristallo Z del tipo Coleottero. Trasforma una mossa Coleottero in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Coleottero. Trasforma una mossa Coleottero in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Coleottero in Mosse Z di tipo Coleottero."
     },
     "Darkinium Z": {
       "name": "Obscurium Z",
-      "description": "Cristallo Z del tipo Buio. Trasforma una mossa Buio in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Buio. Trasforma una mossa Buio in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Buio in Mosse Z di tipo Buio."
     },
     "Decidium Z": {
       "name": "Deciduenium Z",
-      "description": "Cristallo Z esclusivo di Decidueye. Trasforma Astrofrecce in Astrofrecce Ultrasilente."
+      "description": "Cristallo Z esclusivo di Decidueye. Trasforma Astrofrecce in Astrofrecce Ultrasilente.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Cucitura d'Ombra di Decidueye in una Mossa Z."
     },
     "Dragonium Z": {
       "name": "Draconium Z",
-      "description": "Cristallo Z del tipo Drago. Trasforma una mossa Drago in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Drago. Trasforma una mossa Drago in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Drago in Mosse Z di tipo Drago."
     },
     "Eevium Z": {
       "name": "Eevium Z",
-      "description": "Cristallo Z esclusivo di Eevee. Trasforma Ultimo Sforzo in Novenità Evoluzione."
+      "description": "Cristallo Z esclusivo di Eevee. Trasforma Ultimo Sforzo in Novenità Evoluzione.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Ultimascelta di Eevee in una Mossa Z."
     },
     "Electrium Z": {
       "name": "Electrium Z",
-      "description": "Cristallo Z del tipo Elettro. Trasforma una mossa Elettro in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Elettro. Trasforma una mossa Elettro in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Elettro in Mosse Z di tipo Elettro."
     },
     "Fairium Z": {
       "name": "Follectium Z",
-      "description": "Cristallo Z del tipo Folletto. Trasforma una mossa Folletto in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Folletto. Trasforma una mossa Folletto in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Folletto in Mosse Z di tipo Folletto."
     },
     "Fightinium Z": {
       "name": "Luctium Z",
-      "description": "Cristallo Z del tipo Lotta. Trasforma una mossa Lotta in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Lotta. Trasforma una mossa Lotta in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Lotta in Mosse Z di tipo Lotta."
     },
     "Firium Z": {
       "name": "Pirium Z",
-      "description": "Cristallo Z del tipo Fuoco. Trasforma una mossa Fuoco in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Fuoco. Trasforma una mossa Fuoco in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Fuoco in Mosse Z di tipo Fuoco."
     },
     "Flyinium Z": {
       "name": "Volantium Z",
-      "description": "Cristallo Z del tipo Volante. Trasforma una mossa Volante in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Volante. Trasforma una mossa Volante in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Volante in Mosse Z di tipo Volante."
     },
     "Ghostium Z": {
       "name": "Spectrium Z",
-      "description": "Cristallo Z del tipo Spettro. Trasforma una mossa Spettro in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Spettro. Trasforma una mossa Spettro in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Spettro in Mosse Z di tipo Spettro."
     },
     "Grassium Z": {
       "name": "Herbium Z",
-      "description": "Cristallo Z del tipo Erba. Trasforma una mossa Erba in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Erba. Trasforma una mossa Erba in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Erba in Mosse Z di tipo Erba."
     },
     "Groundium Z": {
       "name": "Terrium Z",
-      "description": "Cristallo Z del tipo Terra. Trasforma una mossa Terra in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Terra. Trasforma una mossa Terra in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Terra in Mosse Z di tipo Terra."
     },
     "Icium Z": {
       "name": "Glacium Z",
-      "description": "Cristallo Z del tipo Ghiaccio. Trasforma una mossa Ghiaccio in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Ghiaccio. Trasforma una mossa Ghiaccio in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Ghiaccio in Mosse Z di tipo Ghiaccio."
     },
     "Incinium Z": {
       "name": "Incineronium Z",
-      "description": "Cristallo Z esclusivo di Incineroar. Trasforma Mossa Oscura in Mossa Oscura Bestiale."
+      "description": "Cristallo Z esclusivo di Incineroar. Trasforma Mossa Oscura in Mossa Oscura Bestiale.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Braccioteso di Incineroar in una Mossa Z."
     },
     "Kommonium Z": {
       "name": "Kommonium Z",
-      "description": "Cristallo Z esclusivo di Kommo-o. Trasforma Clamorlampo in Sinfonia delle Squame."
+      "description": "Cristallo Z esclusivo di Kommo-o. Trasforma Clamorlampo in Sinfonia delle Squame.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Clamorsquame di Kommo-o in una Mossa Z."
     },
     "Lunalium Z": {
       "name": "Lunalium Z",
-      "description": "Cristallo Z esclusivo di Lunala/Necrozma Ali dell'Aurora. Trasforma Luna Calante in Raggio d'Ombra Astrale."
+      "description": "Cristallo Z esclusivo di Lunala/Necrozma Ali dell'Aurora. Trasforma Luna Calante in Raggio d'Ombra Astrale.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Raggio d'Ombra di Lunala in una Mossa Z."
     },
     "Lycanium Z": {
       "name": "Lycanrochium Z",
-      "description": "Cristallo Z esclusivo di Lycanroc. Trasforma Rocciotomia in Divororoccia."
+      "description": "Cristallo Z esclusivo di Lycanroc. Trasforma Rocciotomia in Divororoccia.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Pietrataglio di Lycanroc in una Mossa Z."
     },
     "Marshadium Z": {
       "name": "Marshadium Z",
-      "description": "Cristallo Z esclusivo di Marshadow. Trasforma Pugnospettro in Pugnospettro Rinforzato."
+      "description": "Cristallo Z esclusivo di Marshadow. Trasforma Pugnospettro in Pugnospettro Rinforzato.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Ombrafurto di Marshadow in una Mossa Z."
     },
     "Mewnium Z": {
       "name": "Mewnium Z",
-      "description": "Cristallo Z esclusivo di Mew. Trasforma Psichico in Psico Vertigine."
+      "description": "Cristallo Z esclusivo di Mew. Trasforma Psichico in Psico Vertigine.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Psichico di Mew in una Mossa Z."
     },
     "Mimikium Z": {
       "name": "Mimikyum Z",
-      "description": "Cristallo Z esclusivo di Mimikyu. Trasforma Farsa in Farsa Funesta."
+      "description": "Cristallo Z esclusivo di Mimikyu. Trasforma Farsa in Farsa Funesta.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Carineria di Mimikyu in una Mossa Z."
     },
     "Normalium Z": {
       "name": "Normium Z",
-      "description": "Cristallo Z del tipo Normale. Trasforma una mossa Normale in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Normale. Trasforma una mossa Normale in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Normale in Mosse Z di tipo Normale."
     },
     "Pikanium Z": {
       "name": "Pikacium Z",
-      "description": "Cristallo Z esclusivo di Pikachu. Trasforma Fulmine in Fulmine Decimila Volt."
+      "description": "Cristallo Z esclusivo di Pikachu. Trasforma Fulmine in Fulmine Decimila Volt.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Locomovolt di Pikachu in una Mossa Z."
     },
     "Pikashunium Z": {
       "name": "Ashpikacium Z",
-      "description": "Cristallo Z esclusivo di Pikachu con berretto di Ash. Trasforma Fulmine in Fulmine Gigavolt Decisivo."
+      "description": "Cristallo Z esclusivo di Pikachu con berretto di Ash. Trasforma Fulmine in Fulmine Gigavolt Decisivo.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Fulmine di Pikachu in una Mossa Z."
     },
     "Poisonium Z": {
       "name": "Venenium Z",
-      "description": "Cristallo Z del tipo Veleno. Trasforma una mossa Veleno in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Veleno. Trasforma una mossa Veleno in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Veleno in Mosse Z di tipo Veleno."
     },
     "Primarium Z": {
       "name": "Primarinium Z",
-      "description": "Cristallo Z esclusivo di Primarina. Trasforma Canto Magico in Canto Sirenico."
+      "description": "Cristallo Z esclusivo di Primarina. Trasforma Canto Magico in Canto Sirenico.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Canto Effimero di Primarina in una Mossa Z."
     },
     "Psychium Z": {
       "name": "Psichium Z",
-      "description": "Cristallo Z del tipo Psico. Trasforma una mossa Psico in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Psico. Trasforma una mossa Psico in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Psico in Mosse Z di tipo Psico."
     },
     "Rockium Z": {
       "name": "Petrium Z",
-      "description": "Cristallo Z del tipo Roccia. Trasforma una mossa Roccia in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Roccia. Trasforma una mossa Roccia in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Roccia in Mosse Z di tipo Roccia."
     },
     "Snorlium Z": {
       "name": "Snorlactium Z",
-      "description": "Cristallo Z esclusivo di Snorlax. Trasforma Forza G in Pennico da 9 Tonnellate."
+      "description": "Cristallo Z esclusivo di Snorlax. Trasforma Forza G in Pennico da 9 Tonnellate.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Gigaimpatto di Snorlax in una Mossa Z."
     },
     "Solganium Z": {
       "name": "Solgaleium Z",
-      "description": "Cristallo Z esclusivo di Solgaleo/Necrozma Criniera del Vespro. Trasforma Vampasolare in Raggio di Sole Astrale."
+      "description": "Cristallo Z esclusivo di Solgaleo/Necrozma Criniera del Vespro. Trasforma Vampasolare in Raggio di Sole Astrale.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Astrocarica di Solgaleo in una Mossa Z."
     },
     "Steelium Z": {
       "name": "Metallium Z",
-      "description": "Cristallo Z del tipo Acciaio. Trasforma una mossa Acciaio in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Acciaio. Trasforma una mossa Acciaio in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Acciaio in Mosse Z di tipo Acciaio."
     },
     "Tapunium Z": {
       "name": "Tapium Z",
-      "description": "Cristallo Z esclusivo dei Tapu. Trasforma Gunfuria in Imperium Insulare."
+      "description": "Cristallo Z esclusivo dei Tapu. Trasforma Gunfuria in Imperium Insulare.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Ira della Natura dei Tapu in una Mossa Z."
     },
     "Ultranecrozium Z": {
       "name": "Ultranecrozium Z",
-      "description": "Cristallo Z esclusivo di Necrozma. Permette la trasformazione in Ultra Necrozma e sblocca l'Esplosione Foto Geyser."
+      "description": "Cristallo Z esclusivo di Necrozma. Permette la trasformazione in Ultra Necrozma e sblocca l'Esplosione Foto Geyser.",
+      "system.held.passiveEffect": "Si tratta di una forma cristallizzata di Z-Potere. Potenzia Geyser Fotonico di Necrozma in una Mossa Z."
     },
     "Waterium Z": {
       "name": "Idrium Z",
-      "description": "Cristallo Z del tipo Acqua. Trasforma una mossa Acqua in una mossa Z superpotente."
+      "description": "Cristallo Z del tipo Acqua. Trasforma una mossa Acqua in una mossa Z superpotente.",
+      "system.held.passiveEffect": "Converte lo Z-Potere in cristalli che potenziano le mosse di tipo Acqua in Mosse Z di tipo Acqua."
     }
   }
 }
