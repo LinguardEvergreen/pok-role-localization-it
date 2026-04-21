@@ -275,6 +275,18 @@ function overlayActorSheet(app, rootEl) {
   const actor = app?.actor ?? app?.object;
   if (!actor || !rootEl) return;
 
+  // Install the system-sheet prototype patch once, lazily.
+  maybeInstallSheetPatch(app);
+
+  // Normalize stored Italian move names back to English on first render
+  // (idempotent — flagged on the actor). Fire-and-forget; the next render
+  // will pick up the updated names for the DOM overlay.
+  if (actor.type === "pokemon" && actor.isOwner) {
+    if (actor.getFlag?.(MIGRATION_FLAG_SCOPE, MIGRATION_FLAG_KEY) !== true) {
+      migrateActorMoveNamesToEnglish(actor);
+    }
+  }
+
   // Pokémon-specific sheets are the primary target but the same approach is
   // safe for any actor type since Babele already handled compendium actors.
   // We do NOT touch the stored actor data — only the rendered DOM.
@@ -487,6 +499,213 @@ function overlayMovesByRank(actor, rootEl) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Keep move-item `name` English on stored actor data
+// ---------------------------------------------------------------------------
+//
+// The pok-role-system matches move.name against English names in
+// `system.learnsetByRank` for rank-up (adds new moves) and evolution
+// (auto-retain / keep-moves dialog). If Babele has rewritten the stored
+// item.name to Italian, every match fails: rank-up can't find the move in
+// the Italian-translated compendium index, evolution treats every move as
+// "unique to the old form", and the keep-moves dialog prompts the user
+// unnecessarily.
+//
+// Fix: keep the STORED `item.name` in English at all times; render Italian
+// via the existing DOM overlay (`translateItemWithin`) only.
+//   - `preCreateItem` hook rewrites Italian → English before persist.
+//   - A sheet-open migration renames already-Italian items back to English.
+//   - `_syncLearnsetMovesToItems` is patched to search the (Babele-translated)
+//     pack index bilingually, so rank-up can still create missing moves.
+
+/** Migration flag key on an actor to avoid redundant migrations. */
+const MIGRATION_FLAG_SCOPE = MODULE_ID;
+const MIGRATION_FLAG_KEY = "moveNamesMigrated";
+
+/**
+ * Rename Italian move-item names back to English on a Pokémon actor. Runs
+ * idempotently; a per-actor flag short-circuits subsequent invocations once
+ * no Italian names remain.
+ *
+ * IMPORTANT: only performs an embedded-document update when the active user
+ * actually owns the actor; otherwise a non-owning player would get a
+ * permission error from Foundry. The GM (or the owning player) will
+ * eventually open the sheet and trigger the rename.
+ */
+async function migrateActorMoveNamesToEnglish(actor) {
+  if (!actor || actor.type !== "pokemon") return;
+  if (!actor.isOwner) return;
+  if (moveReverseMap.size === 0) return; // maps not built yet
+
+  const updates = [];
+  for (const item of actor.items) {
+    if (item.type !== "move") continue;
+    const englishFromReverse = moveReverseMap.get(normalizeKey(item.name));
+    if (englishFromReverse && englishFromReverse !== item.name) {
+      updates.push({ _id: item.id, name: englishFromReverse });
+    }
+  }
+
+  if (updates.length === 0) {
+    // Mark as migrated so we don't revisit every render.
+    try {
+      if (actor.getFlag(MIGRATION_FLAG_SCOPE, MIGRATION_FLAG_KEY) !== true) {
+        await actor.setFlag(MIGRATION_FLAG_SCOPE, MIGRATION_FLAG_KEY, true);
+      }
+    } catch (_e) { /* flag write may fail for non-owners, ignore */ }
+    return;
+  }
+
+  try {
+    await actor.updateEmbeddedDocuments("Item", updates);
+    await actor.setFlag(MIGRATION_FLAG_SCOPE, MIGRATION_FLAG_KEY, true);
+    console.log(
+      `[${MODULE_ID}] Renamed ${updates.length} move(s) on ${actor.name} back to English ` +
+        `(display stays Italian via DOM overlay).`
+    );
+  } catch (err) {
+    console.warn(`[${MODULE_ID}] Failed to migrate move names on ${actor.name}:`, err);
+  }
+}
+
+/**
+ * preCreateItem hook: if a move item is being created on an actor with an
+ * Italian-translated name, rewrite `_source.name` to the English canonical
+ * form BEFORE it is persisted. The DOM overlay still renders it as Italian.
+ *
+ * This catches: rank-up creation flow, evolution flow, user drag-drop from
+ * the Italian compendium, and any other path that funnels through
+ * Item#_preCreate.
+ */
+function preCreateItemHandler(item, data, _options, _userId) {
+  try {
+    if (data?.type !== "move") return;
+    const parent = item?.parent;
+    if (!parent || parent.documentName !== "Actor") return;
+    const italianName = `${data.name ?? ""}`.trim();
+    if (!italianName) return;
+    const english = moveReverseMap.get(normalizeKey(italianName));
+    if (!english || english === italianName) return;
+    // `updateSource` is the public API for mutating a document's source
+    // before persistence inside a preCreate hook.
+    item.updateSource({ name: english });
+  } catch (err) {
+    console.warn(`[${MODULE_ID}] preCreateItem normalization failed:`, err);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Patch: bilingual pack-index lookup in _syncLearnsetMovesToItems
+// ---------------------------------------------------------------------------
+//
+// The system version matches learnset names (English) against a compendium
+// index that Babele has translated to Italian — so the `find` always fails
+// and no moves are created on rank-up. We override with a bilingual variant:
+// the index is searched by the English name OR its Italian translation.
+//
+// We install the override on the actor sheet's class the first time we see
+// a Pokémon sheet render, so we don't need to reach into the system's
+// internals at ready-time.
+
+/** Has the sheet-class override already been installed? */
+let sheetPatchInstalled = false;
+
+/**
+ * Replacement for PokRoleActorSheet.prototype._syncLearnsetMovesToItems that
+ * handles the Italian-Babele scenario. Logic mirrors the system version but
+ * (a) treats existing move names as English OR Italian, and (b) looks up
+ * compendium entries by either language.
+ */
+async function patched_syncLearnsetMovesToItems() {
+  if (this.actor.type !== "pokemon" || !this.isEditable) return;
+  const currentTier = this.actor.system.tier ?? "starter";
+  const tierIndex = POKEMON_TIER_KEYS.indexOf(currentTier);
+  if (tierIndex < 0) return;
+
+  const ranksUpToCurrent = POKEMON_TIER_KEYS.slice(0, tierIndex + 1);
+  const moveNamesToAdd = [];
+  for (const rank of ranksUpToCurrent) {
+    const raw = `${this.actor.system.learnsetByRank?.[rank] ?? ""}`;
+    const names = raw.split(",").map((s) => s.trim()).filter(Boolean);
+    moveNamesToAdd.push(...names);
+  }
+
+  // Existing names: include both the raw Italian/English stored name AND
+  // its English canonical form, so any comparison against English learnset
+  // names succeeds even before migration has run on this actor.
+  const existingNames = new Set();
+  for (const i of this.actor.items) {
+    if (i.type !== "move") continue;
+    const raw = `${i.name ?? ""}`.trim();
+    if (!raw) continue;
+    existingNames.add(raw);
+    const english = moveReverseMap.get(normalizeKey(raw));
+    if (english) existingNames.add(english);
+  }
+
+  const COMMON_MOVE_NAMES = new Set([
+    "Struggle (Physical)", "Struggle (Special)", "Grapple",
+    "Help Another", "Cover An Ally", "Run Away",
+    "Ambush", "Clash", "Evasion", "Stabilize An Ally"
+  ]);
+  const namesToCreate = [];
+  const seen = new Set();
+  for (const name of moveNamesToAdd) {
+    if (existingNames.has(name) || seen.has(name) || COMMON_MOVE_NAMES.has(name)) continue;
+    seen.add(name);
+    namesToCreate.push(name);
+  }
+  if (namesToCreate.length === 0) return;
+
+  const pack = game.packs.get("pok-role-system.moves");
+  if (!pack) return;
+  const index = await pack.getIndex({ fields: ["name"] });
+
+  // Build an index lookup that matches by either English OR Italian.
+  const findEntry = (englishName) => {
+    const italian = translationMaps.move.get(normalizeKey(englishName))?.translated;
+    return index.find((e) => {
+      if (!e?.name) return false;
+      if (e.name === englishName) return true;
+      if (italian && e.name === italian) return true;
+      return false;
+    });
+  };
+
+  const newMoves = [];
+  for (const name of namesToCreate) {
+    const entry = findEntry(name);
+    if (!entry) continue;
+    const doc = await pack.getDocument(entry._id);
+    if (!doc) continue;
+    const moveData = doc.toObject();
+    // Babele may have translated name on retrieval; force English so the
+    // stored item can be matched by the system logic later. Description
+    // stays translated (we want Italian description shown on the sheet).
+    moveData.name = name;
+    moveData.system.isUsable = false;
+    delete moveData._id;
+    newMoves.push(moveData);
+  }
+  if (newMoves.length > 0) {
+    await this.actor.createEmbeddedDocuments("Item", newMoves);
+  }
+}
+
+/**
+ * Install the `_syncLearnsetMovesToItems` override on the first Pokémon
+ * actor sheet we see. Uses `app.constructor.prototype` to find the class
+ * without depending on the system's internal exports.
+ */
+function maybeInstallSheetPatch(app) {
+  if (sheetPatchInstalled) return;
+  const proto = app?.constructor?.prototype;
+  if (!proto || typeof proto._syncLearnsetMovesToItems !== "function") return;
+  proto._syncLearnsetMovesToItems = patched_syncLearnsetMovesToItems;
+  sheetPatchInstalled = true;
+  console.log(`[${MODULE_ID}] Patched _syncLearnsetMovesToItems for bilingual learnset matching.`);
+}
+
 /**
  * If the actor's biography textarea still shows the seed English template and
  * we have a matching Italian translation, replace the textarea value.
@@ -644,6 +863,11 @@ Hooks.on("renderItemSheet", (app, html) => {
   const root = resolveHtmlRoot(html);
   overlayItemSheet(app, root);
 });
+
+// Keep stored move-item names in English so the pok-role-system's rank-up
+// and evolution matching against English `learnsetByRank` keeps working.
+// The DOM overlay translates to Italian at render time.
+Hooks.on("preCreateItem", preCreateItemHandler);
 
 // ApplicationV2-based sheets (Foundry v13 Pokémon sheet is ApplicationV2).
 Hooks.on("renderApplicationV2", (app, element) => {
