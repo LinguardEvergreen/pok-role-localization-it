@@ -7,7 +7,7 @@
 
 <p align="center">
   <img alt="Foundry VTT v13" src="https://img.shields.io/badge/Foundry-v13-f36f24?style=for-the-badge">
-  <img alt="Modulo 1.3.1" src="https://img.shields.io/badge/Modulo-1.3.1-2d7ff9?style=for-the-badge">
+  <img alt="Modulo 1.3.2" src="https://img.shields.io/badge/Modulo-1.3.2-2d7ff9?style=for-the-badge">
   <img alt="Sistema pok-role-system 1.3.0" src="https://img.shields.io/badge/Sistema-pok--role--system%201.3.0-d94b3d?style=for-the-badge">
   <img alt="Lingua IT" src="https://img.shields.io/badge/Lingua-IT-00a7c4?style=for-the-badge">
   <img alt="Richiede Babele" src="https://img.shields.io/badge/Richiede-Babele%202.0%2B-6f42c1?style=for-the-badge">
@@ -82,6 +82,18 @@ https://github.com/LinguardEvergreen/pok-role-localization-it/archive/refs/heads
 3. Abilita il modulo dalle impostazioni del mondo.
 4. Ricarica il mondo. I compendi del sistema saranno ora visualizzati in italiano.
 
+### ⚠️ Imposta Foundry in italiano
+
+Babele applica le traduzioni **solo se la lingua del client Foundry è "Italiano"**. Se l'interfaccia è in inglese (o qualsiasi altra lingua), i file italiani vengono scartati in fase di indicizzazione.
+
+Per attivarle:
+
+1. In Foundry, apri **Game Settings → Configure Settings → Core Settings → Language** (oppure **Impostazioni → Configura Impostazioni → Impostazioni del Core → Lingua**).
+2. Seleziona **Italiano** (`it`).
+3. Ricarica il mondo (`F5`).
+
+Il modulo mostra un avviso permanente in alto a destra se rileva che la lingua è impostata su qualcosa di diverso da `it`.
+
 ## Come Funziona
 
 Al caricamento di Foundry, il modulo registra presso Babele la directory `compendium/it` contenente un file JSON per ciascun pack del sistema. Ogni file segue il formato Babele standard:
@@ -135,6 +147,35 @@ Alcune scelte ricorrenti del glossario usato in questo modulo:
 - **Burn 1/2/3** → *Scottatura di 1°/2°/3° grado*
 
 I nomi di mosse, abilità e strumenti seguono la [Pokémon Central Wiki](https://wiki.pokemoncentral.it/); i nomi dei tipi (Coleottero, Buio, Elettro, Folletto, Lotta, Volante, Spettro, Psico, ecc.) seguono la terminologia ufficiale dei videogiochi Pokémon localizzati in italiano.
+
+## Risoluzione problemi
+
+**Non vedo le traduzioni in italiano nei compendi**
+
+Tre cause in ordine di probabilità:
+
+1. **Lingua di Foundry non impostata su italiano.** Questa è la causa più comune. Babele filtra i pacchetti di traduzione in base a `game.settings.get("core", "language")`. Vedi la sezione [⚠️ Imposta Foundry in italiano](#️-imposta-foundry-in-italiano). Il modulo mostra un avviso permanente quando la lingua è sbagliata.
+2. **Babele non attivo.** Controlla che nelle impostazioni del mondo il modulo `Babele` sia effettivamente abilitato (non basta averlo installato). In caso contrario compare un avviso permanente.
+3. **Mondo non ricaricato dopo aver abilitato il modulo.** Ricarica con `F5` o riavvia il server Foundry.
+
+**Vedo i nomi tradotti ma non le descrizioni (o viceversa)**
+
+Babele traduce per chiave: se una voce è presente in `entries` ma manca una specifica proprietà (es. `description`), quella proprietà resta in inglese. Controlla il file `compendium/it/<pack>.json` corrispondente e apri una PR o issue con la proprietà mancante.
+
+**Le specie Pokémon sono ancora in inglese**
+
+È voluto: il pack `pokemon-actors` non viene tradotto. I nomi delle specie sono identici a livello internazionale dalla prima generazione.
+
+**Console del browser (F12) utile al debug**
+
+```js
+// Verifica che Babele conosca il nostro modulo
+game.babele.modules.filter(m => m.module === "pok-role-localization-it")
+// Verifica la lingua del client
+game.settings.get("core", "language")
+// Verifica quanti file di traduzione Babele ha caricato
+(await game.babele.shareTranslationFiles(), game.babele._files).filter(f => f.includes("pok-role-localization-it"))
+```
 
 ## Limiti Attuali
 
