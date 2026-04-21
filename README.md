@@ -7,7 +7,7 @@
 
 <p align="center">
   <img alt="Foundry VTT v13" src="https://img.shields.io/badge/Foundry-v13-f36f24?style=for-the-badge">
-  <img alt="Modulo 1.3.2" src="https://img.shields.io/badge/Modulo-1.3.2-2d7ff9?style=for-the-badge">
+  <img alt="Modulo 1.3.3" src="https://img.shields.io/badge/Modulo-1.3.3-2d7ff9?style=for-the-badge">
   <img alt="Sistema pok-role-system 1.3.0" src="https://img.shields.io/badge/Sistema-pok--role--system%201.3.0-d94b3d?style=for-the-badge">
   <img alt="Lingua IT" src="https://img.shields.io/badge/Lingua-IT-00a7c4?style=for-the-badge">
   <img alt="Richiede Babele" src="https://img.shields.io/badge/Richiede-Babele%202.0%2B-6f42c1?style=for-the-badge">
@@ -39,13 +39,15 @@ Il modulo ospita **7 pack di traduzione** in `compendium/it/`, uno per ogni pack
 
 | Pack del sistema | File di traduzione | Voci |
 | --- | --- | --- |
-| `abilities` | [compendium/it/abilities.json](compendium/it/abilities.json) | 305 |
-| `moves` | [compendium/it/moves.json](compendium/it/moves.json) | 894 |
-| `held-items` | [compendium/it/held-items.json](compendium/it/held-items.json) | 142 |
-| `trainer-items` | [compendium/it/trainer-items.json](compendium/it/trainer-items.json) | 33 |
-| `healing-items` | [compendium/it/healing-items.json](compendium/it/healing-items.json) | 33 |
-| `pokemon-care-items` | [compendium/it/pokemon-care-items.json](compendium/it/pokemon-care-items.json) | 15 |
-| `evolutionary-items` | [compendium/it/evolutionary-items.json](compendium/it/evolutionary-items.json) | 10 |
+| `pok-role-system.abilities` | [compendium/it/pok-role-system.abilities.json](compendium/it/pok-role-system.abilities.json) | 305 |
+| `pok-role-system.moves` | [compendium/it/pok-role-system.moves.json](compendium/it/pok-role-system.moves.json) | 894 |
+| `pok-role-system.held-items` | [compendium/it/pok-role-system.held-items.json](compendium/it/pok-role-system.held-items.json) | 142 |
+| `pok-role-system.trainer-items` | [compendium/it/pok-role-system.trainer-items.json](compendium/it/pok-role-system.trainer-items.json) | 33 |
+| `pok-role-system.healing-items` | [compendium/it/pok-role-system.healing-items.json](compendium/it/pok-role-system.healing-items.json) | 33 |
+| `pok-role-system.pokemon-care-items` | [compendium/it/pok-role-system.pokemon-care-items.json](compendium/it/pok-role-system.pokemon-care-items.json) | 15 |
+| `pok-role-system.evolutionary-items` | [compendium/it/pok-role-system.evolutionary-items.json](compendium/it/pok-role-system.evolutionary-items.json) | 10 |
+
+> I nomi dei file seguono la convenzione Babele `<systemId>.<packName>.json`: Babele abbina ogni file al pack corrispondente cercando esattamente questo formato.
 
 I pack `pokemon-status` e `weather-conditions` sono **esclusi di proposito**: il sistema `pok-role-system` fornisce già traduzioni italiane native per Stati Alterati e Condizioni Meteo.
 
@@ -173,8 +175,10 @@ Babele traduce per chiave: se una voce è presente in `entries` ma manca una spe
 game.babele.modules.filter(m => m.module === "pok-role-localization-it")
 // Verifica la lingua del client
 game.settings.get("core", "language")
-// Verifica quanti file di traduzione Babele ha caricato
-(await game.babele.shareTranslationFiles(), game.babele._files).filter(f => f.includes("pok-role-localization-it"))
+// Verifica quali file Babele ha indicizzato dalla nostra directory
+game.babele._files.filter(f => f.includes("pok-role-localization-it"))
+// Verifica che il pack "moves" abbia ricevuto una traduzione
+game.babele.packs.get("pok-role-system.moves")?.translations
 ```
 
 ## Limiti Attuali
