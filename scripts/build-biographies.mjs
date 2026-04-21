@@ -94,7 +94,7 @@ function translateFreeText(free) {
 function buildItalianBiography(parts) {
   const { dexNumber, category, free, abilities } = parts;
   const segs = [];
-  segs.push(`Voce del Corebook Pokédex #${dexNumber}.`);
+  segs.push(`Corebook Pokedex import #${dexNumber}.`);
   if (category) segs.push(`Categoria: ${translateCategory(category)}.`);
   const italianFree = translateFreeText(free);
   if (italianFree) segs.push(italianFree.endsWith(".") ? italianFree : `${italianFree}.`);

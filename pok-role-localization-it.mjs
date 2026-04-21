@@ -53,6 +53,31 @@ const translationMaps = {
   __all__: new Map()
 };
 
+/**
+ * Italian → English reverse lookup for move names (case-insensitive).
+ * Used by the move-rank overlay so that Italian-named moves on a sheet can
+ * still be matched against the actor's English `system.learnsetByRank`.
+ */
+const moveReverseMap = new Map();
+
+/**
+ * Rank keys used by pok-role-system for Pokémon tiers, in display order.
+ * Mirrors module/constants.mjs POKEMON_TIER_KEYS. We duplicate it here so the
+ * overlay is resilient: if the system updates the constant we'll still work
+ * for the keys we know; unknown extra keys are simply left in Altro.
+ */
+const POKEMON_TIER_KEYS = [
+  "none",
+  "starter",
+  "rookie",
+  "standard",
+  "advanced",
+  "expert",
+  "ace",
+  "master",
+  "champion"
+];
+
 /** Normalize an English name for lookup. */
 function normalizeKey(str) {
   return `${str ?? ""}`.trim().toLowerCase();
@@ -124,11 +149,21 @@ async function buildTranslationMaps() {
     }
   }
 
+  // Build the Italian → English reverse map for moves only (we only need it
+  // for matching against the actor's English `learnsetByRank`).
+  moveReverseMap.clear();
+  for (const hit of translationMaps.move.values()) {
+    if (hit?.translated && hit?.original) {
+      moveReverseMap.set(normalizeKey(hit.translated), hit.original);
+    }
+  }
+
   console.log(
     `[${MODULE_ID}] Overlay maps built: ` +
       `moves=${translationMaps.move.size}, ` +
       `abilities=${translationMaps.ability.size}, ` +
-      `gear=${translationMaps.gear.size}.`
+      `gear=${translationMaps.gear.size}, ` +
+      `move-reverse=${moveReverseMap.size}.`
   );
 }
 
@@ -272,6 +307,184 @@ function overlayActorSheet(app, rootEl) {
   // clobber user edits). Keeping the value on a textarea displays Italian;
   // if the user saves without edits the English is replaced with Italian.
   overlayBiographyField(actor, rootEl);
+
+  // Move-rank relocation: when Babele translates move names to Italian, the
+  // system groups moves by matching move.name against the English names in
+  // `system.learnsetByRank` — so every translated move lands in "Altro".
+  // We physically move each row from "Altro" back into its rank group.
+  overlayMovesByRank(actor, rootEl);
+}
+
+/**
+ * Fix the "all moves land in Altro" bug for Pokémon actor sheets when moves
+ * have been translated to Italian.
+ *
+ * The pok-role-system builds the `movesByRank` grouping by matching each
+ * move's `name` against the English comma-lists in `system.learnsetByRank`.
+ * Babele renames moves to Italian, so no match → every row falls into the
+ * `other` group labelled "Altro".
+ *
+ * Strategy (DOM-only, never touch actor data):
+ *  1. Build an English name → rank map from `actor.system.learnsetByRank`.
+ *  2. For each `<tr data-item-id>` under any `.moves-rank-group`, resolve the
+ *     embedded item; if its name doesn't match English directly, translate
+ *     Italian → English via `moveReverseMap` and try again.
+ *  3. Look up the existing `.moves-rank-group` whose header text matches the
+ *     localized rank label. If none exists (template only renders ranks that
+ *     have moves, so the target rank may not have been emitted), clone the
+ *     structure from an existing group to create a new one at the correct
+ *     position.
+ *  4. Move the `<tr>` into the target group's `<tbody>`. Remove the Altro
+ *     group if it becomes empty.
+ */
+function overlayMovesByRank(actor, rootEl) {
+  const learnset = actor?.system?.learnsetByRank;
+  if (!learnset || typeof learnset !== "object") return;
+
+  // English move name → rank key (lowercased for robustness).
+  const englishNameToRank = new Map();
+  for (const rank of POKEMON_TIER_KEYS) {
+    const raw = `${learnset[rank] ?? ""}`;
+    for (const n of raw.split(",").map(s => s.trim()).filter(Boolean)) {
+      const key = normalizeKey(n);
+      if (!englishNameToRank.has(key)) englishNameToRank.set(key, rank);
+    }
+  }
+  if (englishNameToRank.size === 0) return;
+
+  const groups = Array.from(rootEl.querySelectorAll(".moves-rank-group"));
+  if (groups.length === 0) return;
+
+  // Build localized label → rank key map using the system's label pattern
+  // POKROLE.Pokemon.TierValues.<Capitalized>. Labels fall back to the key
+  // itself when the localization isn't registered.
+  const localize = (k) => {
+    try { return game.i18n?.localize?.(k) ?? k; } catch (_e) { return k; }
+  };
+  const localizedLabelToRank = new Map();
+  for (const key of POKEMON_TIER_KEYS) {
+    const cap = key.charAt(0).toUpperCase() + key.slice(1);
+    const localized = localize(`POKROLE.Pokemon.TierValues.${cap}`);
+    localizedLabelToRank.set(normalizeKey(localized), key);
+  }
+  const otherLocalized = normalizeKey(localize("POKROLE.Common.Other"));
+
+  /** Tag existing groups by rank based on header text. */
+  const groupByRank = new Map();
+  for (const group of groups) {
+    const header = group.querySelector(".moves-rank-header");
+    if (!header) continue;
+    const text = normalizeKey(header.textContent ?? "");
+    let rank = localizedLabelToRank.get(text);
+    if (!rank && text === otherLocalized) rank = "other";
+    if (rank && !groupByRank.has(rank)) groupByRank.set(rank, group);
+  }
+
+  /**
+   * Ensure a .moves-rank-group for `rank` exists and return it. If it is
+   * missing, we clone the DOM structure of any existing group (table/thead
+   * intact so interactivity is preserved) and insert it in the correct
+   * rank order.
+   */
+  const ensureGroupForRank = (rank) => {
+    const existing = groupByRank.get(rank);
+    if (existing) return existing;
+
+    // Clone from any non-"other" group if possible (stable thead); fall back
+    // to the first available group.
+    let template = null;
+    for (const [k, el] of groupByRank) {
+      if (k !== "other") { template = el; break; }
+    }
+    if (!template) template = groups[0];
+    if (!template) return null;
+
+    const clone = template.cloneNode(true);
+    // Empty the tbody on the clone.
+    const cloneBody = clone.querySelector("tbody");
+    if (cloneBody) cloneBody.replaceChildren();
+    // Update header text to localized label for the new rank.
+    const cloneHeader = clone.querySelector(".moves-rank-header");
+    if (cloneHeader) {
+      const cap = rank.charAt(0).toUpperCase() + rank.slice(1);
+      cloneHeader.textContent = localize(`POKROLE.Pokemon.TierValues.${cap}`);
+    }
+
+    // Insert at correct position: after the last existing rank group whose
+    // rank comes before this one in POKEMON_TIER_KEYS, and before "other".
+    const parent = template.parentElement;
+    if (!parent) return null;
+
+    const targetIndex = POKEMON_TIER_KEYS.indexOf(rank);
+    let insertBefore = null;
+    // Find the first existing group whose rank is AFTER `rank` (or is "other").
+    const ordered = Array.from(parent.querySelectorAll(".moves-rank-group"));
+    for (const el of ordered) {
+      const header = el.querySelector(".moves-rank-header");
+      if (!header) continue;
+      const text = normalizeKey(header.textContent ?? "");
+      let elRank = localizedLabelToRank.get(text);
+      if (!elRank && text === otherLocalized) elRank = "other";
+      if (!elRank) continue;
+      const idx = elRank === "other" ? Infinity : POKEMON_TIER_KEYS.indexOf(elRank);
+      if (idx > targetIndex) { insertBefore = el; break; }
+    }
+
+    parent.insertBefore(clone, insertBefore);
+    groupByRank.set(rank, clone);
+    return clone;
+  };
+
+  let moved = 0;
+  const rows = Array.from(rootEl.querySelectorAll(".moves-rank-group tr[data-item-id]"));
+  for (const row of rows) {
+    const itemId = row.getAttribute("data-item-id");
+    if (!itemId) continue;
+    const item = actor.items?.get(itemId);
+    if (!item || item.type !== "move") continue;
+
+    // Resolve the English move name: try item.name first (world actors
+    // imported before Italian was installed still carry English); otherwise
+    // map Italian → English via our reverse dictionary.
+    let english = null;
+    const nameKey = normalizeKey(item.name);
+    if (englishNameToRank.has(nameKey)) {
+      english = item.name;
+    } else {
+      const reversed = moveReverseMap.get(nameKey);
+      if (reversed && englishNameToRank.has(normalizeKey(reversed))) {
+        english = reversed;
+      }
+    }
+    if (!english) continue;
+
+    const targetRank = englishNameToRank.get(normalizeKey(english));
+    if (!targetRank) continue;
+
+    const targetGroup = ensureGroupForRank(targetRank);
+    if (!targetGroup) continue;
+    const targetBody = targetGroup.querySelector("tbody");
+    if (!targetBody) continue;
+
+    if (row.parentElement !== targetBody) {
+      targetBody.appendChild(row);
+      moved++;
+    }
+  }
+
+  // Drop the "Altro" group entirely if it's now empty.
+  const otherGroup = groupByRank.get("other");
+  if (otherGroup) {
+    const otherBody = otherGroup.querySelector("tbody");
+    if (otherBody && otherBody.querySelectorAll("tr[data-item-id]").length === 0) {
+      otherGroup.remove();
+      groupByRank.delete("other");
+    }
+  }
+
+  if (moved > 0 && CONFIG.debug?.pokRoleIt) {
+    console.debug(`[${MODULE_ID}] Relocated ${moved} moves to their correct rank groups on ${actor.name}.`);
+  }
 }
 
 /**
