@@ -20,6 +20,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import url from "node:url";
+import { parseBiography } from "./lib-parse-biography.mjs";
 
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -61,44 +62,6 @@ if (fs.existsSync(DESCRIPTIONS_FILE)) {
 // ---------------------------------------------------------------------------
 // Translate the structural template
 // ---------------------------------------------------------------------------
-
-/**
- * Parse a biography string into structural parts. Returns null if it doesn't
- * match the expected template (we leave those untouched).
- *
- * Template:
- *   "Corebook Pokedex import #NNN. Category: X. <FREE TEXT>. Abilities: A, B."
- * where Category may include "Pokémon" or "Pokemon" or be "Pokédex has no data".
- */
-function parseBiography(raw) {
-  if (typeof raw !== "string") return null;
-  const text = raw.trim();
-
-  // Prefix
-  const prefixMatch = text.match(/^Corebook Pokedex import #(\d+)\.\s*/);
-  if (!prefixMatch) return null;
-  const dexNumber = prefixMatch[1];
-  let rest = text.slice(prefixMatch[0].length);
-
-  // Category ("Category: ...Pokémon." or "Category: Pokédex has no data..")
-  const catMatch = rest.match(/^Category:\s*([^.]+)\.\s*/);
-  let category = "";
-  if (catMatch) {
-    category = catMatch[1].trim();
-    rest = rest.slice(catMatch[0].length);
-  }
-
-  // Abilities suffix at the very end.
-  const abilityMatch = rest.match(/\s*Abilities:\s*([^.]+)\.?\s*$/);
-  let abilities = [];
-  if (abilityMatch) {
-    abilities = abilityMatch[1].split(",").map((s) => s.trim()).filter(Boolean);
-    rest = rest.slice(0, -abilityMatch[0].length);
-  }
-
-  const free = rest.trim();
-  return { dexNumber, category, free, abilities };
-}
 
 /** Italianize a category label (minimal: "X Pokémon" → "Pokémon X"). */
 function translateCategory(cat) {

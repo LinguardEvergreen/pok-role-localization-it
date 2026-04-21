@@ -15,6 +15,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import url from "node:url";
+import { parseBiography } from "./lib-parse-biography.mjs";
 
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -28,8 +29,8 @@ const seedModule = await import(url.pathToFileURL(SEED_FILE).href);
 const POKEMON = seedModule.POKEMON_ACTOR_COMPENDIUM_ENTRIES;
 
 function parseFreeText(bio) {
-  const m = bio.match(/^Corebook Pokedex import #\d+\.\s*(?:Category:\s*[^.]+\.\s*)?(.*?)(?:\s*Abilities:[^.]*\.?)?$/s);
-  return m ? m[1].trim() : "";
+  const parts = parseBiography(bio);
+  return parts?.free ?? "";
 }
 
 let existing = {};
