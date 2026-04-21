@@ -1,8 +1,8 @@
 {
   "id": "pok-role-localization-it",
   "title": "Poké Role System - Italiano",
-  "description": "Traduzione italiana ufficiale per tutti i compendi del sistema Poké Role (pok-role-system). Traduce Mosse, Abilità, Strumenti, Pokémon, Condizioni Meteo e Stati mantenendo intatti i riferimenti interni al sistema (le schede e i link continuano a funzionare anche se il nome visualizzato è in italiano, grazie al modulo Babele).",
-  "version": "1.3.0",
+  "description": "Traduzione italiana ufficiale per i compendi del sistema Poké Role (pok-role-system). Traduce Mosse, Abilità e Strumenti mantenendo intatti i riferimenti interni al sistema (le schede e i link continuano a funzionare anche se il nome visualizzato è in italiano, grazie al modulo Babele). Condizioni Meteo e Stati Alterati sono già tradotti dal sistema e non vengono sovrascritti.",
+  "version": "1.3.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351"

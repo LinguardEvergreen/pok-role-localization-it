@@ -2,7 +2,9 @@
 
 Modulo di localizzazione italiana per il sistema FoundryVTT [**Pok-Role-Module**](https://github.com/RiccardoMont1/Pok-Role-Module).
 
-Traduce in italiano nomi e descrizioni di Mosse, Abilità, Strumenti, Condizioni Meteo e Stati Alterati contenuti nei compendi del sistema, usando la terminologia ufficiale della [Pokémon Central Wiki](https://wiki.pokemoncentral.it/).
+Traduce in italiano nomi e descrizioni di Mosse, Abilità e Strumenti contenuti nei compendi del sistema, usando la terminologia ufficiale della [Pokémon Central Wiki](https://wiki.pokemoncentral.it/).
+
+> **Nota:** le Condizioni Meteo e gli Stati Alterati sono già tradotti direttamente dal sistema `pok-role-system`, quindi questo modulo non li include per evitare sovrascritture.
 
 I nomi originali inglesi vengono **preservati come identificatori interni**: schede Pokémon, link, macro e riferimenti esistenti continuano a funzionare anche se l'interfaccia mostra i nomi in italiano. Questo è possibile grazie al modulo [Babele](https://foundryvtt.com/packages/babele), che è un prerequisito obbligatorio.
 
@@ -36,8 +38,8 @@ I nomi originali inglesi vengono **preservati come identificatori interni**: sch
 | `healing-items` | `compendium/it/healing-items.json` | 33 |
 | `pokemon-care-items` | `compendium/it/pokemon-care-items.json` | 15 |
 | `evolutionary-items` | `compendium/it/evolutionary-items.json` | 10 |
-| `pokemon-status` | `compendium/it/pokemon-status.json` | 9 |
-| `weather-conditions` | `compendium/it/weather-conditions.json` | 7 |
+
+I pack `pokemon-status` e `weather-conditions` sono **esclusi volutamente**: il sistema `pok-role-system` fornisce già traduzioni italiane native per Stati Alterati e Condizioni Meteo, quindi non è necessario passare tramite Babele.
 
 Il pack `pokemon-actors` **non viene tradotto**: i nomi delle specie Pokémon restano nella forma ufficiale internazionale (identica tra italiano e inglese dalla prima generazione).
 
@@ -75,9 +77,7 @@ pok-role-localization-it/
 │   ├── trainer-items.json
 │   ├── healing-items.json
 │   ├── pokemon-care-items.json
-│   ├── evolutionary-items.json
-│   ├── pokemon-status.json
-│   └── weather-conditions.json
+│   └── evolutionary-items.json
 ├── data/extracted/                  # Dump delle fonti (per script/diff)
 └── scripts/
     ├── extract-names.mjs            # Dump nomi dai seed del sistema
