@@ -29,6 +29,7 @@ const SYSTEM_ROOT = path.resolve(ROOT, "..", "Pok-Role-Module");
 const SEED_FILE = path.join(SYSTEM_ROOT, "module", "seeds", "generated", "pokemon-actor-seeds.mjs");
 const OUT_FILE = path.join(ROOT, "compendium", "it", "pok-role-system.pokemon-actors.json");
 const OVERRIDES_FILE = path.join(ROOT, "data", "biographies-overrides.json");
+const DESCRIPTIONS_FILE = path.join(ROOT, "data", "pokedex-descriptions.json");
 const ABILITIES_PACK = path.join(ROOT, "compendium", "it", "pok-role-system.abilities.json");
 
 // ---------------------------------------------------------------------------
@@ -50,6 +51,11 @@ for (const [en, entry] of Object.entries(abilityPack.entries ?? {})) {
 let overrides = {};
 if (fs.existsSync(OVERRIDES_FILE)) {
   overrides = JSON.parse(fs.readFileSync(OVERRIDES_FILE, "utf8"));
+}
+
+let descriptionDict = {};
+if (fs.existsSync(DESCRIPTIONS_FILE)) {
+  descriptionDict = JSON.parse(fs.readFileSync(DESCRIPTIONS_FILE, "utf8"));
 }
 
 // ---------------------------------------------------------------------------
@@ -111,12 +117,24 @@ function translateAbility(name) {
   return abilityMap.get(key) ?? name;
 }
 
+/**
+ * Look up the Italian translation of a free-text Pokédex description in the
+ * descriptions dictionary. Returns the Italian string if available (non-empty),
+ * otherwise returns the original English free text unchanged.
+ */
+function translateFreeText(free) {
+  if (!free) return "";
+  const candidate = descriptionDict[free];
+  return candidate && candidate.trim().length > 0 ? candidate.trim() : free;
+}
+
 function buildItalianBiography(parts) {
   const { dexNumber, category, free, abilities } = parts;
   const segs = [];
   segs.push(`Voce del Corebook Pokédex #${dexNumber}.`);
   if (category) segs.push(`Categoria: ${translateCategory(category)}.`);
-  if (free) segs.push(free.endsWith(".") ? free : `${free}.`);
+  const italianFree = translateFreeText(free);
+  if (italianFree) segs.push(italianFree.endsWith(".") ? italianFree : `${italianFree}.`);
   if (abilities.length > 0) {
     const translated = abilities.map(translateAbility);
     segs.push(`Abilità: ${translated.join(", ")}.`);

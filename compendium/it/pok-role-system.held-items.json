@@ -1,5 +1,9 @@
 {
   "label": "Strumenti da Tenere",
+  "mapping": {
+    "description": "system.description",
+    "system.held.passiveEffect": "system.held.passiveEffect"
+  },
   "entries": {
     "Black Belt": {
       "name": "Cintura nera",

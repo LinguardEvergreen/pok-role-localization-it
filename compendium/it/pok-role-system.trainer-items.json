@@ -1,5 +1,8 @@
 {
   "label": "Equipaggiamento Allenatore",
+  "mapping": {
+    "description": "system.description"
+  },
   "entries": {
     "Big Camping Tent": {
       "name": "Tenda da Campo Grande",

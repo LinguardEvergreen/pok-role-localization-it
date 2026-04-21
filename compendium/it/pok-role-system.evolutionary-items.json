@@ -1,5 +1,8 @@
 {
   "label": "Strumenti Evolutivi",
+  "mapping": {
+    "description": "system.description"
+  },
   "entries": {
     "Fire Stone": {
       "name": "Pietrafocaia",

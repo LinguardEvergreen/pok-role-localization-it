@@ -1,5 +1,9 @@
 {
   "label": "Abilità",
+  "mapping": {
+    "description": "system.description",
+    "system.effect": "system.effect"
+  },
   "entries": {
     "Adaptability": {
       "name": "Adattabilità",

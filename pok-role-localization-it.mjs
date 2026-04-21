@@ -145,6 +145,20 @@ async function buildBiographyMap() {
 }
 
 /**
+ * Look up a full translation entry (italian name + description + etc.)
+ * scoped to item-type hints if supplied. Returns the entry object or null.
+ */
+function lookupEntry(englishName, typeHints = ["move", "ability", "gear"]) {
+  const key = normalizeKey(englishName);
+  if (!key) return null;
+  for (const t of typeHints) {
+    const hit = translationMaps[t]?.get(key);
+    if (hit) return hit;
+  }
+  return translationMaps.__all__.get(key) ?? null;
+}
+
+/**
  * Look up an Italian translation for an English name, scoped to item-type
  * hints if supplied. Returns the Italian string or null.
  */
@@ -285,24 +299,59 @@ function overlayBiographyField(actor, rootEl) {
 }
 
 /**
- * Translate the name shown in the header of an embedded ItemSheet if it
- * matches a known English item name. This is a best-effort pass: the title
- * lives in the window chrome, not the sheet body.
+ * Translate an embedded-item sheet: window title, description & effect
+ * textareas, and the `system.held.passiveEffect` input.
+ *
+ * We only replace a textarea/input value if it still equals the original
+ * English text from the compendium, so manual edits are preserved.
  */
 function overlayItemSheet(app, rootEl) {
   const item = app?.object ?? app?.item;
-  if (!item) return;
+  if (!item || !rootEl) return;
 
-  const italian = lookupItalian(item.name, mapTypeHint(item.type));
-  if (!italian) return;
+  const typeHints = mapTypeHint(item.type);
+  const entry = lookupEntry(item.name, typeHints);
+  if (!entry) return;
 
-  // Window title: Foundry puts the item name into the `.window-title` element
-  // of the application frame. We climb up from rootEl to find it.
-  const frame = rootEl?.closest?.(".app") ?? rootEl?.closest?.(".application");
+  const italian = entry.translated;
+  const translatedPayload = entry.entry ?? {};
+
+  // Window title.
+  const frame = rootEl.closest?.(".app") ?? rootEl.closest?.(".application");
   const title = frame?.querySelector?.(".window-title");
   if (title && title.textContent?.trim() === item.name) {
     title.textContent = italian;
   }
+
+  /**
+   * Swap a textarea/input value to the Italian translation only if it
+   * currently equals the English original on the item document (meaning the
+   * user hasn't edited it). This gives Italian display on read and preserves
+   * the translation if the user hits "Save" without edits.
+   */
+  const swapField = (selector, englishValue, italianValue) => {
+    if (!italianValue || italianValue === englishValue) return;
+    const el = rootEl.querySelector(selector);
+    if (!el) return;
+    if ((el.value ?? "") !== englishValue) return;
+    el.value = italianValue;
+  };
+
+  swapField(
+    'textarea[name="system.description"]',
+    item.system?.description,
+    translatedPayload.description
+  );
+  swapField(
+    'textarea[name="system.effect"]',
+    item.system?.effect,
+    translatedPayload["system.effect"]
+  );
+  swapField(
+    'input[name="system.held.passiveEffect"]',
+    item.system?.held?.passiveEffect,
+    translatedPayload["system.held.passiveEffect"]
+  );
 }
 
 /** Normalize renderActorSheet callback signature across Foundry versions. */

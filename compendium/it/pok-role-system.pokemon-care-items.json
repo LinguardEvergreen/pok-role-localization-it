@@ -1,5 +1,8 @@
 {
   "label": "Cura dei Pokémon",
+  "mapping": {
+    "description": "system.description"
+  },
   "entries": {
     "Dry Food": {
       "name": "Crocchette",
