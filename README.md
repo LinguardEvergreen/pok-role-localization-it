@@ -1,51 +1,90 @@
 # Poké Role System - Italiano
 
-Modulo di localizzazione italiana per il sistema FoundryVTT [**Pok-Role-Module**](https://github.com/RiccardoMont1/Pok-Role-Module).
+<p align="center">
+  <strong>Modulo di localizzazione italiana per il sistema Foundry VTT v13 <a href="https://github.com/RiccardoMont1/Pok-Role-Module">Pok-Role-Module</a></strong><br>
+  Traduce nomi e descrizioni di Mosse, Abilità e Strumenti usando la terminologia ufficiale della Pokémon Central Wiki, mantenendo intatti i riferimenti interni del sistema.
+</p>
 
-Traduce in italiano nomi e descrizioni di Mosse, Abilità e Strumenti contenuti nei compendi del sistema, usando la terminologia ufficiale della [Pokémon Central Wiki](https://wiki.pokemoncentral.it/).
+<p align="center">
+  <img alt="Foundry VTT v13" src="https://img.shields.io/badge/Foundry-v13-f36f24?style=for-the-badge">
+  <img alt="Modulo 1.3.1" src="https://img.shields.io/badge/Modulo-1.3.1-2d7ff9?style=for-the-badge">
+  <img alt="Sistema pok-role-system 1.3.0" src="https://img.shields.io/badge/Sistema-pok--role--system%201.3.0-d94b3d?style=for-the-badge">
+  <img alt="Lingua IT" src="https://img.shields.io/badge/Lingua-IT-00a7c4?style=for-the-badge">
+  <img alt="Richiede Babele" src="https://img.shields.io/badge/Richiede-Babele%202.0%2B-6f42c1?style=for-the-badge">
+</p>
 
-> **Nota:** le Condizioni Meteo e gli Stati Alterati sono già tradotti direttamente dal sistema `pok-role-system`, quindi questo modulo non li include per evitare sovrascritture.
+---
 
-I nomi originali inglesi vengono **preservati come identificatori interni**: schede Pokémon, link, macro e riferimenti esistenti continuano a funzionare anche se l'interfaccia mostra i nomi in italiano. Questo è possibile grazie al modulo [Babele](https://foundryvtt.com/packages/babele), che è un prerequisito obbligatorio.
+## Panoramica
+
+`pok-role-localization-it` è un modulo di traduzione costruito sopra [Babele](https://foundryvtt.com/packages/babele). Non sostituisce i dati del sistema `pok-role-system`: li intercetta al volo sostituendo i campi visualizzati (`name`, `description`, effetti testuali) con la versione italiana.
+
+I nomi originali inglesi vengono **preservati come identificatori interni**: schede Pokémon, link di compendio, macro e riferimenti esistenti continuano a funzionare anche quando l'interfaccia mostra i nomi in italiano.
+
+La terminologia adottata segue la [Pokémon Central Wiki](https://wiki.pokemoncentral.it/) per mantenere la coerenza con i nomi ufficiali italiani di mosse, abilità e strumenti.
+
+## Punti Salienti
+
+| Area | Cosa è incluso |
+| --- | --- |
+| Mosse | 894 voci tradotte: nomi canonici (Pokémon Central Wiki) e descrizioni complete con glossario uniforme (Bersaglio Singolo, Bassa Precisione N, Mossa Tagliente/Vento/Sonora/Pugno/Proiettile, Reazione, Scottatura di 1°/2°/3° grado, Avvelenare Gravemente, Tentennare, ecc.) |
+| Abilità | 305 voci tradotte con `name`, `description` narrativa e `system.effect` per la meccanica |
+| Strumenti | Strumenti da Tenere (142), Strumenti Allenatore (33), Strumenti Curativi (33), Cura Pokémon (15), Evolutivi (10). Include tutti i passiveEffect delle Megapietre e dei Cristalli Z |
+| Compatibilità | Nessuna modifica ai documenti originali: il modulo agisce solo tramite Babele e non rompe salvataggi, link interni o schede esistenti |
+| Esclusioni volute | Condizioni Meteo e Stati Alterati, già tradotti nativamente dal sistema `pok-role-system` |
+
+## Pack Tradotti
+
+Il modulo ospita **7 pack di traduzione** in `compendium/it/`, uno per ogni pack del sistema `pok-role-system` che viene effettivamente tradotto.
+
+| Pack del sistema | File di traduzione | Voci |
+| --- | --- | --- |
+| `abilities` | [compendium/it/abilities.json](compendium/it/abilities.json) | 305 |
+| `moves` | [compendium/it/moves.json](compendium/it/moves.json) | 894 |
+| `held-items` | [compendium/it/held-items.json](compendium/it/held-items.json) | 142 |
+| `trainer-items` | [compendium/it/trainer-items.json](compendium/it/trainer-items.json) | 33 |
+| `healing-items` | [compendium/it/healing-items.json](compendium/it/healing-items.json) | 33 |
+| `pokemon-care-items` | [compendium/it/pokemon-care-items.json](compendium/it/pokemon-care-items.json) | 15 |
+| `evolutionary-items` | [compendium/it/evolutionary-items.json](compendium/it/evolutionary-items.json) | 10 |
+
+I pack `pokemon-status` e `weather-conditions` sono **esclusi di proposito**: il sistema `pok-role-system` fornisce già traduzioni italiane native per Stati Alterati e Condizioni Meteo.
+
+Il pack `pokemon-actors` **non viene tradotto**: i nomi delle specie Pokémon restano nella forma ufficiale internazionale (identica tra italiano e inglese dalla prima generazione).
 
 ## Requisiti
 
 | Dipendenza | Versione minima |
-|---|---|
-| FoundryVTT | v13 (verificato su build 351) |
-| Sistema `pok-role-system` | 1.3.0 |
-| Modulo `babele` | 2.0.0 |
+| --- | --- |
+| Foundry VTT | v13 (verificato su build 351) |
+| Sistema [`pok-role-system`](https://github.com/RiccardoMont1/Pok-Role-Module) | 1.3.0 |
+| Modulo [`babele`](https://foundryvtt.com/packages/babele) | 2.0.0 |
 
 ## Installazione
 
+### Manifest URL
+
+Nella finestra **Installa Modulo** di Foundry incolla:
+
+```text
+https://raw.githubusercontent.com/LinguardEvergreen/pok-role-localization-it/main/module.json
+```
+
+### Download diretto
+
+```text
+https://github.com/LinguardEvergreen/pok-role-localization-it/archive/refs/heads/main.zip
+```
+
+### Installazione manuale / sviluppo locale
+
 1. Installa e abilita il modulo [**Babele**](https://foundryvtt.com/packages/babele) nel tuo mondo.
-2. Installa questo modulo tramite il manifest URL:
-   ```
-   https://raw.githubusercontent.com/LinguardEvergreen/pok-role-localization-it/main/module.json
-   ```
-   Oppure clona/scarica il repository dentro la cartella `Data/modules/pok-role-localization-it` della tua installazione FoundryVTT.
-3. Abilita il modulo nelle impostazioni del mondo.
+2. Clona o scarica questo repository nella cartella `Data/modules/pok-role-localization-it` della tua installazione Foundry.
+3. Abilita il modulo dalle impostazioni del mondo.
 4. Ricarica il mondo. I compendi del sistema saranno ora visualizzati in italiano.
 
-## Cosa viene tradotto
+## Come Funziona
 
-| Pack del sistema | File di traduzione | Voci |
-|---|---|---|
-| `abilities` | `compendium/it/abilities.json` | 305 |
-| `moves` | `compendium/it/moves.json` | 894 |
-| `held-items` | `compendium/it/held-items.json` | 142 |
-| `trainer-items` | `compendium/it/trainer-items.json` | 33 |
-| `healing-items` | `compendium/it/healing-items.json` | 33 |
-| `pokemon-care-items` | `compendium/it/pokemon-care-items.json` | 15 |
-| `evolutionary-items` | `compendium/it/evolutionary-items.json` | 10 |
-
-I pack `pokemon-status` e `weather-conditions` sono **esclusi volutamente**: il sistema `pok-role-system` fornisce già traduzioni italiane native per Stati Alterati e Condizioni Meteo, quindi non è necessario passare tramite Babele.
-
-Il pack `pokemon-actors` **non viene tradotto**: i nomi delle specie Pokémon restano nella forma ufficiale internazionale (identica tra italiano e inglese dalla prima generazione).
-
-## Come funziona
-
-Al caricamento di FoundryVTT, il modulo registra presso Babele la directory `compendium/it` contenente un file JSON per ciascun pack del sistema. Ogni file segue il formato Babele standard:
+Al caricamento di Foundry, il modulo registra presso Babele la directory `compendium/it` contenente un file JSON per ciascun pack del sistema. Ogni file segue il formato Babele standard:
 
 ```json
 {
@@ -60,34 +99,70 @@ Al caricamento di FoundryVTT, il modulo registra presso Babele la directory `com
 }
 ```
 
-Babele intercetta la lettura dei documenti dei compendi e sostituisce al volo i campi `name`, `description` e simili con la versione italiana, **senza toccare i documenti originali**. Le chiavi di lookup usate dalle schede Pokémon restano quelle inglesi, garantendo piena retro-compatibilità.
+Babele intercetta la lettura dei documenti dei compendi e sostituisce al volo i campi tradotti **senza toccare i documenti originali**. Le chiavi di lookup usate dalle schede Pokémon restano in inglese, garantendo piena retro-compatibilità.
 
-## Struttura della repository
+Se Babele non è attivo, il modulo emette un avviso in console e in UI senza interrompere il caricamento del mondo.
 
-```
-pok-role-localization-it/
-├── module.json                      # Manifest FoundryVTT
-├── pok-role-localization-it.mjs     # Bootstrap ESM (registra Babele)
-├── lang/
-│   └── it.json                      # Stringhe UI del modulo
-├── compendium/it/
-│   ├── abilities.json               # Traduzioni pack per pack
-│   ├── moves.json
-│   ├── held-items.json
-│   ├── trainer-items.json
-│   ├── healing-items.json
-│   ├── pokemon-care-items.json
-│   └── evolutionary-items.json
-├── data/extracted/                  # Dump delle fonti (per script/diff)
-└── scripts/
-    ├── extract-names.mjs            # Dump nomi dai seed del sistema
-    └── extract-static-items.mjs     # Dump strumenti statici
-```
+## Struttura della Repository
+
+| Percorso | Scopo |
+| --- | --- |
+| [module.json](module.json) | Manifest Foundry VTT |
+| [pok-role-localization-it.mjs](pok-role-localization-it.mjs) | Bootstrap ESM: registra la directory Babele |
+| [lang/it.json](lang/it.json) | Stringhe UI del modulo |
+| [compendium/it/](compendium/it/) | I 7 file di traduzione Babele |
+| [scripts/](scripts/) | Utility di estrazione/diff per la manutenzione delle traduzioni |
+
+## Scelte di Terminologia
+
+Alcune scelte ricorrenti del glossario usato in questo modulo:
+
+- **Chance Dice** → *dadi Fortuna*
+- **Will Points** → *punti Volontà*
+- **Reaction / Late Reaction** → *Reazione / Reazione Tardiva*
+- **Clash** → *Contrasto*
+- **Evade / Evasion** → *Eludere / Elusione*
+- **Damage Pool / Extra Dice** → *pool di Danno / dadi Extra*
+- **Typeless Damage** → *Danno Senza Tipo*
+- **Entry Hazard** → *Trappola d'Ingresso*
+- **Force Field** → *Campo di Forza*
+- **Shield / Cutter / Wind / Sound / Fist / Projectile / Bite / Powder Move** → *Mossa Scudo / Tagliente / Vento / Sonora / Pugno / Proiettile / Morso / Polvere*
+- **Switcher Move** → *Mossa Sostituzione*
+- **Charge Move** → *Mossa a Caricamento*
+- **Rampage** → *Furia Cieca*
+- **Flinch** → *Tentennare*
+- **Bad Poison** → *Avvelenamento Grave*
+- **Burn 1/2/3** → *Scottatura di 1°/2°/3° grado*
+
+I nomi di mosse, abilità e strumenti seguono la [Pokémon Central Wiki](https://wiki.pokemoncentral.it/); i nomi dei tipi (Coleottero, Buio, Elettro, Folletto, Lotta, Volante, Spettro, Psico, ecc.) seguono la terminologia ufficiale dei videogiochi Pokémon localizzati in italiano.
+
+## Limiti Attuali
+
+Il modulo è volutamente onesto su cosa non fa:
+
+- Non traduce i nomi delle specie Pokémon (pack `pokemon-actors`): sono identici a livello internazionale dalla prima generazione.
+- Non sovrascrive Stati Alterati e Condizioni Meteo: se ne occupa già il sistema `pok-role-system`.
+- Non modifica le regole, le meccaniche o l'automazione del sistema: è puro livello di localizzazione.
+- Le traduzioni potrebbero contenere piccole imprecisioni o nomi regionali alternativi: aprire una issue o PR è il modo più rapido per farli correggere.
 
 ## Contribuire
 
-Per segnalare nomi errati o proporre miglioramenti nelle traduzioni, apri una issue o una pull request. La fonte di riferimento per i nomi canonici è la [Pokémon Central Wiki](https://wiki.pokemoncentral.it/).
+Per segnalare nomi errati o proporre miglioramenti delle traduzioni:
+
+- apri una issue: `https://github.com/LinguardEvergreen/pok-role-localization-it/issues`
+- oppure invia una pull request direttamente sul file `compendium/it/*.json` interessato
+
+La fonte di riferimento per i nomi canonici è la [Pokémon Central Wiki](https://wiki.pokemoncentral.it/).
+
+## Crediti
+
+- Sistema di base: [`Pok-Role-Module`](https://github.com/RiccardoMont1/Pok-Role-Module) di RiccardoMont1
+- Framework di traduzione: [Babele](https://foundryvtt.com/packages/babele)
+- Terminologia italiana: [Pokémon Central Wiki](https://wiki.pokemoncentral.it/)
+- Regolamento: Pokérole 3.0
 
 ## Licenza
 
-MIT. Le denominazioni, immagini e concetti Pokémon sono di proprietà di Nintendo, Game Freak, Creatures Inc. e The Pokémon Company. Questo modulo è un progetto fan-made non ufficiale.
+MIT.
+
+Le denominazioni, immagini e concetti Pokémon sono di proprietà di Nintendo, Game Freak, Creatures Inc. e The Pokémon Company. Questo modulo è un progetto fan-made non ufficiale e non è affiliato con i titolari del marchio.
