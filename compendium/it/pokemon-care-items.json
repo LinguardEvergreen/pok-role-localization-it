@@ -34,15 +34,15 @@
       "description": "Uno sciroppo salutare che ti riempie d'energia!"
     },
     "HP Up": {
-      "name": "PS-Su",
+      "name": "PS-su",
       "description": "Un insieme di vitamine e minerali per aiutare il tuo Pokémon a crescere grande e sano."
     },
     "PP Up": {
-      "name": "PP-Su",
+      "name": "PP-su",
       "description": "Si dice siano solo pillole di zucchero. Chi può saperlo davvero?"
     },
     "Rare Candy": {
-      "name": "Caramella Rara",
+      "name": "Caramella rara",
       "description": "Non dovresti mai accettare caramelle dagli sconosciuti... ma forse solo per questa volta."
     },
     "Power Increasers": {

@@ -2,7 +2,7 @@
   "label": "Strumenti da Tenere",
   "entries": {
     "Black Belt": {
-      "name": "Cinturanera",
+      "name": "Cintura nera",
       "description": "Il simbolo di un eccezionale artista marziale. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Lotta.",
       "system.held.passiveEffect": "Il simbolo di un eccezionale artista marziale. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Lotta."
     },
@@ -17,7 +17,7 @@
       "system.held.passiveEffect": "Carbonella speciale per mantenere viva una fiamma. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Fuoco."
     },
     "Dragon Fang": {
-      "name": "Zannadrago",
+      "name": "Dente di drago",
       "description": "La zanna di un drago feroce alimenta la tua rabbia interiore. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Drago.",
       "system.held.passiveEffect": "La zanna di un drago feroce alimenta la tua rabbia interiore. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Drago."
     },
@@ -32,12 +32,12 @@
       "system.held.passiveEffect": "La buona vecchia roccia! Non la batte nessuno! Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Roccia."
     },
     "Magnet": {
-      "name": "Magnete",
+      "name": "Calamita",
       "description": "Questi magneti... come funzionano? Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Elettro.",
       "system.held.passiveEffect": "Questi magneti... come funzionano? Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Elettro."
     },
     "Metal Coat": {
-      "name": "Metalcoperta",
+      "name": "Metalcopertura",
       "description": "Lascia qualunque superficie ricoperta di cromo lucido. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Acciaio.",
       "system.held.passiveEffect": "Lascia qualunque superficie ricoperta di cromo lucido. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Acciaio."
     },
@@ -47,7 +47,7 @@
       "system.held.passiveEffect": "Un seme che si dice possa sbocciare in un albero della vita. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Erba."
     },
     "Mystic Water": {
-      "name": "Acquamistica",
+      "name": "Acqua magica",
       "description": "Una goccia d'acqua dalla primavera più pura del mondo. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Acqua.",
       "system.held.passiveEffect": "Una goccia d'acqua dalla primavera più pura del mondo. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Acqua."
     },
@@ -67,7 +67,7 @@
       "system.held.passiveEffect": "Un becco affilato come una lama. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Volante."
     },
     "Silk Scarf": {
-      "name": "Sciarpaseta",
+      "name": "Sciarpa seta",
       "description": "Una sciarpa di seta morbidissima. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Normale.",
       "system.held.passiveEffect": "Una sciarpa di seta morbidissima. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Normale."
     },
@@ -77,7 +77,7 @@
       "system.held.passiveEffect": "Una polvere scintillante tratta dalle ali di un insetto. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Coleottero."
     },
     "Soft Sand": {
-      "name": "Mollesabbia",
+      "name": "Sabbia soffice",
       "description": "Sabbia fine e morbida come velluto. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Terra.",
       "system.held.passiveEffect": "Sabbia fine e morbida come velluto. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Terra."
     },
@@ -87,7 +87,7 @@
       "system.held.passiveEffect": "Una pergamena con incantesimi scritti sopra. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Spettro."
     },
     "Twisted Spoon": {
-      "name": "Cucchiaiopiegato",
+      "name": "Cucchiaio torto",
       "description": "Un cucchiaio piegato con il solo potere della mente. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Psico.",
       "system.held.passiveEffect": "Un cucchiaio piegato con il solo potere della mente. Aggiunge 1 dado Extra ai Danni delle Mosse di tipo Psico."
     },
@@ -102,7 +102,7 @@
       "system.held.passiveEffect": "Se tenuto da un Chansey, le sue mosse a contatto sono considerate ad Alta Criticità."
     },
     "Thick Club": {
-      "name": "Ossoforte",
+      "name": "Osso spesso",
       "description": "Un osso duro di origine misteriosa. Raddoppia la Forza se tenuto da un Cubone o Marowak.",
       "system.held.passiveEffect": "Se tenuto da un Cubone o Marowak, raddoppia l'attributo di Forza."
     },
@@ -132,12 +132,12 @@
       "system.held.passiveEffect": "Aumenta l'iniziativa ma blocca il detentore su una sola mossa per la battaglia."
     },
     "Choice Specs": {
-      "name": "Visorscelta",
+      "name": "Lentiscelta",
       "description": "Un paio di occhiali che aumenta la potenza speciale, ma costringe a usare solo la prima mossa selezionata.",
       "system.held.passiveEffect": "Aggiunge potenza alle mosse speciali ma blocca il detentore su una sola mossa per la battaglia."
     },
     "Clear Amulet": {
-      "name": "Limpidamuleto",
+      "name": "Ciondolochiaro",
       "description": "Un amuleto trasparente che impedisce all'avversario di abbassare le statistiche del detentore.",
       "system.held.passiveEffect": "Il detentore è immune alle riduzioni di statistiche provocate dagli avversari."
     },
@@ -147,7 +147,7 @@
       "system.held.passiveEffect": "Se il detentore viene infatuato, propaga l'infatuazione all'avversario."
     },
     "Eject Button": {
-      "name": "Pulsantuga",
+      "name": "Pulsantefuga",
       "description": "Un pulsante che espelle il detentore dalla battaglia non appena subisce danno.",
       "system.held.passiveEffect": "Quando il detentore subisce un colpo, viene sostituito con un altro Pokémon."
     },
@@ -157,7 +157,7 @@
       "system.held.passiveEffect": "Se il detentore non è un'evoluzione finale, aumenta Difesa e Difesa Speciale di 1 ciascuna."
     },
     "Expert Belt": {
-      "name": "Espertocinto",
+      "name": "Abilcintura",
       "description": "Una cintura che potenzia le mosse superefficaci usate dal detentore.",
       "system.held.passiveEffect": "Aggiunge 1 dado Extra ai Danni quando si infligge un colpo superefficace."
     },
@@ -172,7 +172,7 @@
       "system.held.passiveEffect": "Previene il KO causato da un singolo attacco, lasciando il detentore a 1 PS. Si consuma."
     },
     "Heavy-Duty Boots": {
-      "name": "Scarponrobusti",
+      "name": "Scarponi robusti",
       "description": "Stivali pesanti che annullano gli effetti delle trappole sul campo di battaglia.",
       "system.held.passiveEffect": "Il detentore ignora tutti i pericoli sul campo (Punte, Levitoroccia, ecc.)."
     },
@@ -182,7 +182,7 @@
       "system.held.passiveEffect": "Dimezza l'iniziativa del detentore e annulla l'immunità al tipo Terra."
     },
     "King's Rock": {
-      "name": "Rocciad'Unghia",
+      "name": "Roccia di re",
       "description": "Una roccia a forma di corona che aumenta la probabilità di far tentennare il bersaglio con un attacco.",
       "system.held.passiveEffect": "Le mosse che infliggono danno del detentore possono far tentennare il bersaglio."
     },
@@ -197,22 +197,22 @@
       "system.held.passiveEffect": "Ripristina 1 PS al detentore a fine round."
     },
     "Life Orb": {
-      "name": "Vitasfera",
+      "name": "Assorbisfera",
       "description": "Una sfera che aumenta la potenza delle mosse del detentore a costo dei suoi PS.",
       "system.held.passiveEffect": "Aggiunge 1 dado Extra ai Danni, ma il detentore subisce 1 danno ogni volta che colpisce."
     },
     "Loaded Dice": {
-      "name": "Dadi Truccati",
+      "name": "Dado truccato",
       "description": "Dadi truccati che garantiscono un miglior risultato alle mosse a colpi multipli.",
       "system.held.passiveEffect": "Le mosse a colpi multipli del detentore colpiscono sempre il numero massimo di volte."
     },
     "Metronome": {
-      "name": "Metronomo",
+      "name": "Plessimetro",
       "description": "Uno strumento che aumenta la potenza di una mossa usata in successione.",
       "system.held.passiveEffect": "Aumenta progressivamente i danni di una mossa ripetuta su più round consecutivi."
     },
     "Power Herb": {
-      "name": "Energerba",
+      "name": "Vigorerba",
       "description": "Un'erba che permette di eseguire in un solo turno una mossa che di norma richiede due turni. Monouso.",
       "system.held.passiveEffect": "Permette di eseguire in un solo turno le mosse a caricamento. Si consuma."
     },
@@ -222,52 +222,52 @@
       "system.held.passiveEffect": "-1 Destrezza, +2 a un altro Attributo/Tratto a scelta."
     },
     "Protective Pads": {
-      "name": "Paracolpi",
+      "name": "Smorzaurti",
       "description": "Imbottiture che proteggono il detentore dagli effetti di contatto nemici.",
       "system.held.passiveEffect": "Il detentore è immune agli effetti secondari di contatto (Rocciolmo, Vischiaspine, ecc.)."
     },
     "Quick Claw": {
-      "name": "Rapidartigli",
+      "name": "Rapidartiglio",
       "description": "Artigli affilati e leggeri che occasionalmente permettono al detentore di attaccare per primo.",
       "system.held.passiveEffect": "Possibilità di agire per primo indipendentemente dalla Priorità."
     },
     "Razor Claw": {
-      "name": "Unghiaffilata",
+      "name": "Affilartiglio",
       "description": "Un artiglio affilatissimo che aumenta la probabilità di Brutto Colpo.",
       "system.held.passiveEffect": "Le mosse del detentore sono considerate ad Alta Criticità."
     },
     "Razor Fang": {
-      "name": "Zannaffilata",
+      "name": "Affilodente",
       "description": "Una zanna affilatissima che può far tentennare il bersaglio.",
       "system.held.passiveEffect": "Le mosse che infliggono danno possono far tentennare il bersaglio."
     },
     "Red Card": {
-      "name": "Cartellin Rosso",
+      "name": "Cartelrosso",
       "description": "Un cartellino rosso che espelle dal campo chi colpisce il detentore, sostituendolo con un compagno casuale.",
       "system.held.passiveEffect": "Quando il detentore è colpito, l'attaccante viene scambiato con un compagno casuale. Si consuma."
     },
     "Ring Target": {
-      "name": "Ringbersaglio",
+      "name": "Facilsaglio",
       "description": "Un bersaglio appeso al collo che annulla le immunità di tipo del detentore.",
       "system.held.passiveEffect": "Rimuove tutte le immunità di tipo del detentore."
     },
     "Rocky Helmet": {
-      "name": "Rocciolmo",
+      "name": "Bitorzolelmo",
       "description": "Un elmo spinoso che danneggia gli attaccanti a contatto.",
       "system.held.passiveEffect": "Chi colpisce il detentore con una mossa a contatto subisce 1 danno."
     },
     "Safety Goggles": {
-      "name": "Visieradifesa",
+      "name": "Visierantisabbia",
       "description": "Occhiali protettivi che proteggono dagli effetti meteo e dalle mosse a base di polvere.",
       "system.held.passiveEffect": "Immunità agli effetti meteo dannosi e alle mosse a base di polvere/spora."
     },
     "Sticky Barb": {
-      "name": "Vischiaspine",
+      "name": "Vischiopunta",
       "description": "Una spina appiccicosa che ferisce il detentore ma si attacca all'attaccante a contatto.",
       "system.held.passiveEffect": "A fine round il detentore perde 1 PS. Se subisce una mossa a contatto, la spina passa all'attaccante."
     },
     "Throat Spray": {
-      "name": "Spruzzagola",
+      "name": "Spray gola",
       "description": "Uno spray per la gola che aumenta l'Attacco Speciale dopo aver usato una mossa basata sulla voce. Monouso.",
       "system.held.passiveEffect": "Dopo aver usato una mossa basata sul suono, aumenta di 1 l'Attacco Speciale. Si consuma."
     },
@@ -277,17 +277,17 @@
       "system.held.passiveEffect": "Avvelena il detentore a inizio battaglia (Veleno+)."
     },
     "Umbrella": {
-      "name": "Ombrello",
+      "name": "Superombrello",
       "description": "Un ombrello robusto che protegge il detentore dagli effetti della pioggia, del sole e della grandine.",
       "system.held.passiveEffect": "Il detentore ignora gli effetti di Pioggia, Sole, Grandine e Tempesta di Sabbia."
     },
     "Weakness Policy": {
-      "name": "Vendicapunto",
+      "name": "Vulneropolizza",
       "description": "Uno strumento che, se il detentore subisce un colpo superefficace, ne aumenta drasticamente Attacco e Attacco Speciale.",
       "system.held.passiveEffect": "Se il detentore subisce una mossa superefficace, +2 Attacco e +2 Attacco Speciale. Si consuma."
     },
     "White Herb": {
-      "name": "Erba Bianca",
+      "name": "Erbachiara",
       "description": "Un'erba che ripristina le statistiche ridotte del detentore. Monouso.",
       "system.held.passiveEffect": "Ripristina tutte le riduzioni di statistiche del detentore. Si consuma."
     },
@@ -322,7 +322,7 @@
       "description": "Megapietra che permette ad Alakazam di megaevolvere durante la battaglia."
     },
     "Altarianite": {
-      "name": "Altarianite",
+      "name": "Altarite",
       "description": "Megapietra che permette ad Altaria di megaevolvere durante la battaglia."
     },
     "Ampharosite": {
@@ -342,7 +342,7 @@
       "description": "Megapietra che permette a Beedrill di megaevolvere durante la battaglia."
     },
     "Blastoisinite": {
-      "name": "Blastoiseite",
+      "name": "Blastoisite",
       "description": "Megapietra che permette a Blastoise di megaevolvere durante la battaglia."
     },
     "Blazikenite": {
@@ -382,7 +382,7 @@
       "description": "Megapietra che permette a Gengar di megaevolvere durante la battaglia."
     },
     "Glalitite": {
-      "name": "Glalitite",
+      "name": "Glalite",
       "description": "Megapietra che permette a Glalie di megaevolvere durante la battaglia."
     },
     "Gyaradosite": {
@@ -418,7 +418,7 @@
       "description": "Megapietra che permette a Lucario di megaevolvere durante la battaglia."
     },
     "Manectite": {
-      "name": "Manectite",
+      "name": "Manectricite",
       "description": "Megapietra che permette a Manectric di megaevolvere durante la battaglia."
     },
     "Mawilite": {
@@ -450,7 +450,7 @@
       "description": "Megapietra che permette a Pinsir di megaevolvere durante la battaglia."
     },
     "Sablenite": {
-      "name": "Sableyeite",
+      "name": "Sableyite",
       "description": "Megapietra che permette a Sableye di megaevolvere durante la battaglia."
     },
     "Salamencite": {
@@ -466,7 +466,7 @@
       "description": "Megapietra che permette a Scizor di megaevolvere durante la battaglia."
     },
     "Sharpedonite": {
-      "name": "Sharpedoite",
+      "name": "Sharpedite",
       "description": "Megapietra che permette a Sharpedo di megaevolvere durante la battaglia."
     },
     "Slowbronite": {
@@ -490,23 +490,23 @@
       "description": "Megapietra che permette a Venusaur di megaevolvere durante la battaglia."
     },
     "Aloraichium Z": {
-      "name": "Alraichium Z",
+      "name": "Aloraicium Z",
       "description": "Cristallo Z esclusivo di Raichu di Alola. Trasforma una sua mossa Elettro in Fulmitempesta."
     },
     "Buginium Z": {
-      "name": "Coleottium Z",
+      "name": "Insectium Z",
       "description": "Cristallo Z del tipo Coleottero. Trasforma una mossa Coleottero in una mossa Z superpotente."
     },
     "Darkinium Z": {
-      "name": "Buium Z",
+      "name": "Obscurium Z",
       "description": "Cristallo Z del tipo Buio. Trasforma una mossa Buio in una mossa Z superpotente."
     },
     "Decidium Z": {
-      "name": "Decidium Z",
+      "name": "Deciduenium Z",
       "description": "Cristallo Z esclusivo di Decidueye. Trasforma Astrofrecce in Astrofrecce Ultrasilente."
     },
     "Dragonium Z": {
-      "name": "Dragonium Z",
+      "name": "Draconium Z",
       "description": "Cristallo Z del tipo Drago. Trasforma una mossa Drago in una mossa Z superpotente."
     },
     "Eevium Z": {
@@ -514,31 +514,31 @@
       "description": "Cristallo Z esclusivo di Eevee. Trasforma Ultimo Sforzo in Novenità Evoluzione."
     },
     "Electrium Z": {
-      "name": "Elettrium Z",
+      "name": "Electrium Z",
       "description": "Cristallo Z del tipo Elettro. Trasforma una mossa Elettro in una mossa Z superpotente."
     },
     "Fairium Z": {
-      "name": "Folletium Z",
+      "name": "Follectium Z",
       "description": "Cristallo Z del tipo Folletto. Trasforma una mossa Folletto in una mossa Z superpotente."
     },
     "Fightinium Z": {
-      "name": "Lottium Z",
+      "name": "Luctium Z",
       "description": "Cristallo Z del tipo Lotta. Trasforma una mossa Lotta in una mossa Z superpotente."
     },
     "Firium Z": {
-      "name": "Firium Z",
+      "name": "Pirium Z",
       "description": "Cristallo Z del tipo Fuoco. Trasforma una mossa Fuoco in una mossa Z superpotente."
     },
     "Flyinium Z": {
-      "name": "Volium Z",
+      "name": "Volantium Z",
       "description": "Cristallo Z del tipo Volante. Trasforma una mossa Volante in una mossa Z superpotente."
     },
     "Ghostium Z": {
-      "name": "Spectrum Z",
+      "name": "Spectrium Z",
       "description": "Cristallo Z del tipo Spettro. Trasforma una mossa Spettro in una mossa Z superpotente."
     },
     "Grassium Z": {
-      "name": "Erbium Z",
+      "name": "Herbium Z",
       "description": "Cristallo Z del tipo Erba. Trasforma una mossa Erba in una mossa Z superpotente."
     },
     "Groundium Z": {
@@ -546,11 +546,11 @@
       "description": "Cristallo Z del tipo Terra. Trasforma una mossa Terra in una mossa Z superpotente."
     },
     "Icium Z": {
-      "name": "Ghiaccium Z",
+      "name": "Glacium Z",
       "description": "Cristallo Z del tipo Ghiaccio. Trasforma una mossa Ghiaccio in una mossa Z superpotente."
     },
     "Incinium Z": {
-      "name": "Incinium Z",
+      "name": "Incineronium Z",
       "description": "Cristallo Z esclusivo di Incineroar. Trasforma Mossa Oscura in Mossa Oscura Bestiale."
     },
     "Kommonium Z": {
@@ -562,7 +562,7 @@
       "description": "Cristallo Z esclusivo di Lunala/Necrozma Ali dell'Aurora. Trasforma Luna Calante in Raggio d'Ombra Astrale."
     },
     "Lycanium Z": {
-      "name": "Lycanium Z",
+      "name": "Lycanrochium Z",
       "description": "Cristallo Z esclusivo di Lycanroc. Trasforma Rocciotomia in Divororoccia."
     },
     "Marshadium Z": {
@@ -574,51 +574,51 @@
       "description": "Cristallo Z esclusivo di Mew. Trasforma Psichico in Psico Vertigine."
     },
     "Mimikium Z": {
-      "name": "Mimikium Z",
+      "name": "Mimikyum Z",
       "description": "Cristallo Z esclusivo di Mimikyu. Trasforma Farsa in Farsa Funesta."
     },
     "Normalium Z": {
-      "name": "Normalium Z",
+      "name": "Normium Z",
       "description": "Cristallo Z del tipo Normale. Trasforma una mossa Normale in una mossa Z superpotente."
     },
     "Pikanium Z": {
-      "name": "Pikanium Z",
+      "name": "Pikacium Z",
       "description": "Cristallo Z esclusivo di Pikachu. Trasforma Fulmine in Fulmine Decimila Volt."
     },
     "Pikashunium Z": {
-      "name": "Pikashunium Z",
+      "name": "Ashpikacium Z",
       "description": "Cristallo Z esclusivo di Pikachu con berretto di Ash. Trasforma Fulmine in Fulmine Gigavolt Decisivo."
     },
     "Poisonium Z": {
-      "name": "Velenium Z",
+      "name": "Venenium Z",
       "description": "Cristallo Z del tipo Veleno. Trasforma una mossa Veleno in una mossa Z superpotente."
     },
     "Primarium Z": {
-      "name": "Primarium Z",
+      "name": "Primarinium Z",
       "description": "Cristallo Z esclusivo di Primarina. Trasforma Canto Magico in Canto Sirenico."
     },
     "Psychium Z": {
-      "name": "Psychium Z",
+      "name": "Psichium Z",
       "description": "Cristallo Z del tipo Psico. Trasforma una mossa Psico in una mossa Z superpotente."
     },
     "Rockium Z": {
-      "name": "Roccium Z",
+      "name": "Petrium Z",
       "description": "Cristallo Z del tipo Roccia. Trasforma una mossa Roccia in una mossa Z superpotente."
     },
     "Snorlium Z": {
-      "name": "Snorlium Z",
+      "name": "Snorlactium Z",
       "description": "Cristallo Z esclusivo di Snorlax. Trasforma Forza G in Pennico da 9 Tonnellate."
     },
     "Solganium Z": {
-      "name": "Solganium Z",
+      "name": "Solgaleium Z",
       "description": "Cristallo Z esclusivo di Solgaleo/Necrozma Criniera del Vespro. Trasforma Vampasolare in Raggio di Sole Astrale."
     },
     "Steelium Z": {
-      "name": "Accium Z",
+      "name": "Metallium Z",
       "description": "Cristallo Z del tipo Acciaio. Trasforma una mossa Acciaio in una mossa Z superpotente."
     },
     "Tapunium Z": {
-      "name": "Tapunium Z",
+      "name": "Tapium Z",
       "description": "Cristallo Z esclusivo dei Tapu. Trasforma Gunfuria in Imperium Insulare."
     },
     "Ultranecrozium Z": {

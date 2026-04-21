@@ -98,11 +98,11 @@
       "description": "Rara. Un vecchio modello di Poké Ball, oggi pezzo da collezione."
     },
     "Dusk Ball": {
-      "name": "Ombra Ball",
+      "name": "Scuro Ball",
       "description": "Non comune. Il sigillo di questa Ball si rafforza con il buio. Aumenta la potenza di sigillo di 4 se sei in una caverna e/o di 5 se è notte."
     },
     "Fast Ball": {
-      "name": "Velox Ball",
+      "name": "Rapid Ball",
       "description": "Non comune. La potenza di sigillo è pari al punteggio di Destrezza del Pokémon che stai cercando di catturare. Fino a 9 dadi."
     },
     "Heavy Ball": {
@@ -114,7 +114,7 @@
       "description": "Molto rara. Qualunque Pokémon catturato con questa Ball vedrà aumentare il proprio punteggio di Felicità di 1."
     },
     "Quick Ball": {
-      "name": "Rapid Ball",
+      "name": "Velox Ball",
       "description": "Non comune. Il sigillo di questa Ball funziona a tempo: parte con un massimo di 9 dadi nel primo Round di battaglia e la potenza di sigillo diminuisce di 2 a ogni Round successivo."
     },
     "Sub Ball": {
@@ -122,7 +122,7 @@
       "description": "Non comune. Ha normalmente la potenza di sigillo di una Poké Ball (4 dadi), ma contro i Pokémon di tipo Acqua ha la potenza di sigillo di una Mega Ball (6 dadi)."
     },
     "Heal Ball": {
-      "name": "Amul Ball",
+      "name": "Cura Ball",
       "description": "Non comune. Ha la potenza di sigillo di una Poké Ball (4 dadi) ma cura completamente il Pokémon una volta catturato."
     },
     "Revive": {

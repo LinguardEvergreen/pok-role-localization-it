@@ -14,11 +14,11 @@
       "description": "Il miglior rapporto qualità-prezzo. Può essere razionata per piccole ferite della squadra, o usata tutta in una volta su una ferita grave."
     },
     "Max Potion": {
-      "name": "Pozione Max",
+      "name": "Pozione max",
       "description": "Una capsula monouso di formula concentrata. Il Pokémon non potrà recuperare ulteriori PS fino al giorno successivo."
     },
     "Full Restore": {
-      "name": "Ricarica Totale",
+      "name": "Ricarica totale",
       "description": "Una capsula monouso di formula deluxe. Il Pokémon non potrà recuperare ulteriori PS fino al giorno successivo. Ripristina PS max e cura gli stati alterati."
     },
     "Antidote": {
@@ -42,51 +42,51 @@
       "description": "Questo unguento rilassa i muscoli e ferma gli spasmi. Cura Paralisi."
     },
     "Full Heal": {
-      "name": "Cura Totale",
+      "name": "Cura totale",
       "description": "Una formula spray superiore capace di curare tutti gli stati alterati in un istante. Cura tutti gli Stati Alterati."
     },
     "Remedy": {
-      "name": "Rimedio",
+      "name": "Preparato",
       "description": "Questa polvere lascia un retrogusto orribile. I Pokémon la prenderanno solo se feriti, e anche allora ti serberanno rancore per giorni."
     },
     "Oran Berry": {
-      "name": "Baccaran",
+      "name": "Baccarancia",
       "description": "Una deliziosa bacca agrumata che attenua il dolore."
     },
     "Sitrus Berry": {
       "name": "Baccacedro",
-      "description": "Una bacca più grande della famiglia del Baccaran, ma più rara in natura. Può anche curare fino a 1 di Danno Letale."
+      "description": "Una bacca più grande della famiglia della Baccarancia, ma più rara in natura. Può anche curare fino a 1 di Danno Letale."
     },
     "Pecha Berry": {
       "name": "Baccapesca",
       "description": "La polpa dolce di questa bacca assorbe il veleno semplice dal flusso sanguigno. Cura Veleno."
     },
     "Cheri Berry": {
-      "name": "Baccaciliegia",
+      "name": "Baccaliegia",
       "description": "Il suo sapore piccante rinvigorisce i muscoli e ferma gli spasmi. Cura Paralisi."
     },
     "Chesto Berry": {
-      "name": "Baccacastagna",
+      "name": "Baccastagna",
       "description": "È difficile da mangiare: così dura e secca che scaccia il sonno. Cura Sonno."
     },
     "Rawst Berry": {
-      "name": "Baccamenta",
+      "name": "Baccafrago",
       "description": "La sua polpa liquida è ideale per impedire al fuoco di propagarsi e intorpidire il dolore nella zona. È piuttosto amara, però. Cura Scottatura di 1° e 2° grado."
     },
     "Aspear Berry": {
-      "name": "Baccapera",
+      "name": "Baccaperina",
       "description": "Questa bacca aspra scuote il corpo e alza la temperatura, sciogliendo il ghiaccio circostante. Cura Congelamento."
     },
     "Persim Berry": {
-      "name": "Baccaplacida",
+      "name": "Baccaki",
       "description": "Una bacca dai molti sapori, utile per uscire dalla Confusione. Cura Confusione."
     },
     "Lum Berry": {
-      "name": "Baccalamo",
+      "name": "Baccaprugna",
       "description": "Si dice che questa bacca curi tutto; è però molto rara. Cura tutti gli Stati Alterati."
     },
     "Energy Root": {
-      "name": "Radice Energia",
+      "name": "Radicenergia",
       "description": "Una radice dal sapore sgradevole ma con proprietà curative. Può essere mangiata intera o trasformata in un massimo di 4 dosi di Rimedio. (Richiede un tiro di Medicina)"
     },
     "Heal Powder": {
@@ -94,15 +94,15 @@
       "description": "Un mix delle erbe più disgustose che puoi trovare crea questa polvere curatutto. Cura tutti gli Stati Alterati."
     },
     "Revival Herb": {
-      "name": "Erbarivivi",
+      "name": "Vitalerba",
       "description": "Saranno le sue proprietà magiche o solo il suo orrido sapore, ma questa erba ti riporterà cosciente eliminando ogni dolore. Molto rara. Ripristina la coscienza e i PS al massimo."
     },
     "Berry Juice": {
-      "name": "Succo di Bacche",
+      "name": "Succodibacca",
       "description": "Questa bevanda mista a base di varie bacche è anche molto dissetante. Alcuni Pokémon la producono naturalmente. Non utilizzabile in Battaglia."
     },
     "Fresh Water": {
-      "name": "Acqua Fresca",
+      "name": "Acqua fresca",
       "description": "H2O pura con il giusto tenore di sodio. Ricordati di bere 8 bicchieri al giorno! Non utilizzabile in Battaglia."
     },
     "Soda Pop": {
@@ -110,7 +110,7 @@
       "description": "Questa bibita zuccherata ti dà una rapida carica di energia. Goditi le bollicine in una giornata calda. Non utilizzabile in Battaglia."
     },
     "Lemonade": {
-      "name": "Limonata",
+      "name": "Lemonsucco",
       "description": "La spinta di agrumi e l'aggiunta di vitamine la rendono un classico dopo l'esercizio. Non utilizzabile in Battaglia."
     },
     "Moomoo Milk": {
@@ -118,7 +118,7 @@
       "description": "Appena munto da un Miltank! Fresco e biologico. Ottimo per crescere sani! Non utilizzabile in Battaglia."
     },
     "Max Honey": {
-      "name": "Miele Max",
+      "name": "Mielemax",
       "description": "Un miele raffinato prodotto da una Vespiquen. Incredibilmente salutare, si dice conceda vera felicità. L'unico modo per ottenerlo però è sconfiggere l'intero sciame in battaglia. Non utilizzabile in Battaglia."
     },
     "Ice Cream": {
