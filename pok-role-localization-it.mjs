@@ -716,17 +716,98 @@ async function patched_syncLearnsetMovesToItems() {
 }
 
 /**
- * Install the `_syncLearnsetMovesToItems` override on the first Pokémon
- * actor sheet we see. Uses `app.constructor.prototype` to find the class
- * without depending on the system's internal exports.
+ * Wrap `performEvolution` so that any move which was usable on the pre-evolution
+ * form stays usable after evolution — especially important when the new form
+ * would "learn" that move at a higher rank than the Pokémon's current tier.
+ *
+ * Why this is needed: the system's `performEvolution` deletes every move and
+ * recreates them fresh from the compendium. Newly-learned moves should start
+ * not-yet-usable (matching rank-up behaviour), but moves the Pokémon already
+ * knew and could use on the previous form must NOT regress into "unknown /
+ * unusable" state just because the new evolution's learnset slots them at a
+ * later rank. Without this guard, a Bulbasaur (Rookie) evolving into Ivysaur
+ * (Rookie) would lose the usable flag on Vine Whip/Leech Seed because Ivysaur
+ * places those at Standard — outside the "learnset up to current tier" window.
+ *
+ * Strategy: snapshot {englishName → isUsable} before the system runs, then
+ * after recreation re-apply `isUsable: true` to any recreated move whose
+ * English name matches a previously-usable entry.
+ */
+async function patched_performEvolution(originalFn, ...args) {
+  const actor = this.actor;
+
+  /** English-name → was-usable map for current moves. */
+  const usableBefore = new Map();
+  if (actor?.items) {
+    for (const item of actor.items) {
+      if (item?.type !== "move") continue;
+      // By the time sheet.performEvolution runs, Actor.evolve() has already
+      // awaited migrateActorMoveNamesToEnglish, so item.name should be
+      // English. Fall back to the reverse map defensively in case a caller
+      // reached performEvolution without going through Actor.evolve().
+      const nameKey = normalizeKey(item.name);
+      const englishName = moveReverseMap.get(nameKey) ?? item.name;
+      if (item.system?.isUsable !== false) {
+        usableBefore.set(normalizeKey(englishName), true);
+      }
+    }
+  }
+
+  const result = await originalFn.apply(this, args);
+  if (result === false) return result;
+
+  // Re-apply isUsable: true to recreated moves that were usable before.
+  try {
+    const updates = [];
+    for (const item of actor.items) {
+      if (item?.type !== "move") continue;
+      const key = normalizeKey(item.name);
+      if (!usableBefore.has(key)) continue;
+      if (item.system?.isUsable === false) {
+        updates.push({ _id: item.id, "system.isUsable": true });
+      }
+    }
+    if (updates.length > 0) {
+      await actor.updateEmbeddedDocuments("Item", updates);
+      console.log(
+        `[${MODULE_ID}] Restored isUsable on ${updates.length} retained move(s) ` +
+          `after evolving ${actor.name}.`
+      );
+    }
+  } catch (err) {
+    console.warn(`[${MODULE_ID}] Failed to restore isUsable post-evolution:`, err);
+  }
+
+  return result;
+}
+
+/**
+ * Install the sheet-class patches on the first Pokémon actor sheet we see.
+ * Wraps `_syncLearnsetMovesToItems` (bilingual compendium lookup) and
+ * `performEvolution` (preserve usable-flag on retained moves). Uses
+ * `app.constructor.prototype` so we don't need to reach into the system's
+ * internal exports.
  */
 function maybeInstallSheetPatch(app) {
   if (sheetPatchInstalled) return;
   const proto = app?.constructor?.prototype;
   if (!proto || typeof proto._syncLearnsetMovesToItems !== "function") return;
+
   proto._syncLearnsetMovesToItems = patched_syncLearnsetMovesToItems;
+
+  if (typeof proto.performEvolution === "function" && !proto.__pokRoleItEvolutionPatched) {
+    const original = proto.performEvolution;
+    proto.performEvolution = function(...args) {
+      return patched_performEvolution.call(this, original, ...args);
+    };
+    proto.__pokRoleItEvolutionPatched = true;
+  }
+
   sheetPatchInstalled = true;
-  console.log(`[${MODULE_ID}] Patched _syncLearnsetMovesToItems for bilingual learnset matching.`);
+  console.log(
+    `[${MODULE_ID}] Patched _syncLearnsetMovesToItems (bilingual lookup) and ` +
+      `performEvolution (preserve isUsable on retained moves).`
+  );
 }
 
 /**
