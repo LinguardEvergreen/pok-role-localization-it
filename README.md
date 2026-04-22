@@ -7,7 +7,7 @@
 
 <p align="center">
   <img alt="Foundry VTT v13" src="https://img.shields.io/badge/Foundry-v13-f36f24?style=for-the-badge">
-  <img alt="Modulo 1.3.3" src="https://img.shields.io/badge/Modulo-1.3.3-2d7ff9?style=for-the-badge">
+  <img alt="Modulo 1.5.5" src="https://img.shields.io/badge/Modulo-1.3.3-2d7ff9?style=for-the-badge">
   <img alt="Sistema pok-role-system 1.3.0" src="https://img.shields.io/badge/Sistema-pok--role--system%201.3.0-d94b3d?style=for-the-badge">
   <img alt="Lingua IT" src="https://img.shields.io/badge/Lingua-IT-00a7c4?style=for-the-badge">
   <img alt="Richiede Babele" src="https://img.shields.io/badge/Richiede-Babele%202.0%2B-6f42c1?style=for-the-badge">
