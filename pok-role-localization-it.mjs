@@ -278,13 +278,12 @@ function overlayActorSheet(app, rootEl) {
   // Install the system-sheet prototype patch once, lazily.
   maybeInstallSheetPatch(app);
 
-  // Normalize stored Italian move names back to English on first render
-  // (idempotent — flagged on the actor). Fire-and-forget; the next render
-  // will pick up the updated names for the DOM overlay.
+  // Normalize stored Italian move names back to English on first render.
+  // Idempotent (no-op when all names are already English), so we run
+  // unconditionally. Fire-and-forget; the next render will pick up the
+  // updated names for the DOM overlay.
   if (actor.type === "pokemon" && actor.isOwner) {
-    if (actor.getFlag?.(MIGRATION_FLAG_SCOPE, MIGRATION_FLAG_KEY) !== true) {
-      migrateActorMoveNamesToEnglish(actor);
-    }
+    migrateActorMoveNamesToEnglish(actor);
   }
 
   // Pokémon-specific sheets are the primary target but the same approach is
@@ -518,19 +517,18 @@ function overlayMovesByRank(actor, rootEl) {
 //   - `_syncLearnsetMovesToItems` is patched to search the (Babele-translated)
 //     pack index bilingually, so rank-up can still create missing moves.
 
-/** Migration flag key on an actor to avoid redundant migrations. */
-const MIGRATION_FLAG_SCOPE = MODULE_ID;
-const MIGRATION_FLAG_KEY = "moveNamesMigrated";
-
 /**
- * Rename Italian move-item names back to English on a Pokémon actor. Runs
- * idempotently; a per-actor flag short-circuits subsequent invocations once
- * no Italian names remain.
+ * Rename Italian move-item names back to English on a Pokémon actor.
  *
- * IMPORTANT: only performs an embedded-document update when the active user
- * actually owns the actor; otherwise a non-owning player would get a
- * permission error from Foundry. The GM (or the owning player) will
- * eventually open the sheet and trigger the rename.
+ * No flag/memoization: the operation is cheap (one iteration over
+ * `actor.items`) and has no side-effect when every name is already English,
+ * so we run it unconditionally before any system flow that matches by
+ * English name (rank-up, evolution). Previously we short-circuited with a
+ * flag on the actor, but that masked cases where the flag was set after an
+ * early no-op (e.g. before `moveReverseMap` was populated).
+ *
+ * Only performs embedded-document updates when the active user owns the
+ * actor; otherwise Foundry would refuse with a permission error.
  */
 async function migrateActorMoveNamesToEnglish(actor) {
   if (!actor || actor.type !== "pokemon") return;
@@ -546,19 +544,10 @@ async function migrateActorMoveNamesToEnglish(actor) {
     }
   }
 
-  if (updates.length === 0) {
-    // Mark as migrated so we don't revisit every render.
-    try {
-      if (actor.getFlag(MIGRATION_FLAG_SCOPE, MIGRATION_FLAG_KEY) !== true) {
-        await actor.setFlag(MIGRATION_FLAG_SCOPE, MIGRATION_FLAG_KEY, true);
-      }
-    } catch (_e) { /* flag write may fail for non-owners, ignore */ }
-    return;
-  }
+  if (updates.length === 0) return;
 
   try {
     await actor.updateEmbeddedDocuments("Item", updates);
-    await actor.setFlag(MIGRATION_FLAG_SCOPE, MIGRATION_FLAG_KEY, true);
     console.log(
       `[${MODULE_ID}] Renamed ${updates.length} move(s) on ${actor.name} back to English ` +
         `(display stays Italian via DOM overlay).`
@@ -566,6 +555,40 @@ async function migrateActorMoveNamesToEnglish(actor) {
   } catch (err) {
     console.warn(`[${MODULE_ID}] Failed to migrate move names on ${actor.name}:`, err);
   }
+}
+
+/**
+ * Wrap `Actor.prototype.evolve` so that we ALWAYS await the move-name
+ * migration on the evolving actor before the system's `evolve()` runs.
+ *
+ * Why this matters: the stock system `evolve()` computes
+ *   `oldUniqueMoves = items.filter(m => !allTargetMoveNames.has(m.name.lower()))`
+ * where `allTargetMoveNames` comes from the target evolution's English
+ * `learnsetByRank`. If the actor still has Italian move names (because the
+ * sheet-open migration was scheduled but hadn't run yet, or because evolve
+ * is being invoked from a macro/script that never opened the sheet), every
+ * move fails the lookup and the "keep moves" dialog pops up spuriously.
+ *
+ * By normalizing move names to English first, the filter runs over an
+ * English `m.name` against an English `allTargetMoveNames` and the dialog
+ * only appears when there's a real set of orphan moves.
+ */
+function patchActorEvolve(ActorClass) {
+  if (!ActorClass?.prototype?.evolve) return;
+  if (ActorClass.prototype.__pokRoleItEvolvePatched) return;
+  const original = ActorClass.prototype.evolve;
+  ActorClass.prototype.evolve = async function(...args) {
+    if (this.type === "pokemon") {
+      try {
+        await migrateActorMoveNamesToEnglish(this);
+      } catch (err) {
+        console.warn(`[${MODULE_ID}] Pre-evolve migration failed on ${this.name}:`, err);
+      }
+    }
+    return original.apply(this, args);
+  };
+  ActorClass.prototype.__pokRoleItEvolvePatched = true;
+  console.log(`[${MODULE_ID}] Wrapped Actor.evolve() to normalize move names first.`);
 }
 
 /**
@@ -847,6 +870,13 @@ Hooks.once("ready", async () => {
   }
 
   await Promise.all([buildTranslationMaps(), buildBiographyMap()]);
+
+  // Wrap Actor.evolve() so stored move names are normalized to English
+  // before the system's evolve logic runs (prevents the spurious
+  // keep-moves dialog when moves were renamed by Babele in a prior session).
+  const ActorClass = CONFIG.Actor?.documentClass;
+  if (ActorClass) patchActorEvolve(ActorClass);
+
   console.log(`[${MODULE_ID}] Ready. Actor-sheet overlay active.`);
 });
 
