@@ -716,53 +716,161 @@ async function patched_syncLearnsetMovesToItems() {
 }
 
 /**
- * Wrap `performEvolution` so that any move which was usable on the pre-evolution
- * form stays usable after evolution — especially important when the new form
- * would "learn" that move at a higher rank than the Pokémon's current tier.
+ * Wrap `performEvolution` so that:
+ *   (a) moves the Pokémon already knew don't silently disappear, and
+ *   (b) moves that were usable on the pre-evolution form stay usable after.
  *
  * Why this is needed: the system's `performEvolution` deletes every move and
- * recreates them fresh from the compendium. Newly-learned moves should start
- * not-yet-usable (matching rank-up behaviour), but moves the Pokémon already
- * knew and could use on the previous form must NOT regress into "unknown /
- * unusable" state just because the new evolution's learnset slots them at a
- * later rank. Without this guard, a Bulbasaur (Rookie) evolving into Ivysaur
- * (Rookie) would lose the usable flag on Vine Whip/Leech Seed because Ivysaur
- * places those at Standard — outside the "learnset up to current tier" window.
+ * tries to recreate them from the compendium via
  *
- * Strategy: snapshot {englishName → isUsable} before the system runs, then
- * after recreation re-apply `isUsable: true` to any recreated move whose
- * English name matches a previously-usable entry.
+ *     moveIndex.find(e => e.name.toLowerCase() === moveName.toLowerCase())
+ *
+ * `moveIndex` comes from `game.packs.get("pok-role-system.moves").getIndex()`,
+ * and with Babele active its entries are ITALIAN (e.g. "Frustata"). But
+ * `moveName` is English (from the seed `learnsetByRank`, which we don't
+ * translate). Every lookup fails, so the system deletes all moves and
+ * recreates none. The sheet re-render then backfills only the current form's
+ * learnset up to the current tier via `_syncLearnsetMovesToItems` (with
+ * isUsable:false), and any auto-retained move at a HIGHER rank in the new
+ * form (e.g. Vine Whip / Leech Seed on Bulbasaur → Ivysaur at Rookie) is
+ * lost entirely ("me le toglie").
+ *
+ * Strategy:
+ *   1. Snapshot {englishName → isUsable} before the system runs.
+ *   2. Call original `performEvolution` as normal.
+ *   3. Compute the moves that SHOULD exist after evolution — new form's
+ *      learnset up to current tier + auto-retained + kept-old — and recreate
+ *      any that are missing via a bilingual compendium lookup (English
+ *      first, else the Italian translation from our overlay map).
+ *   4. Re-apply `isUsable: true` on any move whose English name was usable
+ *      on the pre-evolution form. Newly-introduced learnset moves (never
+ *      known before) still start not-yet-usable, matching rank-up.
  */
-async function patched_performEvolution(originalFn, ...args) {
+async function patched_performEvolution(originalFn, targetSeedData, keptOldMoveNames, ...rest) {
   const actor = this.actor;
 
-  /** English-name → was-usable map for current moves. */
-  const usableBefore = new Map();
-  if (actor?.items) {
-    for (const item of actor.items) {
-      if (item?.type !== "move") continue;
-      // By the time sheet.performEvolution runs, Actor.evolve() has already
-      // awaited migrateActorMoveNamesToEnglish, so item.name should be
-      // English. Fall back to the reverse map defensively in case a caller
-      // reached performEvolution without going through Actor.evolve().
-      const nameKey = normalizeKey(item.name);
-      const englishName = moveReverseMap.get(nameKey) ?? item.name;
-      if (item.system?.isUsable !== false) {
-        usableBefore.set(normalizeKey(englishName), true);
+  // 1. Snapshot: English name (lower-case key) → { englishName, isUsable }.
+  const preState = new Map();
+  for (const item of actor?.items ?? []) {
+    if (item?.type !== "move") continue;
+    const nameKey = normalizeKey(item.name);
+    const englishName = moveReverseMap.get(nameKey) ?? item.name;
+    preState.set(normalizeKey(englishName), {
+      englishName,
+      isUsable: item.system?.isUsable !== false
+    });
+  }
+
+  // 2. Run the system's performEvolution. Some moves will silently go missing
+  //    if the Babele-translated move index doesn't match their English names.
+  const result = await originalFn.call(this, targetSeedData, keptOldMoveNames, ...rest);
+  if (result === false) return result;
+
+  // 3. Compute the set of moves that should exist post-evolution.
+  const newLearnset = targetSeedData?.learnsetByRank ?? {};
+  const currentTier = actor.system.tier ?? "starter";
+  const tierIdx = POKEMON_TIER_KEYS.indexOf(currentTier);
+
+  /** normalizedKey → canonical English name */
+  const expected = new Map();
+
+  // a) Target's learnset up to (and including) current tier.
+  if (tierIdx >= 0) {
+    for (let i = 0; i <= tierIdx; i++) {
+      const raw = `${newLearnset[POKEMON_TIER_KEYS[i]] ?? ""}`;
+      for (const m of raw.split(",").map((s) => s.trim()).filter(Boolean)) {
+        expected.set(normalizeKey(m), m);
       }
     }
   }
+  // b) Auto-retained: any pre-evo move that appears in target's learnset at ANY rank.
+  const allTargetKeys = new Set();
+  for (const rank of POKEMON_TIER_KEYS) {
+    const raw = `${newLearnset[rank] ?? ""}`;
+    for (const m of raw.split(",").map((s) => s.trim()).filter(Boolean)) {
+      allTargetKeys.add(normalizeKey(m));
+    }
+  }
+  for (const { englishName } of preState.values()) {
+    const key = normalizeKey(englishName);
+    if (allTargetKeys.has(key)) expected.set(key, englishName);
+  }
+  // c) Kept-old moves the user explicitly selected to carry over.
+  if (Array.isArray(keptOldMoveNames)) {
+    for (const name of keptOldMoveNames) {
+      if (!name) continue;
+      expected.set(normalizeKey(name), `${name}`);
+    }
+  }
 
-  const result = await originalFn.apply(this, args);
-  if (result === false) return result;
+  // 4. What does the actor actually have right now? (Indexed by both the
+  //    stored name AND its English reverse, in case Babele-translation beat
+  //    our preCreateItem hook for any reason.)
+  const actualKeys = new Set();
+  for (const item of actor.items) {
+    if (item?.type !== "move") continue;
+    actualKeys.add(normalizeKey(item.name));
+    const english = moveReverseMap.get(normalizeKey(item.name));
+    if (english) actualKeys.add(normalizeKey(english));
+  }
 
-  // Re-apply isUsable: true to recreated moves that were usable before.
+  // 5. Recreate anything missing via a bilingual compendium lookup.
+  const missing = [];
+  for (const [key, englishName] of expected) {
+    if (!actualKeys.has(key)) missing.push(englishName);
+  }
+  if (missing.length > 0) {
+    try {
+      const pack = game.packs.get("pok-role-system.moves");
+      if (pack) {
+        const index = await pack.getIndex({ fields: ["name"] });
+        const findEntry = (englishName) => {
+          const italian = translationMaps.move.get(normalizeKey(englishName))?.translated;
+          const enLower = englishName.toLowerCase();
+          const itLower = italian?.toLowerCase();
+          return index.find((e) => {
+            if (!e?.name) return false;
+            const n = e.name.toLowerCase();
+            return n === enLower || (itLower && n === itLower);
+          });
+        };
+        const toCreate = [];
+        for (const englishName of missing) {
+          const entry = findEntry(englishName);
+          if (!entry) continue;
+          const doc = await pack.getDocument(entry._id);
+          if (!doc) continue;
+          const obj = doc.toObject();
+          obj.name = englishName; // force canonical English (preCreateItem also does this)
+          delete obj._id;
+          if (preState.get(normalizeKey(englishName))?.isUsable) {
+            obj.system ??= {};
+            obj.system.isUsable = true;
+          }
+          toCreate.push(obj);
+        }
+        if (toCreate.length > 0) {
+          await actor.createEmbeddedDocuments("Item", toCreate);
+          console.log(
+            `[${MODULE_ID}] Recreated ${toCreate.length} move(s) missed by the ` +
+              `system's Italian-index lookup on ${actor.name}.`
+          );
+        }
+      }
+    } catch (err) {
+      console.warn(`[${MODULE_ID}] Failed to recreate missing moves post-evolve:`, err);
+    }
+  }
+
+  // 6. Restore isUsable:true on any move that was usable before — covers
+  //    moves recreated by `_syncLearnsetMovesToItems` with isUsable:false.
   try {
     const updates = [];
     for (const item of actor.items) {
       if (item?.type !== "move") continue;
-      const key = normalizeKey(item.name);
-      if (!usableBefore.has(key)) continue;
+      const englishName = moveReverseMap.get(normalizeKey(item.name)) ?? item.name;
+      const pre = preState.get(normalizeKey(englishName));
+      if (!pre?.isUsable) continue;
       if (item.system?.isUsable === false) {
         updates.push({ _id: item.id, "system.isUsable": true });
       }
