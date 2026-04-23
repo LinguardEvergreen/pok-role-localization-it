@@ -19,6 +19,43 @@ const TARGET_LANG = "it";
 const LANG_DIR = "compendium/it";
 
 /**
+ * Client setting key: when true, the DOM overlay (which rewrites English
+ * item names to Italian on actor/item sheets) is skipped. Useful for users
+ * on a shared world who prefer the English UI while everyone else uses
+ * Italian — Babele compendium translations are still applied globally, but
+ * actor/item sheets show whatever is stored (which is English, thanks to
+ * the preCreateItem hook and the name-migration pass).
+ */
+const SETTING_PREFER_ENGLISH = "preferEnglish";
+
+/** Read the client setting safely (may be called before init completes). */
+function getPreferEnglish() {
+  try {
+    return game.settings?.get?.(MODULE_ID, SETTING_PREFER_ENGLISH) === true;
+  } catch (_e) {
+    return false;
+  }
+}
+
+/** Re-render every open sheet so the overlay toggle applies immediately. */
+function rerenderOpenSheets() {
+  try {
+    for (const app of Object.values(ui.windows ?? {})) {
+      if (app?.rendered) app.render(false);
+    }
+  } catch (_e) { /* ignore */ }
+  try {
+    const v2 = foundry?.applications?.instances;
+    const iter = typeof v2?.values === "function" ? v2.values() : v2;
+    if (iter) {
+      for (const app of iter) {
+        if (app?.rendered) app.render(false);
+      }
+    }
+  } catch (_e) { /* ignore */ }
+}
+
+/**
  * Packs whose entries we want to overlay on the actor sheet.
  * Keys = item.type used by the pok-role-system for that pack.
  */
@@ -275,21 +312,28 @@ function overlayActorSheet(app, rootEl) {
   const actor = app?.actor ?? app?.object;
   if (!actor || !rootEl) return;
 
-  // Install the system-sheet prototype patch once, lazily.
+  // Always install the system-sheet prototype patches (they fix system
+  // bugs that affect rank-up / evolution regardless of language preference).
   maybeInstallSheetPatch(app);
 
-  // Normalize stored Italian move names back to English on first render.
-  // Idempotent (no-op when all names are already English), so we run
-  // unconditionally. Fire-and-forget; the next render will pick up the
-  // updated names for the DOM overlay.
+  // Always normalize stored Italian move names back to English. This is a
+  // data-correctness fix (the system matches English names against the
+  // seed learnsetByRank), not a display concern — independent of the
+  // client's language preference. Idempotent, fire-and-forget.
   if (actor.type === "pokemon" && actor.isOwner) {
     migrateActorMoveNamesToEnglish(actor);
   }
 
-  // Pokémon-specific sheets are the primary target but the same approach is
-  // safe for any actor type since Babele already handled compendium actors.
-  // We do NOT touch the stored actor data — only the rendered DOM.
+  // User opted out of the Italian display overlay — leave the DOM alone.
+  if (getPreferEnglish()) return;
 
+  // Pokémon-specific sheets are the primary target but the same approach is
+  // safe for any actor type. We do NOT touch the stored actor data — only
+  // the rendered DOM.
+  //
+  // Pass 1: items rendered with [data-item-id] (moves, abilities, gear
+  // pockets, active-ability link, etc.). translateItemWithin walks
+  // descendants and replaces both text nodes and title/aria-label attrs.
   const scopes = rootEl.querySelectorAll("[data-item-id]");
   let fixed = 0;
   for (const scope of scopes) {
@@ -303,10 +347,15 @@ function overlayActorSheet(app, rootEl) {
     fixed++;
   }
 
-  // Second pass: some elements (active ability link, battle item chip, etc.)
-  // have a data-item-id on the *row* but their text is a literal copy of the
-  // item.name. translateItemWithin above already handles those because we
-  // walk descendants. Nothing extra to do.
+  // Pass 2: learnset-config chips (they carry data-move-name pointing at
+  // the English learnset entry but never a data-item-id — the chip text is
+  // the raw string from actor.system.learnsetByRank).
+  overlayLearnsetChips(rootEl);
+
+  // Pass 3: battle-item display. The span that carries the item name sits
+  // inside `.pokemon-battle-item-value` but has no data-item-id wrapping
+  // the text, so Pass 1 misses it.
+  overlayBattleItem(actor, rootEl);
 
   if (fixed > 0 && CONFIG.debug?.pokRoleIt) {
     console.debug(`[${MODULE_ID}] Overlaid ${fixed} embedded items on ${actor.name}.`);
@@ -315,8 +364,7 @@ function overlayActorSheet(app, rootEl) {
   // Biography overlay: replace the textarea value with the Italian biography
   // if we can match by actor name or system.species. Only applied when the
   // current stored value still equals the original English seed (so we never
-  // clobber user edits). Keeping the value on a textarea displays Italian;
-  // if the user saves without edits the English is replaced with Italian.
+  // clobber user edits).
   overlayBiographyField(actor, rootEl);
 
   // Move-rank relocation: when Babele translates move names to Italian, the
@@ -324,6 +372,49 @@ function overlayActorSheet(app, rootEl) {
   // `system.learnsetByRank` — so every translated move lands in "Altro".
   // We physically move each row from "Altro" back into its rank group.
   overlayMovesByRank(actor, rootEl);
+}
+
+/**
+ * Translate `.learnset-move-chip` elements. Each chip carries
+ * `data-move-name="<English name>"` and renders that name as its own text
+ * followed by a remove button. We rewrite only the text node; the
+ * `data-move-name` attribute is left as English so the system's remove
+ * handler still matches the learnsetByRank string.
+ */
+function overlayLearnsetChips(rootEl) {
+  const chips = rootEl.querySelectorAll?.(".learnset-move-chip[data-move-name]");
+  if (!chips?.length) return;
+  for (const chip of chips) {
+    const english = chip.getAttribute("data-move-name");
+    if (!english) continue;
+    const italian = lookupItalian(english, ["move"]);
+    if (!italian || italian === english) continue;
+    for (const node of chip.childNodes) {
+      if (node.nodeType === Node.TEXT_NODE && (node.nodeValue ?? "").trim() === english) {
+        node.nodeValue = node.nodeValue.replace(english, italian);
+      }
+    }
+  }
+}
+
+/**
+ * Translate the battle-item (held item) chip shown under the Pokémon's
+ * ability. The chip wrapper has class `.pokemon-battle-item-value` but no
+ * data-item-id, so we resolve the item via `actor.system.battleItem` (an
+ * item id) and rewrite the displayed text if it matches the English name.
+ */
+function overlayBattleItem(actor, rootEl) {
+  const wrappers = rootEl.querySelectorAll?.(".pokemon-battle-item-value");
+  if (!wrappers?.length) return;
+  for (const wrapper of wrappers) {
+    const span = wrapper.querySelector(":scope > span");
+    if (!span) continue;
+    const text = (span.textContent ?? "").trim();
+    if (!text) continue;
+    const italian = lookupItalian(text, ["gear"]);
+    if (!italian || italian === text) continue;
+    span.textContent = italian;
+  }
 }
 
 /**
@@ -952,6 +1043,7 @@ function overlayBiographyField(actor, rootEl) {
 function overlayItemSheet(app, rootEl) {
   const item = app?.object ?? app?.item;
   if (!item || !rootEl) return;
+  if (getPreferEnglish()) return;
 
   const typeHints = mapTypeHint(item.type);
   const entry = lookupEntry(item.name, typeHints);
@@ -1014,6 +1106,28 @@ function resolveHtmlRoot(html) {
  * as a safety net for reversed ordering.
  */
 Hooks.once("init", () => {
+  // Client-scope setting: allow a user to opt out of the Italian DOM
+  // overlay while the rest of the table uses Italian. Compendium
+  // translations via Babele remain global (they're driven by core lang).
+  try {
+    game.settings.register(MODULE_ID, SETTING_PREFER_ENGLISH, {
+      name: "Mostra nomi originali in inglese",
+      hint:
+        "Se attivo, le schede degli attori e degli oggetti mostrano i nomi " +
+        "originali in inglese anziché la traduzione italiana. Impostazione per-client: " +
+        "utile se preferisci l'inglese pur lasciando il modulo attivo per gli altri giocatori. " +
+        "(Le traduzioni Babele dei compendi non sono influenzate da questa opzione; " +
+        "per disattivarle completamente cambia la lingua principale di Foundry o disabilita Babele.)",
+      scope: "client",
+      config: true,
+      type: Boolean,
+      default: false,
+      onChange: () => rerenderOpenSheets()
+    });
+  } catch (err) {
+    console.warn(`[${MODULE_ID}] Failed to register client setting:`, err);
+  }
+
   const via = registerWithBabele();
   if (via) {
     console.log(`[${MODULE_ID}] Italian Babele pack registered via ${via}.`);
